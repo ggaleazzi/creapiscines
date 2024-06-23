@@ -1,0 +1,548 @@
+[2024-06-23 16:19:26] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-06-23 16:19:26] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-06-23 16:19:26] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-06-23 16:19:28] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-06-23 16:19:28] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-06-23 16:19:28] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-06-23 16:19:28] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566\
+[2024-06-23 16:19:28] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/creapiscines/
+[2024-06-23 16:19:28] [class-ss-setup-task.php:137] File C:\xampp\htdocs\creapiscines\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/creapiscines/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-06-23 16:19:28] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-06-23 16:19:28] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-23 16:19:28] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-23 16:19:28] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-06-23 16:19:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/
+[2024-06-23 16:19:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-06-23 16:19:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b101dbce-4THSax.tmp
+[2024-06-23 16:19:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/?simply_static_page=1
+[2024-06-23 16:19:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/?simply_static_page=1
+[2024-06-23 16:19:28] [class-ss-url-fetcher.php:103] Filesize: 84967 bytes
+[2024-06-23 16:19:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-23 16:19:28] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-06-23 16:19:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b101dbce-4THSax.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/index.html
+[2024-06-23 16:19:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:28] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ù¢≈b;‚Å¯	Úæ6≠	ƒ‰ËE
+[2024-06-23 16:19:29] [class-ss-page.php:118] Checking Content Identical:9da2c5623be281f809f2be36ad09c4e4e8450a15===. Value: FALSE
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/creapiscines/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-06-23 16:19:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-06-23 16:19:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-06-23 16:19:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-23 16:19:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-23 16:19:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:69] Total pages: 22; Pages remaining: 20
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines
+[2024-06-23 16:19:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b110751d-jKE74M.tmp
+[2024-06-23 16:19:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines?simply_static_page=3
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines?simply_static_page=3
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:103] Filesize: 358 bytes
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:205] redirect_url: http://localhost/creapiscines/
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:214] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/sample-page/
+[2024-06-23 16:19:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b110d170-I7YcyH.tmp
+[2024-06-23 16:19:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/sample-page/?simply_static_page=4
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/sample-page/?simply_static_page=4
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:103] Filesize: 60137 bytes
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b110d170-I7YcyH.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/sample-page/index.html
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: u0áÆ´h≈3by ≤‹=‡È
+[2024-06-23 16:19:29] [class-ss-page.php:118] Checking Content Identical:7516153087aeab68c533627920b20cdc3d1ee0e9===. Value: FALSE
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/2024/06/23/hello-world/
+[2024-06-23 16:19:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
+[2024-06-23 16:19:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b11bdbde-QkQuKW.tmp
+[2024-06-23 16:19:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/2024/06/23/hello-world/?simply_static_page=5
+[2024-06-23 16:19:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/2024/06/23/hello-world/?simply_static_page=5
+[2024-06-23 16:19:30] [class-ss-url-fetcher.php:103] Filesize: 77407 bytes
+[2024-06-23 16:19:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-23 16:19:30] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/23/hello-world/index.html
+[2024-06-23 16:19:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b11bdbde-QkQuKW.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/2024/06/23/hello-world/index.html
+[2024-06-23 16:19:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:30] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
+[2024-06-23 16:19:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:30] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ˘–[√62õ»•›U√D.≤ﬂüq˘
+[2024-06-23 16:19:30] [class-ss-page.php:118] Checking Content Identical:f9d05bc336329b0cc8a5dd55c3442eb2df9f71f9===. Value: FALSE
+[2024-06-23 16:19:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/author/admin/
+[2024-06-23 16:19:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
+[2024-06-23 16:19:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1270a65-vcsTU1.tmp
+[2024-06-23 16:19:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/author/admin/?simply_static_page=6
+[2024-06-23 16:19:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/author/admin/?simply_static_page=6
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:103] Filesize: 64218 bytes
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/index.html
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b1270a65-vcsTU1.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/author/admin/index.html
+[2024-06-23 16:19:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:31] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-06-23 16:19:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:31] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: JËnıLùît–cË›KƒE(èıØ¯
+[2024-06-23 16:19:31] [class-ss-page.php:118] Checking Content Identical:4ae86ef54c9d9474d063e8dd4bc445288ff5aff8===. Value: FALSE
+[2024-06-23 16:19:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/category/uncategorized/
+[2024-06-23 16:19:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
+[2024-06-23 16:19:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b131d0ef-gZHZmj.tmp
+[2024-06-23 16:19:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/category/uncategorized/?simply_static_page=7
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/category/uncategorized/?simply_static_page=7
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:103] Filesize: 57093 bytes
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b13aa230-d8BTXH.tmp
+[2024-06-23 16:19:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/category/uncategorized/
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:103] Filesize: 57093 bytes
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-06-23 16:19:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1432f1d-CINPzt.tmp
+[2024-06-23 16:19:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b1432f1d-CINPzt.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: høñÍßŒ2£-âœ˘ﬂwr
+[2024-06-23 16:19:32] [class-ss-page.php:118] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-06-23 16:19:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b143ddbb-7OmTUn.tmp
+[2024-06-23 16:19:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b143ddbb-7OmTUn.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ],l”ÿ“ƒ(7bÄs‰Q%w‰
+[2024-06-23 16:19:32] [class-ss-page.php:118] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-06-23 16:19:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b14464a1-Y3QtBJ.tmp
+[2024-06-23 16:19:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b14464a1-Y3QtBJ.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: £(O{^∆Ñ!√U˛*Âk0cöû
+[2024-06-23 16:19:32] [class-ss-page.php:118] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-includes/blocks/navigation/view.min.js
+[2024-06-23 16:19:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b144e7f0-Eg6edG.tmp
+[2024-06-23 16:19:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-includes/blocks/navigation/view.min.js?simply_static_page=11
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-includes/blocks/navigation/view.min.js?simply_static_page=11
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b144e7f0-Eg6edG.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-includes/blocks/navigation/view.min.js
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ≤{®”πéﬂ’#÷ËB)’/˝
+[2024-06-23 16:19:32] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/feed/
+[2024-06-23 16:19:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1458b40-JyFs7Y.tmp
+[2024-06-23 16:19:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/feed/?simply_static_page=12
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/feed/?simply_static_page=12
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:103] Filesize: 1715 bytes
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b1458b40-JyFs7Y.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/feed/index.xml
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ¥S∞™	Æñœ	›!ˇRHƒ~º∂
+[2024-06-23 16:19:32] [class-ss-page.php:118] Checking Content Identical:b4531bb0aa09ae96cf09dd2117ff5248c47ebcb6===. Value: FALSE
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/comments/feed/
+[2024-06-23 16:19:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
+[2024-06-23 16:19:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b14cd859-CHwTXZ.tmp
+[2024-06-23 16:19:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/comments/feed/?simply_static_page=13
+[2024-06-23 16:19:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/comments/feed/?simply_static_page=13
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:103] Filesize: 1684 bytes
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b14cd859-CHwTXZ.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/comments/feed/index.xml
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: {ÇXRï‘¢X∏ÃìÉÚBc•	MÆΩ
+[2024-06-23 16:19:33] [class-ss-page.php:118] Checking Content Identical:7b82585295d4a258b8cc9383f24263a5094daebd===. Value: FALSE
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-includes/blocks/navigation/style.min.css
+[2024-06-23 16:19:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b155673f-yaSTNC.tmp
+[2024-06-23 16:19:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-includes/blocks/navigation/style.min.css?simply_static_page=14
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-includes/blocks/navigation/style.min.css?simply_static_page=14
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b155673f-yaSTNC.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-includes/blocks/navigation/style.min.css
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ß^ﬂTB¡ñ÷p‰6¬ˆÏ’ï‰h
+[2024-06-23 16:19:33] [class-ss-page.php:118] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-includes/blocks/image/style.min.css
+[2024-06-23 16:19:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b15617c8-YhZmsA.tmp
+[2024-06-23 16:19:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-includes/blocks/image/style.min.css?simply_static_page=15
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-includes/blocks/image/style.min.css?simply_static_page=15
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b15617c8-YhZmsA.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-includes/blocks/image/style.min.css
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Z/∑zÔ÷œ¥¥i™LGº
+[2024-06-23 16:19:33] [class-ss-page.php:118] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-json/
+[2024-06-23 16:19:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b156dbb2-J1kRkz.tmp
+[2024-06-23 16:19:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-json/?simply_static_page=16
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-json/?simply_static_page=16
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:103] Filesize: 184892 bytes
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-06-23 16:19:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b156dbb2-J1kRkz.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-json/index.html
+[2024-06-23 16:19:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: xeo3‰è˛™ ≥GZ;◊ä·›…
+[2024-06-23 16:19:34] [class-ss-page.php:118] Checking Content Identical:78656f33e48ffeaa20b315475a3b05d78ae1ddc9===. Value: FALSE
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/xmlrpc.php
+[2024-06-23 16:19:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/creapiscines/xmlrpc.php
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-includes/js/dist/interactivity.min.js
+[2024-06-23 16:19:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b16060f7-3zEbD8.tmp
+[2024-06-23 16:19:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-includes/js/dist/interactivity.min.js?simply_static_page=18
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-includes/js/dist/interactivity.min.js?simply_static_page=18
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b16060f7-3zEbD8.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-includes/js/dist/interactivity.min.js
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: î“-HóüFVÙixø‘∂zÎÏ
+[2024-06-23 16:19:34] [class-ss-page.php:118] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-06-23 16:19:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1618283-czhg1x.tmp
+[2024-06-23 16:19:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b1618283-czhg1x.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: @Tmø’ƒg√%}è:JÿØôïÆ∂
+[2024-06-23 16:19:34] [class-ss-page.php:118] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-06-23 16:19:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b16251b8-yNDH9R.tmp
+[2024-06-23 16:19:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b16251b8-yNDH9R.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ∏joÛ˚Gweﬂ„|§Èõê!n
+[2024-06-23 16:19:34] [class-ss-page.php:118] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-06-23 16:19:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b162f525-z9HFWj.tmp
+[2024-06-23 16:19:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b162f525-z9HFWj.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ﬂˆå@'œB`Wò°ﬁF†a—`£
+[2024-06-23 16:19:34] [class-ss-page.php:118] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-06-23 16:19:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b16396e3-qOTEvv.tmp
+[2024-06-23 16:19:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b16396e3-qOTEvv.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ‹V¯0è3Ö¥'ŒÖ¬ö¸G·|`
+[2024-06-23 16:19:34] [class-ss-page.php:118] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-06-23 16:19:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 22 pages/files
+[2024-06-23 16:19:34] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-23 16:19:34] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-23 16:19:34] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 10
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-admin/
+[2024-06-23 16:19:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1646e38-8KCBQ1.tmp
+[2024-06-23 16:19:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-admin/?simply_static_page=23
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-admin/?simply_static_page=23
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:205] redirect_url: http://localhost/creapiscines/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fcreapiscines%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:232] Redirect URL is on the same domain; adding the URL to the queue
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:244] Creating a redirect page
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-06-23 16:19:34] [class-ss-page.php:118] Checking Content Identical:6d069e2973bdd652b0ca896b1fee2d03e1b8adcc===. Value: FALSE
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/sample-page/feed/
+[2024-06-23 16:19:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
+[2024-06-23 16:19:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b16d2bc0-yG7b8e.tmp
+[2024-06-23 16:19:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/sample-page/feed/?simply_static_page=24
+[2024-06-23 16:19:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/sample-page/feed/?simply_static_page=24
+[2024-06-23 16:19:35] [class-ss-url-fetcher.php:103] Filesize: 751 bytes
+[2024-06-23 16:19:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-23 16:19:35] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-06-23 16:19:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b16d2bc0-yG7b8e.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/sample-page/feed/index.xml
+[2024-06-23 16:19:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:35] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-06-23 16:19:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:35] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: w4RÅñ”∏ˆ‡≤üe∏+}
+[2024-06-23 16:19:35] [class-ss-page.php:118] Checking Content Identical:1b773452810c961fd3b8f6e014b29f65b82b0d7d===. Value: FALSE
+[2024-06-23 16:19:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-json/wp/v2/pages/2
+[2024-06-23 16:19:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
+[2024-06-23 16:19:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b177ac49-0tWJfS.tmp
+[2024-06-23 16:19:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-json/wp/v2/pages/2?simply_static_page=25
+[2024-06-23 16:19:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-json/wp/v2/pages/2?simply_static_page=25
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:103] Filesize: 2872 bytes
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/2\index.html
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b177ac49-0tWJfS.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-json/wp/v2/pages/2\index.html
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: @ùgîdÂﬂ´˜óˇ£GL‹ ,1æ
+[2024-06-23 16:19:36] [class-ss-page.php:118] Checking Content Identical:409d67946415e5dfabf797ffa3474cdc002c31be===. Value: FALSE
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-json/oembed/1.0/embed
+[2024-06-23 16:19:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b18213f5-LcMkDJ.tmp
+[2024-06-23 16:19:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-json/oembed/1.0/embed?simply_static_page=26
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-json/oembed/1.0/embed?simply_static_page=26
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-includes/js/comment-reply.min.js
+[2024-06-23 16:19:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b18b8f0b-GwtOdS.tmp
+[2024-06-23 16:19:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-includes/js/comment-reply.min.js?simply_static_page=27
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-includes/js/comment-reply.min.js?simply_static_page=27
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b18b8f0b-GwtOdS.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-includes/js/comment-reply.min.js
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: €6ßj™ cøæ¿,,ñt8≈¢E
+[2024-06-23 16:19:36] [class-ss-page.php:118] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/2024/06/23/hello-world/feed/
+[2024-06-23 16:19:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2024-06-23 16:19:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b18c5694-HimQH3.tmp
+[2024-06-23 16:19:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/2024/06/23/hello-world/feed/?simply_static_page=28
+[2024-06-23 16:19:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/2024/06/23/hello-world/feed/?simply_static_page=28
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:103] Filesize: 1699 bytes
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/23/hello-world/feed/index.xml
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b18c5694-HimQH3.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/2024/06/23/hello-world/feed/index.xml
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Îõ∑¿Ëbı9,å?Y ~+Tì<∫
+[2024-06-23 16:19:37] [class-ss-page.php:118] Checking Content Identical:eb9bb71dc0e862f5392c8c3f59207e2b54933cba===. Value: FALSE
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-includes/css/dist/block-library/common.min.css
+[2024-06-23 16:19:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b196904f-RBLiqT.tmp
+[2024-06-23 16:19:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-includes/css/dist/block-library/common.min.css?simply_static_page=29
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-includes/css/dist/block-library/common.min.css?simply_static_page=29
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b196904f-RBLiqT.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-includes/css/dist/block-library/common.min.css
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ‚&7µ÷ÆzAä‚–»£b∑˙
+[2024-06-23 16:19:37] [class-ss-page.php:118] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: FALSE
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-json/wp/v2/posts/1
+[2024-06-23 16:19:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2024-06-23 16:19:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1974702-QfqMby.tmp
+[2024-06-23 16:19:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-json/wp/v2/posts/1?simply_static_page=30
+[2024-06-23 16:19:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-json/wp/v2/posts/1?simply_static_page=30
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:103] Filesize: 1814 bytes
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b1974702-QfqMby.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-json/wp/v2/posts/1\index.html
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: /∆[nm±P˜xÄú!Õå»‹2
+[2024-06-23 16:19:38] [class-ss-page.php:118] Checking Content Identical:082fc65b6e6d05b15003f778809c21cd8cc8dc32===. Value: FALSE
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/author/admin/feed/
+[2024-06-23 16:19:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1a176f4-S3Myqz.tmp
+[2024-06-23 16:19:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/author/admin/feed/?simply_static_page=31
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/author/admin/feed/?simply_static_page=31
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:103] Filesize: 1742 bytes
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/feed/index.xml
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b1a176f4-S3Myqz.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/author/admin/feed/index.xml
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Ô:¶B…>\>Ö‡ÏŸögè}MÑˆ
+[2024-06-23 16:19:38] [class-ss-page.php:118] Checking Content Identical:ef3aa64207c93e5c3e85e0ecd99a678f7d4d84f6===. Value: FALSE
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-json/wp/v2/users/1
+[2024-06-23 16:19:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-06-23 16:19:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1a9679b-7ZuIgD.tmp
+[2024-06-23 16:19:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/wp-json/wp/v2/users/1?simply_static_page=32
+[2024-06-23 16:19:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/wp-json/wp/v2/users/1?simply_static_page=32
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:103] Filesize: 616 bytes
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b1a9679b-7ZuIgD.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566/wp-json/wp/v2/users/1\index.html
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Ââ$Øàçà˝¯'Èõm˘z~ÊiÙ
+[2024-06-23 16:19:39] [class-ss-page.php:118] Checking Content Identical:e58924af888d88fdf827e99b106df97a7ee669f4===. Value: FALSE
+[2024-06-23 16:19:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 32 pages/files
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 1
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/creapiscines/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fcreapiscines%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-06-23 16:19:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/creapiscines/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fcreapiscines%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-23 16:19:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 33 pages/files
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-23 16:19:39] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 0
+[2024-06-23 16:19:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 33 pages/files
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-06-23 16:19:39] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\gusta\AppData\Local\Temp/66784b1b2ded5-j5yqa1.tmp
+[2024-06-23 16:19:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/creapiscines/1719159580?simply_static_page=0
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines/1719159580?simply_static_page=0
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:103] Filesize: 57093 bytes
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-06-23 16:19:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\gusta\AppData\Local\Temp/66784b1b2ded5-j5yqa1.tmp to C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\temp-files/simply-static-1-1719159566\404/index.html
+[2024-06-23 16:19:39] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-06-23 16:19:39] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-06-23 16:19:39] [class-ss-page.php:118] Checking Content Identical:17f0cca0680bafe10b9a1c563503fc7c30460667===. Value: FALSE
+[2024-06-23 16:19:39] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-06-23 16:19:39] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-06-23 16:19:39] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 27 of 27 files
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/sample-page
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/2024/06/23/hello-world
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/author/admin
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-content/themes/twentytwentyfour/assets/images
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-content/themes/twentytwentyfour/assets/images
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-content/themes/twentytwentyfour/assets/images
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-includes/blocks/navigation
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/feed
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/comments/feed
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-includes/blocks/navigation
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-includes/blocks/image
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-json
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-includes/js/dist
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/inter
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-admin
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/sample-page/feed
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-json/wp/v2/pages
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/creapiscines/wp-content/uploads/simply-static/temp-files/simply-static-1-1719159566/wp-json/wp/v2/pages/2/index.html to C:/xampp/htdocs/creapiscines/wp-json/wp/v2/pages/2/index.html
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-includes/js
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/2024/06/23/hello-world/feed
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-includes/css/dist/block-library
+[2024-06-23 16:19:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-json/wp/v2/posts
+[2024-06-23 16:19:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/creapiscines/wp-content/uploads/simply-static/temp-files/simply-static-1-1719159566/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/creapiscines/wp-json/wp/v2/posts/1/index.html
+[2024-06-23 16:19:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/author/admin/feed
+[2024-06-23 16:19:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/creapiscines/wp-json/wp/v2/users
+[2024-06-23 16:19:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/creapiscines/wp-content/uploads/simply-static/temp-files/simply-static-1-1719159566/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/creapiscines/wp-json/wp/v2/users/1/index.html
+[2024-06-23 16:19:40] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:27. Processed Pages: 27
+[2024-06-23 16:19:40] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 27 of 27 files
+[2024-06-23 16:19:40] [trait-can-process-pages.php:103] Total pages: 27; Pages remaining: 0
+[2024-06-23 16:19:40] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-06-23 16:19:40] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/creapiscines\404\index.html
+[2024-06-23 16:19:40] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-06-23 16:19:40] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://ggaleazzi.github.io/creapiscines/" target="_blank">https://ggaleazzi.github.io/creapiscines/</a>
+[2024-06-23 16:19:40] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-06-23 16:19:40] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-06-23 16:19:40] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-06-23 16:19:40] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-06-23 16:19:40] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-06-23 16:19:40] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-06-23 16:19:40] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-06-23 16:19:40] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:14
