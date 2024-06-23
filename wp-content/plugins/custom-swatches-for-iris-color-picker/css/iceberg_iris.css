@@ -1,0 +1,11 @@
+.color_preview {
+    height: 25px;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+	border: 1px solid black;}
+
+@media screen and (max-width: 782px) {
+	.settings_page_iceberg_iris_color .form-table td input[type=text] {width: 82%; float: right;}
+	.color_preview {height: 40px;}
+}

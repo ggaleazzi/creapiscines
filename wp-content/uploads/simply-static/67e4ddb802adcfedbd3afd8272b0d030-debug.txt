@@ -546,3 +546,5 @@
 [2024-06-23 16:19:40] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
 [2024-06-23 16:19:40] [class-ss-archive-creation-job.php:197] Completing the job
 [2024-06-23 16:19:40] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:14
+[2024-06-23 16:34:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines
+[2024-06-23 16:34:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/creapiscines

@@ -15,10 +15,10 @@ RewriteRule . /creapiscines/index.php [L]
 
 # END WordPress
 # BEGIN Simply Static
-# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
-<Files "C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\67e4ddb802adcfedbd3afd8272b0d030-debug.txt">
+# As diretrizes (linhas) entre "BEGIN Simply Static" e "END Simply Static" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<Files "C:\xampp\htdocs\creapiscines/wp-content/uploads\simply-static\909ec5fdab6c53cdf8019298e6d7b67e-debug.txt">
 require all denied
 require host localhost
 </Files>

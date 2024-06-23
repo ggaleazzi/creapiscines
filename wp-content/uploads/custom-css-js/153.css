@@ -1,0 +1,33 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.cmplz-cookiebanner {
+	padding: 0px 20px !important;
+}
+
+.cmplz-cookiebanner .cmplz-message {
+    margin-bottom: 0px !important;
+}
+
+.cmplz-cookiebanner .cmplz-buttons .cmplz-btn {
+    height: 28px !important;
+    padding: 0px !important;
+    font-size: 12px !important;
+    line-height: 0 !important;
+	}
+
+.button, button {
+    text-transform: none !important;
+	}
+
+.cmplz-cookiebanner .cmplz-buttons {
+    flex-direction: inherit !important;
+}
+
+@media screen and (max-width: 63.9375em) {
+	.cmplz-cookiebanner {
+    bottom: inherit !important;
+    top: 0 !important;
+	}
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
