@@ -76,15 +76,15 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 			$this->step = isset( $_GET['step'] ) ? sanitize_key( $_GET['step'] ) : current( array_keys( $this->steps ) );
 
 			wp_enqueue_style( 'gbt-wizard-css', get_template_directory_uri() .'/inc/admin/wizard/css/wizard'.$suffix.'.css', array(), shopkeeper_theme_version() );
-			wp_enqueue_script( 'gbt-wizard-js', get_template_directory_uri() .'/inc/admin/wizard/js/wizard'.$suffix.'.js', array( 'jquery' ), shopkeeper_theme_version() );
+			wp_register_script( 'gbt-wizard-js', get_template_directory_uri() .'/inc/admin/wizard/js/wizard'.$suffix.'.js', array( 'jquery' ), shopkeeper_theme_version() );
 			wp_localize_script( 'gbt-wizard-js', 'gbtStrings',
 				array(
 					'ajax_nonce'       => wp_create_nonce( 'ocdi-ajax-verification' ),
 					'ajaxurl'		   => admin_url( 'admin-ajax.php' )
 				)
 			);
-			$this->setup_wizard_header();
 			$this->setup_wizard_steps();
+			$this->setup_wizard_header();
 			$this->content();
 			$this->setup_wizard_footer();
 			exit;
@@ -163,7 +163,7 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 
 			<div class="gbt-wizard-logo <?php echo GBTHELPERS::theme_slug(); ?>">
 				<a href="#">
-					<img src="<?php echo esc_url( get_template_directory_uri() .'/inc/admin/wizard/images/shopkeeper-logo-w.png' ); ?>" <?php echo file_exists(get_template_directory() .'/inc/admin/wizard/images/shopkeeper-logo-w@2x.png')? 'srcset="'.esc_url( get_template_directory_uri() .'/inc/admin/wizard/images/shopkeeper-logo-w@2x.png 2x'.'"' ) : '' ; ?> alt="Logo">
+					<img src="<?php echo get_template_directory_uri() .'/inc/admin/wizard/images/shopkeeper-logo-w.png'; ?>" <?php echo file_exists(get_template_directory() .'/inc/admin/wizard/images/shopkeeper-logo-w@2x.png')? 'srcset="'.get_template_directory_uri() .'/inc/admin/wizard/images/shopkeeper-logo-w@2x.png 2x'.'"': '' ; ?> alt="Logo">
 				</a>
 			</div>
 
@@ -192,13 +192,15 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 				<meta name="viewport" content="width=device-width" />
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<title><?php wp_title(); ?></title>
+				<?php wp_print_scripts( 'gbt-wizard-js' ); ?>
 				<?php do_action( 'admin_print_styles' ); ?>
-				<?php do_action( 'admin_print_scripts' ); ?>
+				<?php do_action( 'admin_head' ); ?>
 			</head>
 			<body class="gbt-setup-wizard wp-core-ui">
 
+
 			<?php
-			update_option( 'gbt_' . GBTHELPERS::theme_name() . '_wizard_redirect', 0 );
+			        update_option( 'gbt_' . GBTHELPERS::theme_name() . '_wizard_redirect', 0 );
 		}
 
 		/**
@@ -228,7 +230,7 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 		 */
 		public function gbt_setup_introduction() {
 			?>
-				<div class="wrapper wizard-introduction" style="background-image:url(<?php echo esc_url( get_template_directory_uri() .'/inc/admin/wizard/images/shopkeeper-setup.jpg' ); ?>);">
+				<div class="wrapper wizard-introduction" style="background-image:url(<?php echo get_template_directory_uri() .'/inc/admin/wizard/images/shopkeeper-setup.jpg'; ?>);">
 					<div class="center">
 						<h1><?php esc_html_e( GBTHELPERS::theme_name() . '\'s', 'shopkeeper');?> <br/> <?php esc_html_e('Theme Setup Wizard', 'shopkeeper' ); ?></h1>
 						<a href="<?php echo esc_url( $this->get_next_step_link() ); ?>"
@@ -289,9 +291,9 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 						/>
 						<label for="<?php echo esc_attr($plugin['slug']); ?>" class="<?php echo ( isset($plugin['demo_required']) && $plugin['demo_required'] === true ) ? 'required' : 'optional' ?>">
 							<?php if (file_exists(get_template_directory() .'/inc/admin/wizard/images/plugin-icons/'. $plugin['slug'] .'.jpg')): ?>
-								<img class="plugin-image" src="<?php echo esc_url( get_template_directory_uri() .'/inc/admin/wizard/images/plugin-icons/'. $plugin['slug'] .'.jpg' ); ?>" alt="<?php echo esc_attr($plugin['slug']); ?>" />
+								<img class="plugin-image" src="<?php echo get_template_directory_uri() .'/inc/admin/wizard/images/plugin-icons/'. $plugin['slug'] .'.jpg' ?>" alt="<?php echo esc_attr($plugin['slug']); ?>" />
 							<?php else: ?>
-								<img class="plugin-image" src="<?php echo esc_url( get_template_directory_uri() . '/images/placeholder.png' ); ?>" alt="<?php echo esc_attr($plugin['slug']); ?>" />
+								<img class="plugin-image" src="<?php echo get_template_directory_uri() . '/images/placeholder.png'; ?>" alt="<?php echo esc_attr($plugin['slug']); ?>" />
 							<?php endif; ?>
 							<div class="plugin-description-container">
 								<h3><?php echo esc_html( $plugin['name'] ); ?></h3>
@@ -373,7 +375,7 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 
 				<div class="demo-icon <?php echo ( ! $is_required_plugins === true) ? 'error' : '' ?>">
 					<?php if ( $is_required_plugins === true ) : ?>
-						<img src="<?php echo esc_url( get_template_directory_uri() .'/inc/admin/wizard/images/install-demo-import-white.png' ); ?>" alt="Demo Import">
+						<img src="<?php echo get_template_directory_uri() .'/inc/admin/wizard/images/install-demo-import-white.png'; ?>" alt="Demo Import">
 					<?php else : ?>
 						<p class="error-info"><?php esc_html_e( 'Please make sure Visual Composer and WooCommerce are installed and activated before importing the demo content.', 'shopkeeper' ); ?></p>
 					<?php endif; ?>
@@ -407,10 +409,10 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 			?>
 
 			<div class="wrapper wizard-ready">
-				<div class="content-done" style="background-image:url(<?php echo esc_url( get_template_directory_uri() .'/inc/admin/wizard/images/shopkeeper-setup.jpg' ); ?>);">
+				<div class="content-done" style="background-image:url(<?php echo get_template_directory_uri() .'/inc/admin/wizard/images/shopkeeper-setup.jpg'; ?>);">
 					<div class="center">
 						<h1><?php esc_html_e( 'Setup has been completed successfully!', 'shopkeeper' ); ?></h1>
-						<a href="<?php echo esc_url( home_url() ); ?>" class="button button-primary"><?php esc_html_e( 'View Site', 'shopkeeper' );?></a>
+						<a href="<?php echo esc_url( site_url() ); ?>" class="button button-primary"><?php esc_html_e( 'View Site', 'shopkeeper' );?></a>
 						<p><?php esc_html_e('You should be able to start working on your site now.','shopkeeper');?> <br/>
 						<?php esc_html_e('Best of luck with your project!', 'shopkeeper'); ?></p>
 					</div>
@@ -428,7 +430,7 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( admin_url( 'admin.php?page=wc-admin&path=%2Fsetup-wizard' ) );?>">
+								<a href="<?php echo esc_url( admin_url( 'index.php?page=wc-setup' ) );?>">
 									<span class="dashicons dashicons-admin-settings"></span>
 									<?php esc_html_e( 'WooCommerce Setup Wizard', 'shopkeeper' ); ?>
 								</a>
@@ -473,6 +475,19 @@ if ( ! class_exists( 'GBT_InstallWizard' ) ) {
 				if ( $slug == 'getbowtied-tools' ) { continue;
 				}
 				$plugins[ $slug ] = $plugin;
+
+
+				// if ( isset( $plugin['gbt-type'] ) && ($plugin['gbt-type'] == 'internal') ) {
+				// 	$this->counter['internal']++;
+				// }
+
+				// if ( isset( $plugin['gbt-type'] ) && ($plugin['gbt-type'] == '3rdparty') ) {
+				// 	$this->counter['3rdparty']++;
+				// }
+
+				// if ( $plugin['required'] == false ) {
+				// 	$this->counter['recommended']++;
+				// }
 
 				if ( isset( $installed_plugins[ $plugin['file_path'] ]['Version'] ) ) :
 					$plugins[ $slug ]['version'] = $installed_plugins[ $plugin['file_path'] ]['Version'];

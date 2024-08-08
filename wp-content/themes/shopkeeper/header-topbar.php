@@ -20,7 +20,7 @@
                         <?php shopkeeper_get_menu( 'site-navigation-top-bar main-navigation', 'top-bar-navigation', 1 ); ?>
 
                         <?php if ( is_user_logged_in() && SHOPKEEPER_WOOCOMMERCE_IS_ACTIVE ) { ?>
-                            <nav class="logout-menu-nav main-navigation" role="navigation" aria-label="Topbar Logout Menu">
+                            <nav class="logout-menu-nav main-navigation" role="navigation">
                                 <ul class="logout-menu">
                                     <li>
                                         <a href="<?php echo wc_logout_url(); ?>" class="logout_link"><?php esc_html_e('Logout', 'woocommerce'); ?></a>

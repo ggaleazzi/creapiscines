@@ -53,7 +53,7 @@ function shopkeeper_content_nav( $nav_id ) {
 	$nav_class = ( is_single() ) ? 'post-navigation' : 'paging-navigation';
 
 	?>
-	<nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="<?php echo esc_attr( $nav_class ); ?>" aria-label="Content Navigation">
+	<nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="<?php echo esc_attr( $nav_class ); ?>">
 
         <div class="row">
 
@@ -119,7 +119,7 @@ function shopkeeper_product_nav( $nav_id ) {
 	$nav_class = ( is_single() ) ? 'product-navigation' : 'paging-navigation';
 
 	?>
-	<nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="<?php echo esc_attr( $nav_class ); ?>" aria-label="Product Navigation">
+	<nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="<?php echo esc_attr( $nav_class ); ?>">
 
         <div class="product-nav-previous"><?php previous_post_link( '%link', '<i class="spk-icon spk-icon-left-small"></i><span>' . esc_html__( 'Previous Product', 'shopkeeper' ) . '</span>' ); ?></div>
         <div class="product-nav-next"><?php next_post_link( '%link', '<span>' . esc_html__( 'Next Product', 'shopkeeper' ) . '</span><i class="spk-icon spk-icon-right-small"></i>' ); ?></div>

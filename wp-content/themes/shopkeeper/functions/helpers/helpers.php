@@ -1,9 +1,5 @@
 <?php
 
-define( 'SK_THEME_WEBSITE', 			'https://shopkeeper.getbowtied.com' );
-define( 'SK_GOOGLE_FONTS_WEBSITE', 		'https://fonts.google.com' );
-define( 'SK_SAFE_FONTS_WEBSITE', 		'https://www.w3schools.com/cssref/css_websafe_fonts.asp' );
-
 define( 'SHOPKEEPER_WOOCOMMERCE_IS_ACTIVE',                 class_exists( 'WooCommerce' ) );
 define( 'SHOPKEEPER_GERMAN_MARKET_IS_ACTIVE',               class_exists( 'Woocommerce_German_Market' ) );
 define( 'SHOPKEEPER_WOOCOMMERCE_GERMANIZED_IS_ACTIVE',      class_exists( 'WooCommerce_Germanized' ) );
@@ -273,22 +269,14 @@ function shopkeeper_load_default_fonts( $fonts = array() ) {
  *
  * @return boolean
  */
- function shopkeeper_sanitize_html_text( $input ) {
- 	$allowedtags = wp_kses_allowed_html();
- 	$allowedtags['a']['data-*'] = true;
- 	$allowedtags['a']['target'] = true;
- 	$allowedtags['a']['rel'] = true;
- 	$allowedtags['br'] = true;
- 	$allowedtags['img']['alt'] = true;
- 	$allowedtags['img']['src'] = true;
- 	$allowedtags['img']['title'] = true;
- 	$allowedtags['img']['width'] = true;
- 	$allowedtags['img']['height'] = true;
- 	$allowedtags['img']['referrerpolicy'] = true;
- 	$allowedtags['img']['crossorigin'] = true;
+function shopkeeper_sanitize_html_text( $input ) {
+	$allowedtags = wp_kses_allowed_html();
+	$allowedtags['a']['data-*'] = true;
+	$allowedtags['a']['target'] = true;
+	$allowedtags['a']['rel'] = true;
 
- 	return wp_kses( $input, $allowedtags );
- }
+	return wp_kses( $input, $allowedtags );
+}
 
 /**
  * Creates font-face for default font.

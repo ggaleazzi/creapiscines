@@ -35,46 +35,30 @@
     /* Pretty Modern Browsers */
 }
 
-.wp-block,
-.block-editor-block-list__block,
-.wp-block .block-editor-block-list__block {
+.wp-block {
     max-width: 1113px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.wp-block[data-align="wide"],
-.block-editor-block-list__block[data-align="wide"],
-.wp-block[data-align="wide"] .block-editor-block-list__block {
+.wp-block[data-align="wide"] {
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.wp-block[data-align="full"],
-.block-editor-block-list__block[data-align="full"],
-.wp-block[data-align="full"] .block-editor-block-list__block {
+.wp-block[data-align="full"] {
     max-width: none;
 }
 
-.block-editor-block-list__block h1,
-.block-editor-block-list__block h2,
-.block-editor-block-list__block h3,
-.block-editor-block-list__block h4,
-.block-editor-block-list__block h5,
-.block-editor-block-list__block h6,
-h1.block-editor-block-list__block,
-h2.block-editor-block-list__block,
-h3.block-editor-block-list__block,
-h4.block-editor-block-list__block,
-h5.block-editor-block-list__block,
-h6.block-editor-block-list__block {
-    font-weight: 900;
-}
-
-.block-editor-block-list__block {
+.wp-block {
     -webkit-font-smoothing: antialiased !important;
     /* General Styles */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 900;
+    }
+
     pre {
         font-family: monospace, monospace;
         font-size: 1em;
@@ -802,9 +786,9 @@ p.has-drop-cap:first-letter {
     }
 }
 
-.block-editor-block-list__block[data-type="woocommerce/attribute-filter"],
-.block-editor-block-list__block[data-type="woocommerce/price-filter"],
-.block-editor-block-list__block[data-type="woocommerce/active-filters"] {
+.wp-block[data-type="woocommerce/attribute-filter"],
+.wp-block[data-type="woocommerce/price-filter"],
+.wp-block[data-type="woocommerce/active-filters"] {
     h3 {
         font-size: 0;
         margin: 0;
@@ -817,7 +801,7 @@ p.has-drop-cap:first-letter {
     }
 }
 
-.block-editor-block-list__block[data-type="woocommerce/active-filters"] {
+.wp-block[data-type="woocommerce/active-filters"] {
     ul.wc-block-active-filters-list {
         li {
             padding: 0 0 0 25px;
@@ -863,7 +847,7 @@ p.has-drop-cap:first-letter {
     }
 }
 
-.block-editor-block-list__block[data-type="woocommerce/attribute-filter"] {
+.wp-block[data-type="woocommerce/attribute-filter"] {
     ul.wc-block-checkbox-list {
         li {
             label {
@@ -1496,8 +1480,4 @@ p.has-drop-cap:first-letter {
             }
         }
     }
-}
-
-.components-button {
-    line-height: 1;
 }

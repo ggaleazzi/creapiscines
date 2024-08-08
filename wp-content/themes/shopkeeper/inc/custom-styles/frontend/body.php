@@ -3,10 +3,7 @@
 $custom_styles .= '
 	.st-content,
 	.categories_grid .category_name,
-	.cd-top,
-	.product_socials_wrapper .product_socials_wrapper_inner a,
-	.product_navigation #nav-below .product-nav-next a,
-	.product_navigation #nav-below .product-nav-previous a
+	.cd-top
 	{
 		background-color: ' . Shopkeeper_Opt::getOption( 'main_background_color', '#FFFFFF' ) . ';
 	}

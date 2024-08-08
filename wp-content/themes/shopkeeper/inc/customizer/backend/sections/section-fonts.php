@@ -251,7 +251,7 @@ function shopkeeper_customizer_fonts_controls( $wp_customize ) {
 			array(
 				'type'			=> 'text',
 				'label' 		=> __( 'Headings Font', 'shopkeeper' ),
-				'description'	=> Shopkeeper_Fonts::get_google_suggested_fonts_list() . 'Shopkeeper supports all fonts on <a href="'.SK_GOOGLE_FONTS_WEBSITE.'" target="_blank">Google Fonts</a>.',
+				'description'	=> Shopkeeper_Fonts::get_google_suggested_fonts_list() . __( 'Shopkeeper supports all fonts on <a href="https://fonts.google.com" target="_blank">Google Fonts</a>.', 'shopkeeper' ),
 				'section' 		=> 'fonts',
 				'input_attrs' 	=> array(
 					'placeholder' 		=> __( 'Enter the font name', 'shopkeeper' ),
@@ -285,7 +285,7 @@ function shopkeeper_customizer_fonts_controls( $wp_customize ) {
             array(
                 'type'			=> 'text',
                 'label' 		=> __( 'Headings Font', 'shopkeeper' ),
-                'description'	=> Shopkeeper_Fonts::get_web_safe_suggested_fonts_list() . 'Shopkeeper supports all <a href="'.SK_SAFE_FONTS_WEBSITE.'" target="_blank">web safe fonts</a>.',
+                'description'	=> Shopkeeper_Fonts::get_web_safe_suggested_fonts_list() . __( 'Shopkeeper supports all <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank">web safe fonts</a>.', 'shopkeeper' ),
                 'section' 		=> 'fonts',
                 'input_attrs' 	=> array(
                     'placeholder' 		=> __( 'Enter the font name', 'shopkeeper' ),
@@ -498,7 +498,7 @@ function shopkeeper_customizer_fonts_controls( $wp_customize ) {
 			array(
 				'type'			=> 'text',
 				'label' 		=> __( 'Body Font', 'shopkeeper' ),
-				'description'	=> Shopkeeper_Fonts::get_google_suggested_fonts_list() . 'Shopkeeper supports all fonts on <a href="'.SK_GOOGLE_FONTS_WEBSITE.'" target="_blank">Google Fonts</a>.',
+				'description'	=> Shopkeeper_Fonts::get_google_suggested_fonts_list() . __( 'Shopkeeper supports all fonts on <a href="https://fonts.google.com" target="_blank">Google Fonts</a>.', 'shopkeeper' ),
 				'section' 		=> 'fonts',
 				'input_attrs' 	=> array(
 					'placeholder' 		=> __( 'Enter the font name', 'shopkeeper' ),
@@ -532,7 +532,7 @@ function shopkeeper_customizer_fonts_controls( $wp_customize ) {
             array(
                 'type'			=> 'text',
                 'label' 		=> __( 'Body Font', 'shopkeeper' ),
-                'description'	=> Shopkeeper_Fonts::get_web_safe_suggested_fonts_list() . 'Shopkeeper supports all <a href="'.SK_SAFE_FONTS_WEBSITE.'" target="_blank">web safe fonts</a>.',
+                'description'	=> Shopkeeper_Fonts::get_web_safe_suggested_fonts_list() . __( 'Shopkeeper supports all <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank">web safe fonts</a>.', 'shopkeeper' ),
                 'section' 		=> 'fonts',
                 'input_attrs' 	=> array(
                     'placeholder' 		=> __( 'Enter the font name', 'shopkeeper' ),

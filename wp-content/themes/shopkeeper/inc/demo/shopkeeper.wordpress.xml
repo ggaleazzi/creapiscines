@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.6" created="2020-12-11 17:18" -->
+	<!-- generator="WordPress/5.4" created="2020-04-07 10:19" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Shopkeeper</title>
 	<link>https://import.getbowtied.com/shopkeeper-replica</link>
 	<description>Premium WooCommerce Theme</description>
-	<pubDate>Fri, 11 Dec 2020 17:18:59 +0000</pubDate>
+	<pubDate>Tue, 07 Apr 2020 10:19:16 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://import.getbowtied.com/shopkeeper-replica</wp:base_site_url>
@@ -112,7 +112,7 @@
 		<wp:tag_name><![CDATA[Template]]></wp:tag_name>
 	</wp:tag>
 			<wp:term>
-		<wp:term_id>12</wp:term_id>
+		<wp:term_id><![CDATA[12]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[accessories]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -139,7 +139,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>59</wp:term_id>
+		<wp:term_id><![CDATA[59]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[beanie]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -150,7 +150,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>14</wp:term_id>
+		<wp:term_id><![CDATA[14]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[black]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -165,7 +165,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>58</wp:term_id>
+		<wp:term_id><![CDATA[58]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[black]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -176,7 +176,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>15</wp:term_id>
+		<wp:term_id><![CDATA[15]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[blue]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -191,7 +191,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>37</wp:term_id>
+		<wp:term_id><![CDATA[37]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[categories-grid]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -218,7 +218,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>65</wp:term_id>
+		<wp:term_id><![CDATA[65]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[clothing]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -229,7 +229,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>62</wp:term_id>
+		<wp:term_id><![CDATA[62]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[denim]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -240,7 +240,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>44</wp:term_id>
+		<wp:term_id><![CDATA[44]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[dresses]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -267,7 +267,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>70</wp:term_id>
+		<wp:term_id><![CDATA[70]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[ecommerce]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -278,21 +278,21 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>48</wp:term_id>
+		<wp:term_id><![CDATA[48]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[exclude-from-catalog]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[exclude-from-catalog]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>47</wp:term_id>
+		<wp:term_id><![CDATA[47]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[exclude-from-search]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[exclude-from-search]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>68</wp:term_id>
+		<wp:term_id><![CDATA[68]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[existentialism]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -303,21 +303,21 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>5</wp:term_id>
+		<wp:term_id><![CDATA[5]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_type]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[external]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[external]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>56</wp:term_id>
+		<wp:term_id><![CDATA[56]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[portfolio_categories]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[fashion]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Fashion]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>66</wp:term_id>
+		<wp:term_id><![CDATA[66]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[fashion]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -328,14 +328,14 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>49</wp:term_id>
+		<wp:term_id><![CDATA[49]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[featured]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[featured]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>8</wp:term_id>
+		<wp:term_id><![CDATA[8]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[gadgets]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -362,7 +362,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>11</wp:term_id>
+		<wp:term_id><![CDATA[11]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[gifts]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -389,14 +389,14 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>3</wp:term_id>
+		<wp:term_id><![CDATA[3]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_type]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[grouped]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[grouped]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>67</wp:term_id>
+		<wp:term_id><![CDATA[67]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[hat]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -407,7 +407,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>61</wp:term_id>
+		<wp:term_id><![CDATA[61]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[jacket]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -418,7 +418,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>45</wp:term_id>
+		<wp:term_id><![CDATA[45]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[jumpers]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -445,7 +445,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>21</wp:term_id>
+		<wp:term_id><![CDATA[21]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_size]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[large]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -456,7 +456,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>57</wp:term_id>
+		<wp:term_id><![CDATA[57]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[leather]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -467,7 +467,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>20</wp:term_id>
+		<wp:term_id><![CDATA[20]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_size]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[medium]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -478,7 +478,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>10</wp:term_id>
+		<wp:term_id><![CDATA[10]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[men]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -505,14 +505,14 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>50</wp:term_id>
+		<wp:term_id><![CDATA[50]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[outofstock]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[outofstock]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>43</wp:term_id>
+		<wp:term_id><![CDATA[43]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[party-collection]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -539,42 +539,42 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>51</wp:term_id>
+		<wp:term_id><![CDATA[51]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[rated-1]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[rated-1]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>52</wp:term_id>
+		<wp:term_id><![CDATA[52]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[rated-2]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[rated-2]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>53</wp:term_id>
+		<wp:term_id><![CDATA[53]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[rated-3]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[rated-3]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>54</wp:term_id>
+		<wp:term_id><![CDATA[54]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[rated-4]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[rated-4]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>55</wp:term_id>
+		<wp:term_id><![CDATA[55]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[rated-5]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[rated-5]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>17</wp:term_id>
+		<wp:term_id><![CDATA[17]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[red]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -589,7 +589,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>19</wp:term_id>
+		<wp:term_id><![CDATA[19]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_size]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[small]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -604,7 +604,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>39</wp:term_id>
+		<wp:term_id><![CDATA[39]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[the-barbershop]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -631,7 +631,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>42</wp:term_id>
+		<wp:term_id><![CDATA[42]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[shirts-blouses]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -658,7 +658,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>63</wp:term_id>
+		<wp:term_id><![CDATA[63]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[shorts]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -669,14 +669,14 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>2</wp:term_id>
+		<wp:term_id><![CDATA[2]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_type]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[simple]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[simple]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>60</wp:term_id>
+		<wp:term_id><![CDATA[60]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[skate]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -687,7 +687,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>64</wp:term_id>
+		<wp:term_id><![CDATA[64]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[street-wear]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -698,7 +698,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>41</wp:term_id>
+		<wp:term_id><![CDATA[41]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[tops]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -725,14 +725,14 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>4</wp:term_id>
+		<wp:term_id><![CDATA[4]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_type]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[variable]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[variable]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>18</wp:term_id>
+		<wp:term_id><![CDATA[18]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[white]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -747,7 +747,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>13</wp:term_id>
+		<wp:term_id><![CDATA[13]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[women]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -775,7 +775,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>69</wp:term_id>
+		<wp:term_id><![CDATA[69]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[woocommerce]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -786,7 +786,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>22</wp:term_id>
+		<wp:term_id><![CDATA[22]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_size]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[extra-large]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -797,7 +797,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>16</wp:term_id>
+		<wp:term_id><![CDATA[16]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[yellow]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -812,7 +812,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>40</wp:term_id>
+		<wp:term_id><![CDATA[40]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[basics]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -839,7 +839,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>46</wp:term_id>
+		<wp:term_id><![CDATA[46]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[blouses]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -866,7 +866,7 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>38</wp:term_id>
+		<wp:term_id><![CDATA[38]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[bodysuits]]></wp:term_slug>
 		<wp:term_parent><![CDATA[categories-grid]]></wp:term_parent>
@@ -895,14 +895,14 @@
 			<wp:term><wp:term_id>7</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-navigation]]></wp:term_slug><wp:term_name><![CDATA[Main Navigation]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=5.6</generator>
+	<generator>https://wordpress.org/?v=5.4</generator>
 
 		<item>
 		<title>beanie-girl</title>
 		<link>https://import.getbowtied.com/shopkeeper-replica/how-to-style-a-quiff/beanie-girl/</link>
 		<pubDate>Mon, 09 Jan 2017 21:38:56 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/beanie-girl.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/beanie-girl.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -941,7 +941,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/fall-fashion-trends-2014/adobestock_118236999/</link>
 		<pubDate>Tue, 10 Jan 2017 10:00:50 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/AdobeStock_118236999.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/AdobeStock_118236999.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -980,7 +980,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=571</link>
 		<pubDate>Fri, 13 Jan 2017 23:27:32 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/black-leather-jacket-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/black-leather-jacket-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1019,7 +1019,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=572</link>
 		<pubDate>Fri, 13 Jan 2017 23:27:36 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/black-leather-jacket-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/black-leather-jacket-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1058,7 +1058,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=573</link>
 		<pubDate>Fri, 13 Jan 2017 23:27:39 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/black-leather-jacket-03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/black-leather-jacket-03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1097,7 +1097,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=575</link>
 		<pubDate>Fri, 13 Jan 2017 23:34:52 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/jacket_01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/jacket_01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1136,7 +1136,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=576</link>
 		<pubDate>Fri, 13 Jan 2017 23:35:12 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/jacket_02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/jacket_02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1175,7 +1175,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=577</link>
 		<pubDate>Fri, 13 Jan 2017 23:35:15 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/jacket_03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/jacket_03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1214,7 +1214,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbers/</link>
 		<pubDate>Sat, 14 Jan 2017 20:32:43 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbers.png</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbers.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1253,7 +1253,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/razor-sharp/</link>
 		<pubDate>Sat, 14 Jan 2017 20:34:46 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/razor-sharp.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/razor-sharp.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1292,7 +1292,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/brush-img/</link>
 		<pubDate>Sat, 14 Jan 2017 20:53:07 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/brush-img.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/brush-img.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1331,7 +1331,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbers_emblem/</link>
 		<pubDate>Sat, 14 Jan 2017 21:34:26 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbers_emblem.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbers_emblem.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1370,7 +1370,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-collection-women/beanie-cover/</link>
 		<pubDate>Sat, 14 Jan 2017 22:48:24 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/beanie-cover.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/beanie-cover.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1409,7 +1409,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-collection-women/trendy-girl-in-black-jacket-and-beanie-with-skateboard/</link>
 		<pubDate>Sat, 14 Jan 2017 22:50:27 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/beanie-right.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/beanie-right.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1448,7 +1448,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-collection-women/trendy-girl-in-black-jacket-and-beanie-with-skateboard-2/</link>
 		<pubDate>Sat, 14 Jan 2017 22:51:03 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/beanie-left.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/beanie-left.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1487,7 +1487,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=699</link>
 		<pubDate>Sat, 14 Jan 2017 23:15:25 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/01-3.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/01-3.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1530,7 +1530,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=700</link>
 		<pubDate>Sat, 14 Jan 2017 23:18:06 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/02-2.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/02-2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1569,7 +1569,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=701</link>
 		<pubDate>Sat, 14 Jan 2017 23:18:44 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/03-3.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/03-3.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1608,7 +1608,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=702</link>
 		<pubDate>Sat, 14 Jan 2017 23:20:12 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/05-2.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/05-2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1647,7 +1647,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=703</link>
 		<pubDate>Sat, 14 Jan 2017 23:20:39 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/04-2.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/04-2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1686,7 +1686,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=704</link>
 		<pubDate>Sat, 14 Jan 2017 23:21:05 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/06-1.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/06-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1725,7 +1725,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=705</link>
 		<pubDate>Sat, 14 Jan 2017 23:21:46 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/07.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/07.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1764,7 +1764,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=707</link>
 		<pubDate>Sat, 14 Jan 2017 23:33:37 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/beanie_01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/beanie_01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1803,7 +1803,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=708</link>
 		<pubDate>Sat, 14 Jan 2017 23:33:41 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/beanie_02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/beanie_02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1842,7 +1842,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=709</link>
 		<pubDate>Sat, 14 Jan 2017 23:33:45 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/beanie_03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/beanie_03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1881,7 +1881,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=711</link>
 		<pubDate>Sat, 14 Jan 2017 23:39:54 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/varsity_01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/varsity_01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1920,7 +1920,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=712</link>
 		<pubDate>Sat, 14 Jan 2017 23:39:58 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/varsity_02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/varsity_02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1959,7 +1959,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=714</link>
 		<pubDate>Sat, 14 Jan 2017 23:50:40 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/donut_01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/donut_01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1998,7 +1998,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=716</link>
 		<pubDate>Sat, 14 Jan 2017 23:50:46 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/donut_02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/donut_02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2037,7 +2037,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=718</link>
 		<pubDate>Sat, 14 Jan 2017 23:53:11 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/la_01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/la_01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2076,7 +2076,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=720</link>
 		<pubDate>Sat, 14 Jan 2017 23:53:25 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/la_03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/la_03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2115,7 +2115,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=722</link>
 		<pubDate>Sat, 14 Jan 2017 23:56:03 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/love_01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/love_01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2154,7 +2154,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=723</link>
 		<pubDate>Sat, 14 Jan 2017 23:56:08 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/love_02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/love_02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Featured Image Caption Goes Here]]></excerpt:encoded>
@@ -2193,7 +2193,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=724</link>
 		<pubDate>Sat, 14 Jan 2017 23:56:12 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/love_03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/love_03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2232,7 +2232,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=772</link>
 		<pubDate>Sun, 15 Jan 2017 01:50:28 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/love-tshirt-new.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/love-tshirt-new.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2271,7 +2271,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=805</link>
 		<pubDate>Mon, 16 Jan 2017 15:31:37 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/grl1.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/grl1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2310,7 +2310,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=806</link>
 		<pubDate>Mon, 16 Jan 2017 15:31:40 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/grl2.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/grl2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2349,7 +2349,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=807</link>
 		<pubDate>Mon, 16 Jan 2017 15:31:44 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/grl3.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/grl3.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2388,7 +2388,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=812</link>
 		<pubDate>Mon, 16 Jan 2017 20:29:13 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bomber02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bomber02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2427,7 +2427,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=813</link>
 		<pubDate>Mon, 16 Jan 2017 20:29:17 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bomber03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bomber03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2466,7 +2466,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=814</link>
 		<pubDate>Mon, 16 Jan 2017 20:29:21 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bomber04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bomber04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2505,7 +2505,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=815</link>
 		<pubDate>Mon, 16 Jan 2017 20:37:03 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bomber01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bomber01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2544,7 +2544,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=816</link>
 		<pubDate>Mon, 16 Jan 2017 20:37:20 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bomber02-1.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bomber02-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2583,7 +2583,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=818</link>
 		<pubDate>Mon, 16 Jan 2017 20:56:53 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/gray-top01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/gray-top01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2622,7 +2622,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=819</link>
 		<pubDate>Mon, 16 Jan 2017 20:58:46 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/gray-top02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/gray-top02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2661,7 +2661,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=820</link>
 		<pubDate>Mon, 16 Jan 2017 21:03:03 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/gray-top03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/gray-top03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2700,7 +2700,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=821</link>
 		<pubDate>Mon, 16 Jan 2017 21:03:12 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/gray-top04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/gray-top04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2739,7 +2739,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=822</link>
 		<pubDate>Mon, 16 Jan 2017 21:03:18 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/gray-top05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/gray-top05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2778,7 +2778,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-classic-1/slide01blonde/</link>
 		<pubDate>Wed, 18 Jan 2017 16:14:52 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/slide01blonde.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/slide01blonde.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2817,7 +2817,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-classic-1/slide03blonde-2/</link>
 		<pubDate>Wed, 18 Jan 2017 21:07:49 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/slide03blonde-1.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/slide03blonde-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2856,7 +2856,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-classic-1/slide02blonde/</link>
 		<pubDate>Wed, 18 Jan 2017 21:08:31 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/slide02blonde.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/slide02blonde.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2895,7 +2895,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-classic-1/read-the-blog/</link>
 		<pubDate>Wed, 18 Jan 2017 21:35:47 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/read-the-blog.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/read-the-blog.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2934,7 +2934,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-classic-1/follow-on-instagram/</link>
 		<pubDate>Wed, 18 Jan 2017 21:39:01 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/follow-on-instagram.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/follow-on-instagram.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2973,7 +2973,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=920</link>
 		<pubDate>Wed, 18 Jan 2017 22:01:28 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/giv.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/giv.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3012,7 +3012,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=921</link>
 		<pubDate>Wed, 18 Jan 2017 22:08:11 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/orange-bud-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/orange-bud-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3051,7 +3051,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=922</link>
 		<pubDate>Wed, 18 Jan 2017 22:08:14 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/orange-bud-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/orange-bud-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3090,7 +3090,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=923</link>
 		<pubDate>Wed, 18 Jan 2017 22:08:20 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/orange-bud-03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/orange-bud-03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3129,7 +3129,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=925</link>
 		<pubDate>Wed, 18 Jan 2017 22:51:43 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bbeauty01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bbeauty01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3168,7 +3168,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=926</link>
 		<pubDate>Wed, 18 Jan 2017 22:51:59 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bbeauty02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bbeauty02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3207,7 +3207,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=927</link>
 		<pubDate>Wed, 18 Jan 2017 22:52:12 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bbeauty03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bbeauty03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3246,7 +3246,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=929</link>
 		<pubDate>Wed, 18 Jan 2017 23:00:51 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/black-shirt.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/black-shirt.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3285,7 +3285,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=931</link>
 		<pubDate>Wed, 18 Jan 2017 23:20:56 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/cream01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/cream01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3324,7 +3324,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=932</link>
 		<pubDate>Wed, 18 Jan 2017 23:21:36 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/cream02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/cream02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3363,7 +3363,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=933</link>
 		<pubDate>Wed, 18 Jan 2017 23:21:42 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/cream03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/cream03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3402,7 +3402,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=934</link>
 		<pubDate>Wed, 18 Jan 2017 23:21:45 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/cream04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/cream04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3441,7 +3441,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=935</link>
 		<pubDate>Wed, 18 Jan 2017 23:21:50 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/cream05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/cream05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3480,7 +3480,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=944</link>
 		<pubDate>Thu, 19 Jan 2017 09:50:54 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/007a.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/007a.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3519,7 +3519,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=945</link>
 		<pubDate>Thu, 19 Jan 2017 09:50:57 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/007b.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/007b.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3558,7 +3558,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=946</link>
 		<pubDate>Thu, 19 Jan 2017 09:51:00 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/007c.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/007c.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3597,7 +3597,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=949</link>
 		<pubDate>Thu, 19 Jan 2017 10:46:51 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/008c.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/008c.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3636,7 +3636,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=950</link>
 		<pubDate>Thu, 19 Jan 2017 10:46:55 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/008a.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/008a.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3675,7 +3675,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=951</link>
 		<pubDate>Thu, 19 Jan 2017 10:46:58 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/008b.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/008b.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3714,7 +3714,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=952</link>
 		<pubDate>Thu, 19 Jan 2017 10:47:01 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/008d.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/008d.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3753,7 +3753,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-neutrals/hero-girls/</link>
 		<pubDate>Thu, 19 Jan 2017 12:24:39 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/hero-girls.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/hero-girls.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3796,7 +3796,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-neutrals/home-right-here/</link>
 		<pubDate>Thu, 19 Jan 2017 13:06:22 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/home-right-here.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/home-right-here.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3835,7 +3835,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-neutrals/landing-girls-02/</link>
 		<pubDate>Thu, 19 Jan 2017 13:32:37 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/landing-girls-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/landing-girls-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[La croix blog sriracha, distillery ugh small batch retro literally coloring book disrupt ]]></excerpt:encoded>
@@ -3874,7 +3874,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-neutrals/landing-girls-01/</link>
 		<pubDate>Thu, 19 Jan 2017 13:35:02 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/landing-girls-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/landing-girls-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3913,7 +3913,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-neutrals/landing-girls-04/</link>
 		<pubDate>Thu, 19 Jan 2017 13:42:41 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/landing-girls-04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/landing-girls-04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3952,7 +3952,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-neutrals/landing-girls-05/</link>
 		<pubDate>Thu, 19 Jan 2017 13:42:58 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/landing-girls-05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/landing-girls-05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3991,7 +3991,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-neutrals/landing-girls-06/</link>
 		<pubDate>Thu, 19 Jan 2017 13:48:57 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/landing-girls-06.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/landing-girls-06.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4030,7 +4030,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v1/about01/</link>
 		<pubDate>Thu, 19 Jan 2017 20:06:21 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/about01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/about01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4069,7 +4069,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v1/about-a/</link>
 		<pubDate>Thu, 19 Jan 2017 20:14:44 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/about-a.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/about-a.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4108,7 +4108,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v1/about-b/</link>
 		<pubDate>Thu, 19 Jan 2017 20:14:47 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/about-b.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/about-b.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4147,7 +4147,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v1/about-c/</link>
 		<pubDate>Thu, 19 Jan 2017 20:32:52 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/about-c.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/about-c.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4186,7 +4186,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v1/aboud-d/</link>
 		<pubDate>Thu, 19 Jan 2017 20:33:19 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/aboud-d.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/aboud-d.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4225,7 +4225,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v1/about-f/</link>
 		<pubDate>Thu, 19 Jan 2017 20:33:42 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/about-f.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/about-f.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4264,7 +4264,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v1/quote-m/</link>
 		<pubDate>Thu, 19 Jan 2017 20:37:29 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/quote-m.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/quote-m.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4303,7 +4303,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v2/craft-hero/</link>
 		<pubDate>Thu, 19 Jan 2017 21:12:16 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/craft-hero.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/craft-hero.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4342,7 +4342,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v2/craft02/</link>
 		<pubDate>Thu, 19 Jan 2017 21:13:06 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/craft02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/craft02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4381,7 +4381,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v2/craft03/</link>
 		<pubDate>Thu, 19 Jan 2017 21:14:00 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/craft03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/craft03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4420,7 +4420,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/small-business-owner-v2/craft04/</link>
 		<pubDate>Thu, 19 Jan 2017 21:18:30 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/craft04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/craft04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4459,7 +4459,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/pages/contact-v1/contact-hero-girl/</link>
 		<pubDate>Thu, 26 Jan 2017 13:24:45 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/contact-hero-girl.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/contact-hero-girl.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4498,7 +4498,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-slide-01/</link>
 		<pubDate>Mon, 30 Jan 2017 13:56:06 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-slide-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-slide-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4537,7 +4537,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-03/</link>
 		<pubDate>Mon, 30 Jan 2017 14:14:58 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4576,7 +4576,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-04/</link>
 		<pubDate>Mon, 30 Jan 2017 14:15:21 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4615,7 +4615,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-left/</link>
 		<pubDate>Mon, 30 Jan 2017 14:39:01 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-left.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-left.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4654,7 +4654,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-right/</link>
 		<pubDate>Mon, 30 Jan 2017 14:39:18 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-right.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-right.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4693,7 +4693,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-05/</link>
 		<pubDate>Mon, 30 Jan 2017 14:42:48 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4732,7 +4732,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-bottom-taf/</link>
 		<pubDate>Mon, 30 Jan 2017 15:18:43 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-bottom-taf.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-bottom-taf.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4771,7 +4771,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-00/</link>
 		<pubDate>Mon, 30 Jan 2017 15:55:50 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-00.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-00.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4810,7 +4810,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-02/</link>
 		<pubDate>Mon, 30 Jan 2017 16:02:57 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4849,7 +4849,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-03-2/</link>
 		<pubDate>Mon, 30 Jan 2017 16:06:19 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-03-1.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-03-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4888,7 +4888,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-2/headphones-04-2/</link>
 		<pubDate>Mon, 30 Jan 2017 16:09:52 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/headphones-04-1.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/headphones-04-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4927,7 +4927,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-01/</link>
 		<pubDate>Mon, 30 Jan 2017 17:28:13 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4966,7 +4966,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-sm-01/</link>
 		<pubDate>Mon, 30 Jan 2017 20:49:52 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-sm-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-sm-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5005,7 +5005,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-sq-01/</link>
 		<pubDate>Mon, 30 Jan 2017 20:54:30 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-sq-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-sq-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5044,7 +5044,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-sq-02/</link>
 		<pubDate>Mon, 30 Jan 2017 20:55:32 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-sq-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-sq-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5083,7 +5083,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-sm-02/</link>
 		<pubDate>Mon, 30 Jan 2017 21:01:37 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-sm-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-sm-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5122,7 +5122,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-sm-03/</link>
 		<pubDate>Mon, 30 Jan 2017 21:04:29 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-sm-03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-sm-03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5161,7 +5161,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-sm-04/</link>
 		<pubDate>Mon, 30 Jan 2017 21:05:23 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-sm-04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-sm-04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5200,7 +5200,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-sm-05/</link>
 		<pubDate>Mon, 30 Jan 2017 21:12:29 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-sm-05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-sm-05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5239,7 +5239,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-cta/</link>
 		<pubDate>Mon, 30 Jan 2017 21:51:14 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-cta.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-cta.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5278,7 +5278,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-categories-grid/dirt-bg/</link>
 		<pubDate>Mon, 13 Feb 2017 22:18:47 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/dirt-bg.gif</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/dirt-bg.gif</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5317,7 +5317,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/grid-shirts-blouses/</link>
 		<pubDate>Tue, 14 Feb 2017 12:47:54 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/grid-shirts-blouses.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/grid-shirts-blouses.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5356,7 +5356,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/grid-tops/</link>
 		<pubDate>Tue, 14 Feb 2017 12:47:59 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/grid-tops.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/grid-tops.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5395,7 +5395,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-categories-grid/badge-hello-summer/</link>
 		<pubDate>Wed, 15 Feb 2017 12:52:31 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/badge-hello-summer.png</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/badge-hello-summer.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5434,7 +5434,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-categories-grid/thank-you/</link>
 		<pubDate>Wed, 15 Feb 2017 12:52:55 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/thank-you.png</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/thank-you.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5473,7 +5473,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-collections-parallax/hero-girls-parallax/</link>
 		<pubDate>Wed, 15 Feb 2017 20:06:13 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/hero-girls-parallax.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/hero-girls-parallax.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5512,7 +5512,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/fashion-photography/portfolio-fashion-photography/</link>
 		<pubDate>Wed, 15 Feb 2017 22:43:39 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-fashion-photography.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-fashion-photography.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5551,7 +5551,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/acid-fruits/portfolio-acid/</link>
 		<pubDate>Wed, 15 Feb 2017 23:00:49 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-acid.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-acid.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5590,7 +5590,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-the-neutrals/</link>
 		<pubDate>Wed, 15 Feb 2017 23:07:42 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-the-neutrals.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-the-neutrals.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5629,7 +5629,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/wanderer-landscapes/portfolio-woodwork/</link>
 		<pubDate>Wed, 15 Feb 2017 23:10:28 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-woodwork.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-woodwork.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5668,7 +5668,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/handmade-jewelry/portfolio-hm-jewl/</link>
 		<pubDate>Wed, 15 Feb 2017 23:18:48 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-hm-jewl.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-hm-jewl.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5707,7 +5707,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/girls-just-want-to-have-fun/portfolio-girl-fun-tops/</link>
 		<pubDate>Wed, 15 Feb 2017 23:20:39 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-girl-fun-tops.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-girl-fun-tops.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5746,7 +5746,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/wanderer-landscapes/wood-01/</link>
 		<pubDate>Thu, 16 Feb 2017 20:37:00 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/wood-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/wood-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5785,7 +5785,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/wanderer-landscapes/wood-02/</link>
 		<pubDate>Thu, 16 Feb 2017 20:46:41 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/wood-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/wood-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5824,7 +5824,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/wanderer-landscapes/wood-04/</link>
 		<pubDate>Thu, 16 Feb 2017 20:46:44 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/wood-04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/wood-04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Caption goes here.]]></excerpt:encoded>
@@ -5863,7 +5863,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/wanderer-landscapes/wood-03/</link>
 		<pubDate>Thu, 16 Feb 2017 20:46:46 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/wood-03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/wood-03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5902,7 +5902,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/wanderer-landscapes/wood-05/</link>
 		<pubDate>Thu, 16 Feb 2017 20:46:48 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/wood-05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/wood-05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5941,7 +5941,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/wanderer-landscapes/wood-06/</link>
 		<pubDate>Thu, 16 Feb 2017 20:46:50 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/wood-06.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/wood-06.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5980,7 +5980,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/wanderer-landscapes/wood-07/</link>
 		<pubDate>Thu, 16 Feb 2017 20:51:37 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/wood-07.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/wood-07.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6019,7 +6019,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-01/</link>
 		<pubDate>Thu, 16 Feb 2017 21:43:45 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6058,7 +6058,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-09/</link>
 		<pubDate>Thu, 16 Feb 2017 21:44:03 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-09.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-09.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6097,7 +6097,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-10/</link>
 		<pubDate>Thu, 16 Feb 2017 21:44:06 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-10.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-10.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6136,7 +6136,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-11/</link>
 		<pubDate>Thu, 16 Feb 2017 21:44:08 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-11.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-11.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6175,7 +6175,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-02/</link>
 		<pubDate>Thu, 16 Feb 2017 21:57:33 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6214,7 +6214,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-03/</link>
 		<pubDate>Thu, 16 Feb 2017 21:57:36 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6253,7 +6253,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-04/</link>
 		<pubDate>Thu, 16 Feb 2017 22:02:02 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6292,7 +6292,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-05/</link>
 		<pubDate>Thu, 16 Feb 2017 22:09:44 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6331,7 +6331,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-06/</link>
 		<pubDate>Thu, 16 Feb 2017 22:09:46 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-06.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-06.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6370,7 +6370,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/the-neutrals/portfolio-gcollection-07/</link>
 		<pubDate>Thu, 16 Feb 2017 22:09:49 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-07.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-07.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6409,7 +6409,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/colombian-roasted-cofee/portfolio-coffee-01-hero/</link>
 		<pubDate>Thu, 16 Feb 2017 22:38:11 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-coffee-01-hero.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-coffee-01-hero.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6448,7 +6448,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/colombian-roasted-cofee/portfolio-coffee-02/</link>
 		<pubDate>Thu, 16 Feb 2017 22:42:58 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-coffee-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-coffee-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6487,7 +6487,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/colombian-roasted-cofee/portfolio-coffee-03/</link>
 		<pubDate>Thu, 16 Feb 2017 22:43:00 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-coffee-03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-coffee-03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6526,7 +6526,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/colombian-roasted-cofee/portfolio-coffee-04/</link>
 		<pubDate>Thu, 16 Feb 2017 22:43:02 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-coffee-04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-coffee-04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6565,7 +6565,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/colombian-roasted-cofee/portfolio-coffee-05/</link>
 		<pubDate>Thu, 16 Feb 2017 22:43:05 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-coffee-05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-coffee-05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6604,7 +6604,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/colombian-roasted-cofee/portfolio-coffee-06/</link>
 		<pubDate>Thu, 16 Feb 2017 22:43:07 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-coffee-06.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-coffee-06.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6643,7 +6643,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-item/autumn-moods/portfolio-autumny/</link>
 		<pubDate>Tue, 21 Feb 2017 12:52:56 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-autumny.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-autumny.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6682,7 +6682,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-product-landing-1/coffee-sm-06/</link>
 		<pubDate>Tue, 21 Feb 2017 13:40:03 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/coffee-sm-06.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/coffee-sm-06.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6721,7 +6721,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/blog-sq-bottom/</link>
 		<pubDate>Tue, 21 Feb 2017 14:19:20 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/blog-sq-bottom.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/blog-sq-bottom.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6760,7 +6760,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/aw14-menswear-trends/orange-bud/</link>
 		<pubDate>Tue, 21 Feb 2017 14:34:53 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/orange-bud.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/orange-bud.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6799,7 +6799,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/portfolio-gcollection-03-2/</link>
 		<pubDate>Tue, 21 Feb 2017 16:11:25 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/portfolio-gcollection-03-1.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/portfolio-gcollection-03-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6838,7 +6838,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/menu-home/</link>
 		<pubDate>Thu, 09 Mar 2017 11:37:09 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/menu-home.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/menu-home.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6877,7 +6877,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/phone-2/</link>
 		<pubDate>Tue, 04 Apr 2017 11:52:53 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/phone-1.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/phone-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6916,7 +6916,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/full-slide-1-bg/</link>
 		<pubDate>Tue, 11 Apr 2017 08:09:31 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/full-slide-1-bg.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/full-slide-1-bg.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6955,7 +6955,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/shopkeeper-logo/</link>
 		<pubDate>Fri, 23 Jun 2017 15:28:20 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/shopkeeper-logo.png</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/shopkeeper-logo.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6994,7 +6994,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/logo-envato-icon/</link>
 		<pubDate>Sat, 12 Aug 2017 16:53:07 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/logo-envato-icon.png</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/logo-envato-icon.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7033,7 +7033,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbershop02/</link>
 		<pubDate>Thu, 02 Nov 2017 10:18:50 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbershop02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbershop02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7072,7 +7072,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbershop03/</link>
 		<pubDate>Thu, 02 Nov 2017 10:24:29 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbershop03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbershop03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7111,7 +7111,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbershop04/</link>
 		<pubDate>Thu, 02 Nov 2017 10:26:00 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbershop04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbershop04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7150,7 +7150,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbershop07/</link>
 		<pubDate>Thu, 02 Nov 2017 10:28:01 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbershop07.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbershop07.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7189,7 +7189,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbershop06/</link>
 		<pubDate>Thu, 02 Nov 2017 10:28:22 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbershop06.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbershop06.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7228,7 +7228,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbershop05/</link>
 		<pubDate>Thu, 02 Nov 2017 10:28:40 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbershop05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbershop05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7267,7 +7267,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-men/barbershop01/</link>
 		<pubDate>Thu, 02 Nov 2017 10:31:56 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/barbershop01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/barbershop01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7306,7 +7306,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling01/</link>
 		<pubDate>Thu, 02 Nov 2017 10:43:36 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling01.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7345,7 +7345,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling02/</link>
 		<pubDate>Thu, 02 Nov 2017 10:44:27 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7384,7 +7384,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling03/</link>
 		<pubDate>Thu, 02 Nov 2017 10:50:41 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7423,7 +7423,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling03product/</link>
 		<pubDate>Thu, 02 Nov 2017 11:00:26 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling03product.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling03product.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7462,7 +7462,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling04/</link>
 		<pubDate>Thu, 02 Nov 2017 11:01:15 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7501,7 +7501,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling04product/</link>
 		<pubDate>Thu, 02 Nov 2017 11:04:32 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling04product.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling04product.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7540,7 +7540,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling05-product/</link>
 		<pubDate>Thu, 02 Nov 2017 11:12:58 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling05-product.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling05-product.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7579,7 +7579,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/brown-gloves/</link>
 		<pubDate>Thu, 02 Nov 2017 11:18:07 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/brown-gloves.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/brown-gloves.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7618,7 +7618,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/brown-shoes/</link>
 		<pubDate>Thu, 02 Nov 2017 11:18:34 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/brown-shoes.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/brown-shoes.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7657,7 +7657,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/brown-attitude/</link>
 		<pubDate>Thu, 02 Nov 2017 11:18:53 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/brown-attitude.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/brown-attitude.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7696,7 +7696,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling06-product/</link>
 		<pubDate>Thu, 02 Nov 2017 11:31:32 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling06-product.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling06-product.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7735,7 +7735,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling06/</link>
 		<pubDate>Thu, 02 Nov 2017 11:31:58 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling06.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling06.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7774,7 +7774,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling07/</link>
 		<pubDate>Thu, 02 Nov 2017 11:33:17 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling07.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling07.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7813,7 +7813,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling07-product/</link>
 		<pubDate>Thu, 02 Nov 2017 11:33:48 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling07-product.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling07-product.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7852,7 +7852,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling10coverboots/</link>
 		<pubDate>Thu, 02 Nov 2017 11:51:07 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling10coverboots.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling10coverboots.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7891,7 +7891,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/lookbook-best-selling/bestselling02-product/</link>
 		<pubDate>Thu, 02 Nov 2017 12:35:33 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/bestselling02-product.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/bestselling02-product.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8037,10 +8037,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[https://import.getbowtied.com/shopkeeper-replica//wp-content/uploads/shop-mega-menu.jpg]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Frontpage Layouts</title>
@@ -8099,10 +8095,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8163,10 +8155,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title></title>
@@ -8226,17 +8214,13 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>women-cover-cat-image</title>
 		<link>https://import.getbowtied.com/shopkeeper-replica/women-cover-cat-image/</link>
 		<pubDate>Thu, 02 Nov 2017 13:24:03 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/women-cover-cat-image.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/women-cover-cat-image.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8275,7 +8259,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/categories-grid-02/</link>
 		<pubDate>Tue, 07 Nov 2017 09:55:44 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/categories-grid-02.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/categories-grid-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8314,7 +8298,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/categories-grid-03/</link>
 		<pubDate>Tue, 07 Nov 2017 09:57:05 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/categories-grid-03.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/categories-grid-03.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8353,7 +8337,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/categories-grid-04/</link>
 		<pubDate>Tue, 07 Nov 2017 09:57:49 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/categories-grid-04.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/categories-grid-04.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8392,7 +8376,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/categories-grid-05/</link>
 		<pubDate>Tue, 07 Nov 2017 09:58:54 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/categories-grid-05.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/categories-grid-05.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8431,7 +8415,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/categories-grid-06/</link>
 		<pubDate>Tue, 07 Nov 2017 09:59:36 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/categories-grid-06.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/categories-grid-06.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8470,7 +8454,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/categories-grid-08/</link>
 		<pubDate>Tue, 07 Nov 2017 10:01:30 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/categories-grid-08.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/categories-grid-08.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8509,7 +8493,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/home/home-classic-2/home2cover/</link>
 		<pubDate>Tue, 07 Nov 2017 10:50:22 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/home2cover.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/home2cover.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8548,7 +8532,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/categories-grid-07/</link>
 		<pubDate>Tue, 07 Nov 2017 11:00:52 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/categories-grid-07.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/categories-grid-07.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8587,7 +8571,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/categories-grid-09/</link>
 		<pubDate>Tue, 07 Nov 2017 11:02:59 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/categories-grid-09.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/categories-grid-09.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8626,7 +8610,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=2839</link>
 		<pubDate>Tue, 07 Nov 2017 11:35:56 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/product-feat.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/product-feat.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8665,7 +8649,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/?attachment_id=2845</link>
 		<pubDate>Tue, 07 Nov 2017 12:48:36 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/ebook2.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/ebook2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8704,7 +8688,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/shop-mega-menu/</link>
 		<pubDate>Tue, 07 Nov 2017 13:23:16 +0000</pubDate>
 		<dc:creator><![CDATA[getbowtied]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/shop-mega-menu.jpg</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/shop-mega-menu.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8765,7 +8749,7 @@
 		<link>https://import.getbowtied.com/shopkeeper-replica/woocommerce-placeholder/</link>
 		<pubDate>Sun, 21 Apr 2019 21:05:38 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replicawp-content/uploads/woocommerce-placeholder.png</guid>
+		<guid isPermaLink="false">http://import.getbowtied.com/shopkeeper-replica/wp-content/uploads/woocommerce-placeholder.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8857,10 +8841,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title></title>
@@ -8919,10 +8899,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8983,10 +8959,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Blog — Layout V2</title>
@@ -9040,15 +9012,11 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://www.getbowtied.com/documentation/shopkeeper/the-blog/blog-layout-options/]]></wp:meta_value>
+		<wp:meta_value><![CDATA[https://shopkeeper.wp-theme.help/hc/en-us/articles/115005627225]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9103,15 +9071,11 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://www.getbowtied.com/documentation/shopkeeper/the-blog/blog-layout-options/]]></wp:meta_value>
+		<wp:meta_value><![CDATA[https://shopkeeper.wp-theme.help/hc/en-us/articles/115005627225]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9172,10 +9136,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Shop — with Sidebar</title>
@@ -9229,15 +9189,11 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://www.getbowtied.com/documentation/shopkeeper/the-shop/shop-sidebar-setup/]]></wp:meta_value>
+		<wp:meta_value><![CDATA[https://shopkeeper.wp-theme.help/hc/en-us/articles/207284389]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9298,10 +9254,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Shop — Pages</title>
@@ -9360,10 +9312,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9424,10 +9372,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>About V2 — Designer / Light</title>
@@ -9486,10 +9430,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9550,10 +9490,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>V3 — Lookbook: Best Selling</title>
@@ -9612,10 +9548,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9676,10 +9608,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>V5 — Lookbook: Women</title>
@@ -9738,10 +9666,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9802,10 +9726,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>V11 — Coming Soon Splash</title>
@@ -9864,10 +9784,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9928,10 +9844,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Contact V1</title>
@@ -9990,10 +9902,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10054,10 +9962,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Small Biz. Owner Bio V2</title>
@@ -10116,10 +10020,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10180,10 +10080,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>V8 — Product Landing 2</title>
@@ -10242,10 +10138,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10306,10 +10198,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>V2 — Classic eCommerce 2</title>
@@ -10368,10 +10256,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10432,10 +10316,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>V9 — Categories Grid</title>
@@ -10494,10 +10374,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10558,10 +10434,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title></title>
@@ -10620,10 +10492,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10684,10 +10552,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Shop — Categories Grid</title>
@@ -10746,10 +10610,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10810,10 +10670,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Project Example 1</title>
@@ -10872,10 +10728,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10936,10 +10788,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Grid Examples</title>
@@ -10998,10 +10846,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -11062,10 +10906,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Project Example 2</title>
@@ -11124,10 +10964,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -11188,10 +11024,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Project Example 4</title>
@@ -11250,10 +11082,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -11314,10 +11142,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Masonry Style Grid V3</title>
@@ -11376,10 +11200,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -11440,10 +11260,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Classic Grid — 5 Equal Boxes</title>
@@ -11502,10 +11318,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -11566,10 +11378,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title></title>
@@ -11628,10 +11436,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[https://import.getbowtied.com/shopkeeper-replica//wp-content/uploads/menu-home.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -11692,10 +11496,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Shop — 3 Items per Row</title>
@@ -11754,10 +11554,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -11818,10 +11614,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Shop — 5 Items per Row</title>
@@ -11880,10 +11672,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -11944,10 +11732,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Layout Options</title>
@@ -12006,10 +11790,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -12070,10 +11850,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Shop — Archive</title>
@@ -12132,10 +11908,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -12196,10 +11968,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Product Types</title>
@@ -12258,10 +12026,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -12322,10 +12086,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Product Layout V4</title>
@@ -12384,10 +12144,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -12448,10 +12204,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Product — Variable (Color/Size/etc.)</title>
@@ -12511,10 +12263,6 @@
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Product Layout V1</title>
@@ -12573,10 +12321,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -13218,7 +12962,7 @@ Out</span></h2>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wpb_post_custom_css]]></wp:meta_key>
 		<wp:meta_value><![CDATA[@media only screen and (min-width: 1024px) {
-  .site-header {    
+  .site-header {
     padding-top: 60px;
   }
 }]]></wp:meta_value>
@@ -13362,10 +13106,6 @@ Style a Quiff</strong></span></h2>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Product Layout V3</title>
@@ -13424,10 +13164,6 @@ Style a Quiff</strong></span></h2>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -13488,10 +13224,6 @@ Style a Quiff</strong></span></h2>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Product Videos</title>
@@ -13550,10 +13282,6 @@ Style a Quiff</strong></span></h2>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -13614,10 +13342,6 @@ Style a Quiff</strong></span></h2>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title>Product — On Sale</title>
@@ -13676,10 +13400,6 @@ Style a Quiff</strong></span></h2>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -13740,10 +13460,6 @@ Style a Quiff</strong></span></h2>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title></title>
@@ -13802,10 +13518,6 @@ Style a Quiff</strong></span></h2>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_background_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_megamenu]]></wp:meta_key>
-		<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -21662,4 +21374,3 @@ Narwhal lomo American Apparel, fingerstache Wes Anderson yr drinking vinegar vir
 					</item>
 				</channel>
 </rss>
-	

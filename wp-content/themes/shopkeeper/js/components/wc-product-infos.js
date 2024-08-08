@@ -12,9 +12,9 @@ jQuery( function($) {
 
 	function product_infos_adjust() {
 		// if product description is too long
-		var productInfosHeight 			= $('.product .product_content_wrapper .product_infos').length ? $('.product .product_content_wrapper .product_infos').outerHeight() : 0;
+		var productInfosHeight 			= $('.product .product_content_wrapper .product_infos').outerHeight();
 		var productInfosPos	   			= $('.product .product_content_wrapper .product_infos').position().top;
-		var productInfosWidth  			= $('.product .product_content_wrapper .product_infos').length ? $('.product .product_content_wrapper .product_infos').outerWidth() : 0;
+		var productInfosWidth  			= $('.product .product_content_wrapper .product_infos').outerWidth();
 		var productContentWrapperOff 	= $('.product_content_wrapper').offset().top;
 
 		if (  (productInfosHeight >  $(window).innerHeight() - productContentWrapperOff) && ($(window).width() >= 1024) ) {
@@ -94,7 +94,7 @@ jQuery( function($) {
 				// set position of the product images controller layout 3
 				var controllerLayout3 	= $('.product_layout_3 .product-images-controller');
 				var productBadges 		= $('.product_layout_3 .product-badges');
-				var productTitleHeight 	= productTitle.length ? productTitle.outerHeight() : 0;
+				var productTitleHeight 	= productTitle.outerHeight();
 				controllerLayout3.css('top', productImagesWrapper.offset().top + productTitleHeight + 40);
 				productBadges.css('top', productTitleHeight + 40);
 			} else {

@@ -54,7 +54,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 								<p class="form-row form-footer">
 									<?php wp_nonce_field( 'woocommerce-login' ); ?>
-									<button type="submit" class="woocommerce-Button button" name="login" value="<?php echo esc_attr( 'Login', 'woocommerce' ); ?>"><?php esc_html_e( 'Login', 'woocommerce' ); ?></button>
+									<button type="submit" class="woocommerce-Button button" name="login" value="<?php esc_attr_e( 'Login', 'woocommerce' ); ?>"><?php esc_html_e( 'Login', 'woocommerce' ); ?></button>
 									<br/><br/>
 									<label for="rememberme" class="inline">
 										<input class="woocommerce-Input woocommerce-Input--checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <?php esc_html_e( 'Remember me', 'woocommerce' ); ?>
@@ -104,7 +104,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 								<p class="woocommerce-form-row form-row">
 									<?php wp_nonce_field( 'woocommerce-register', 'woocommerce-register-nonce' ); ?>
-									<button type="submit" class="woocommerce-Button button" name="register" value="<?php echo esc_attr( 'Register', 'woocommerce' ); ?>"><?php esc_html_e( 'Register', 'woocommerce' ); ?></button>
+									<button type="submit" class="woocommerce-Button button" name="register" value="<?php esc_attr_e( 'Register', 'woocommerce' ); ?>"><?php esc_html_e( 'Register', 'woocommerce' ); ?></button>
 								</p>
 
 								<?php do_action( 'woocommerce_register_form_end' ); ?>

@@ -350,9 +350,7 @@ select:focus,
 input:-moz-placeholder { font-weight: normal; color: #a1a1a1; }
 
 button,
-.button,
-.woocommerce .wishlist_table td.product-add-to-cart a
-{
+.button {
 	text-transform: uppercase;
 	font-size: 13px;
 }
@@ -2098,14 +2096,6 @@ body.archive .products li
 				top: -1px;
 			}
 		}
-	}
-}
-
-.rtl.woocommerce .products .product_thumbnail_icons
-{
-	@media #{$xlarge-down} {
-		left: -5px;
-		right: auto;
 	}
 }
 
@@ -4825,7 +4815,6 @@ div.blog-post:first-of-type
 		&.disabled
 		{
 			color: #8a8a8a;
-			opacity: 1;
 		}
 	}
 
@@ -5175,13 +5164,6 @@ li.display_buttons .product_after_shop_loop .product_after_shop_loop_switcher
 	&::after
 	{
 		content: none;
-	}
-
-	.rtl & {
-		&::after
-		{
-			content: none;
-		}
 	}
 }
 

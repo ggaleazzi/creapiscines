@@ -85,7 +85,7 @@ class GBT_Custom_Notifications {
 
 		wp_enqueue_style(
 			'getbowtied-custom-notifications-styles',
-			get_template_directory_uri() . '/inc/notifications/custom/assets/css/style.min.css',
+			get_template_directory_uri() . '/inc/notifications/custom/assets/css/style'.$suffix.'.css',
 			array(),
 			shopkeeper_theme_version(),
 			'all'

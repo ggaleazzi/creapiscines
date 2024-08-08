@@ -16,7 +16,7 @@ function shopkeeper_vendor_styles() {
     wp_enqueue_style( 'fresco', 		get_template_directory_uri() . '/css/vendor/fresco/fresco'.$suffix.'.css', NULL, '2.3.0', 'all' );
     wp_enqueue_style( 'easyzoom', 		get_template_directory_uri() . '/css/vendor/easyzoom'.$suffix.'.css', NULL, '2.4.0', 'all' );
     wp_enqueue_style( 'select2', 		get_template_directory_uri() . '/css/vendor/select2'.$suffix.'.css', NULL, '4.0.5', 'all' );
-    wp_enqueue_style( 'swiper', 		get_template_directory_uri() . '/css/vendor/swiper.min.css', NULL, '6.4.1', 'all' );
+    wp_enqueue_style( 'swiper', 		get_template_directory_uri() . '/css/vendor/swiper'.$suffix.'.css', NULL, '5.2.0', 'all' );
 }
 add_action( 'wp_enqueue_scripts', 'shopkeeper_vendor_styles' );
 

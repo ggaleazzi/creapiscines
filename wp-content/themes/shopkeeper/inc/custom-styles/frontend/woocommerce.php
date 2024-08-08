@@ -49,11 +49,6 @@ $custom_styles .= '
 		background:  ' . Shopkeeper_Opt::getOption( 'sale_badge_color', '#93af76' ) . ';
 	}
 
-	.shopkeeper_new_product
-	{
-		background-color:  ' . Shopkeeper_Opt::getOption( 'new_product_badge_color', '#EC7A5C' ) . ';
-	}
-
 	.cd-quick-view .cd-item-info .product_infos:after
 	{
 		background: linear-gradient(to bottom, rgba(205,255,255,0) 0% ' . $quickview_bg . ');

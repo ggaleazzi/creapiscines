@@ -71,11 +71,6 @@ function shopkeeper_customizer_deactivate_ajax_add_to_cart() {
 		$active_option['plugin'] .= 'incompatible-gift-card ';
     }
 
-    if( defined('WCGWP_VERSION') ) {
-        $active_option['active_option'] = '0';
-		$active_option['plugin'] .= 'incompatible-gift-wrapper ';
-    }
-
 	wp_localize_script( 'shopkeeper-customizer', 'getbowtied_woo_customizer_vars', $active_option );
 }
 if( SHOPKEEPER_WOOCOMMERCE_IS_ACTIVE ) {

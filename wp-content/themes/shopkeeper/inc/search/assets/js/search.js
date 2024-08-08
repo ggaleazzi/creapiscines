@@ -4,7 +4,7 @@
  *
  *  Ajax Autocomplete for jQuery is freely distributable under the terms of an MIT-style license.
  *  For details, see the web site: https://github.com/devbridge/jQuery-Autocomplete
- *
+ *  
  *  Modified by Damian Góra: http://damiangora.com
  */
 
@@ -278,8 +278,8 @@
             that.intervalId = window.setInterval( function () {
                 if ( that.visible ) {
 
-                    // No need to restore value when
-                    // preserveInput === true,
+                    // No need to restore value when 
+                    // preserveInput === true, 
                     // because we did not change it
                     if ( !that.options.preserveInput ) {
                         that.el.val( that.currentValue );
@@ -625,7 +625,7 @@
             that.findBestHint();
         },
         noSuggestions: function () {
-
+            
             // var that = this,
             //     container = $( that.suggestionsContainer ),
             //     noSuggestionsContainer = $( that.noSuggestionsContainer );
@@ -680,7 +680,7 @@
         },
         /*
          * Manages preloader
-         *
+         * 
          * @param action (show or hide)
          * @param container (parent selector)
          * @param cssClass
@@ -692,7 +692,7 @@
                 defaultClass = 'search-preloader-wrapp',
                 cssClasses = cssClass == null ? defaultClass : defaultClass + ' ' + cssClass;
 
-            // Disable preloader and check if container exist
+            // Disable preloader and check if container exist  
 
             if ( search.show_preloader != 1 || container.length == 0 ) {
                 return;

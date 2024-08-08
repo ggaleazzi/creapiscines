@@ -9,14 +9,7 @@
                 display: flex;
 
                 .flex-viewport {
-                    max-width: 84%;
                     width: 84% !important;
-
-                    @-moz-document url-prefix() {
-                        img {
-                            max-width: calc( 84% - 0.625rem );
-                        }
-                    }
 
                     img,
                     a.video iframe

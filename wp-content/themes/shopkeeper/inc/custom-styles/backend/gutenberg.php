@@ -16,9 +16,7 @@ $h4_size_mobile = $mobile_base_size * 1;
 $h5_size_mobile = $mobile_base_size * 0.75;
 
 $custom_gutenberg_styles = '
-	.post-type-post .edit-post-visual-editor .wp-block,
-	.post-type-post .edit-post-visual-editor .block-editor-block-list__block,
-	.post-type-post .edit-post-visual-editor .wp-block .block-editor-block-list__block
+	.post-type-post .edit-post-visual-editor .wp-block
 	{
 		max-width:' . Shopkeeper_Opt::getOption( 'single_post_width', 708 ) . 'px;
 	}
@@ -35,31 +33,25 @@ $custom_gutenberg_styles = '
 		color: ' . Shopkeeper_Opt::getOption( 'main_background_color', '#FFFFFF' ) . ';
 	}
 
-	.edit-post-visual-editor h1.block-editor-block-list__block,
-	.edit-post-visual-editor .block-editor-block-list__block h1,
-	.edit-post-visual-editor h2.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h2,
-	.edit-post-visual-editor h3.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h3,
-	.edit-post-visual-editor h4.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h4,
-	.edit-post-visual-editor h5.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h5,
-	.edit-post-visual-editor h6.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h6,
-	.edit-post-visual-editor .block-editor-block-list__block label:not(.components-placeholder__label),
-	.edit-post-visual-editor .block-editor-block-list__block table thead tr th,
-	.edit-post-visual-editor .block-editor-block-list__block input[type="reset"],
-	.edit-post-visual-editor .block-editor-block-list__block input[type="submit"],
+	.edit-post-visual-editor .wp-block h1,
+	.edit-post-visual-editor .wp-block h2,
+	.edit-post-visual-editor .wp-block h3,
+	.edit-post-visual-editor .wp-block h4,
+	.edit-post-visual-editor .wp-block h5,
+	.edit-post-visual-editor .wp-block h6,
+	.edit-post-visual-editor .wp-block label:not(.components-placeholder__label),
+	.edit-post-visual-editor .wp-block table thead tr th,
+	.edit-post-visual-editor .wp-block input[type="reset"],
+	.edit-post-visual-editor .wp-block input[type="submit"],
 	.wp-block-latest-posts a,
 	.wp-block-button,
 	.wp-block-cover .wp-block-cover-text,
 	.wp-block-subhead,
 	.wp-block-image	figcaption,
-	.block-editor-block-list__block .wp-block-pullquote .editor-rich-text p,
-	.block-editor-block-list__block .wp-block-quote .editor-rich-text p,
-	.block-editor-block-list__block .wp-block-pullquote .wp-block-pullquote__citation,
-	.block-editor-block-list__block .wp-block-quote .wp-block-quote__citation,
+	.wp-block .wp-block-pullquote .editor-rich-text p,
+	.wp-block .wp-block-quote .editor-rich-text p,
+	.wp-block .wp-block-pullquote .wp-block-pullquote__citation,
+	.wp-block .wp-block-quote .wp-block-quote__citation,
 	.gbt_18_sk_latest_posts_title,
 	.gbt_18_sk_editor_banner_title,
 	.gbt_18_sk_editor_slide_title_input,
@@ -83,13 +75,13 @@ $custom_gutenberg_styles = '
 	.wp-block-search .wp-block-search__button,
 	.gbt_18_sk_posts_grid_more_link,
 	.gbt_18_carousel_product_button,
-	.editor-styles-wrapper .block-editor-block-list__block[data-type="woocommerce/active-filters"] .wc-block-component-title,
-	.editor-styles-wrapper .block-editor-block-list__block[data-type="woocommerce/attribute-filter"] .wc-block-component-title,
-	.editor-styles-wrapper .block-editor-block-list__block[data-type="woocommerce/price-filter"] .wc-block-component-title,
-	.block-editor-block-list__block[data-type="woocommerce/active-filters"] ul.wc-block-active-filters-list li .wc-block-active-filters-list-item__type,
-	.block-editor-block-list__block[data-type="woocommerce/active-filters"] .wc-block-active-filters__clear-all,
+	.editor-styles-wrapper .wp-block[data-type="woocommerce/active-filters"] .wc-block-component-title,
+	.editor-styles-wrapper .wp-block[data-type="woocommerce/attribute-filter"] .wc-block-component-title,
+	.editor-styles-wrapper .wp-block[data-type="woocommerce/price-filter"] .wc-block-component-title,
+	.wp-block[data-type="woocommerce/active-filters"] ul.wc-block-active-filters-list li .wc-block-active-filters-list-item__type,
+	.wp-block[data-type="woocommerce/active-filters"] .wc-block-active-filters__clear-all,
 	.gbt_18_sk_categories_grid .gbt_18_sk_editor_categories_grid .gbt_18_sk_category_name,
-	.block-editor-block-list__block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li.show-more button
+	.wp-block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li.show-more button
 	{
 		font-family: ' . Shopkeeper_Fonts::get_main_font() . ';
 	}
@@ -100,68 +92,64 @@ $custom_gutenberg_styles = '
 		font-family: ' . Shopkeeper_Fonts::get_main_font() . '!important;
 	}
 
-	.edit-post-visual-editor .block-editor-block-list__block
+	.edit-post-visual-editor .wp-block p,
+	.edit-post-visual-editor .wp-block textarea:not(.editor-post-title__input),
+	.gbt_18_sk_editor_banner_subtitle,
+	.gbt_18_sk_editor_slide_description_input,
+	.edit-post-visual-editor .wp-block select,
+	.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-link .wc-block-grid__product-title,
+	.wc-block-grid__product-title,
+	.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title a,
+	.wp-block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li label
 	{
 		font-family: ' . Shopkeeper_Fonts::get_secondary_font() . ';
 	}
 
-	.edit-post-visual-editor .block-editor-block-list__block input
+	.edit-post-visual-editor .wp-block input,
+	.editor-styles-wrapper .wp-block
 	{
 		font-family: ' . Shopkeeper_Fonts::get_secondary_font() . ' !important;
 	}
 
-	.edit-post-visual-editor .block-editor-block-list__block p,
-	.edit-post-visual-editor .block-editor-block-list__block textarea:not(.editor-post-title__input),
-	.gbt_18_sk_editor_banner_subtitle,
-	.gbt_18_sk_editor_slide_description_input,
-	.edit-post-visual-editor .block-editor-block-list__block select,
-	.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-link .wc-block-grid__product-title,
-	.wc-block-grid__product-title,
-	.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title a,
-	.block-editor-block-list__block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li label
-	{
-		font-family: ' . Shopkeeper_Fonts::get_secondary_font() . ';
-	}
-
-	.block-editor-block-list__block input[type="radio"]:after,
-	.block-editor-block-list__block .input-radio:after,
-	.block-editor-block-list__block input[type="checkbox"]:after,
-	.block-editor-block-list__block .input-checkbox:after
+	.wp-block input[type="radio"]:after,
+	.wp-block .input-radio:after,
+	.wp-block input[type="checkbox"]:after,
+	.wp-block .input-checkbox:after
 	{
 		border: 2px solid rgba(' . shopkeeper_hex2rgb( Shopkeeper_Opt::getOption( 'body_color', '#545454' ) ) . ',0.8);
 	}
 
-	.editor-styles-wrapper .block-editor-block-list__block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li input[type=checkbox]:after
+	.editor-styles-wrapper .wp-block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li input[type=checkbox]:after
 	{
 		border-color: rgba(' . shopkeeper_hex2rgb( Shopkeeper_Opt::getOption( 'body_color', '#545454' ) ) . ',0.8);
 	}
 
-	.block-editor-block-list__block input[type="radio"]:checked:after,
-	.block-editor-block-list__block .input-radio:checked:after,
-	.block-editor-block-list__block input[type="checkbox"]:checked:after,
-	.block-editor-block-list__block .input-checkbox:checked:after
+	.wp-block input[type="radio"]:checked:after,
+	.wp-block .input-radio:checked:after,
+	.wp-block input[type="checkbox"]:checked:after,
+	.wp-block .input-checkbox:checked:after
 	{
 		border-color: ' . Shopkeeper_Opt::getOption( 'main_color', '#EC7A5C' ) . '!important;
 	}
 
-	.block-editor-block-list__block input[type="checkbox"]:checked:after,
-	.block-editor-block-list__block .input-checkbox:checked:after,
+	.wp-block input[type="checkbox"]:checked:after,
+	.wp-block .input-checkbox:checked:after,
 	.wc-block-featured-product .wp-block-button__link,
 	.wc-block-featured-category .wp-block-button__link
 	{
 		background-color: ' . Shopkeeper_Opt::getOption( 'main_color', '#EC7A5C' ) . ';
 	}
 
-	.block-editor-block-list__block input[type="radio"]:checked:before,
-	.block-editor-block-list__block .input-radio:checked:before,
+	.wp-block input[type="radio"]:checked:before,
+	.wp-block .input-radio:checked:before,
 	.wp-block-search .wp-block-search__button
 	{
 		background-color: ' . Shopkeeper_Opt::getOption( 'main_color', '#EC7A5C' ) . '!important;
 	}
 
-	.block-editor-block-list__block input,
-	.block-editor-block-list__block textarea:not(.editor-post-title__input),
-	.block-editor-block-list__block select,
+	.wp-block input,
+	.wp-block textarea:not(.editor-post-title__input),
+	.wp-block select,
 	.editor-styles-wrapper .gbt_18_editor_slide_content .gbt_18_editor_slide_content_left .gbt_18_editor_slide_content_left_inner .gbt_18_editor_slide_link
 	{
 		border-color: rgba(' . shopkeeper_hex2rgb( Shopkeeper_Opt::getOption( 'body_color', '#545454' ) ) . ',0.1) !important;
@@ -172,7 +160,7 @@ $custom_gutenberg_styles = '
 	.edit-post-visual-editor .wc-block-featured-product h2.wc-block-featured-category__title,
 	.edit-post-visual-editor .wc-block-featured-category h2.wc-block-featured-category__title,
 	.wc-block-featured-product .wc-block-featured-product__wrapper,
-	.edit-post-visual-editor .block-editor-block-list__block .wc-block-featured-product h3
+	.edit-post-visual-editor .wp-block .wc-block-featured-product h3
 	{
 		color: ' . Shopkeeper_Opt::getOption( 'main_background', array('background-color' => '#FFFFFF') )['background-color'] . ';
 	}
@@ -216,8 +204,8 @@ $custom_gutenberg_styles = '
 	.gbt_18_editor_slide_content_left .gbt_18_editor_slide_content_left_inner .gbt_18_editor_slide_price,
 	.gbt_18_sk_posts_grid_more_link:hover,
 	.wc-block-grid .wc-block-pagination button,
-	.block-editor-block-list__block[data-type="woocommerce/active-filters"] .wc-block-active-filters__clear-all,
-	.block-editor-block-list__block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li.show-more button
+	.wp-block[data-type="woocommerce/active-filters"] .wc-block-active-filters__clear-all,
+	.wp-block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li.show-more button
 	{
 		color: ' . Shopkeeper_Opt::getOption( 'main_color', '#EC7A5C' ) . ';
 	}
@@ -228,7 +216,7 @@ $custom_gutenberg_styles = '
 	}
 
 	.gbt_18_sk_posts_grid_more_link:hover:before,
-	.block-editor-block-list__block[data-type="woocommerce/active-filters"] .wc-block-active-filters-list button:before
+	.wp-block[data-type="woocommerce/active-filters"] .wc-block-active-filters-list button:before
 	{
 		background-color: ' . Shopkeeper_Opt::getOption( 'main_color', '#EC7A5C' ) . ';
 	}
@@ -236,20 +224,20 @@ $custom_gutenberg_styles = '
 	.editor-styles-wrapper,
 	.edit-post-visual-editor,
 	.edit-post-visual-editor .wp-block-quote__citation,
-	.edit-post-visual-editor .block-editor-block-list__block p,
-	.edit-post-visual-editor .block-editor-block-list__block table tr th,
-	.edit-post-visual-editor .block-editor-block-list__block table tr td,
-	.edit-post-visual-editor .block-editor-block-list__block table thead tr th,
-	.edit-post-visual-editor .block-editor-block-list__block pre,
-	.edit-post-visual-editor .block-editor-block-list__block li,
-	.edit-post-visual-editor .block-editor-block-list__block label:not(.components-placeholder__label),
+	.edit-post-visual-editor .wp-block p,
+	.edit-post-visual-editor .wp-block table tr th,
+	.edit-post-visual-editor .wp-block table tr td,
+	.edit-post-visual-editor .wp-block table thead tr th,
+	.edit-post-visual-editor .wp-block pre,
+	.edit-post-visual-editor .wp-block li,
+	.edit-post-visual-editor .wp-block label:not(.components-placeholder__label),
 	.wp-block-latest-posts__post-date,
 	.wp-block-gallery .blocks-gallery-item figcaption,
 	.wp-block-audio figcaption,
 	.wp-block-image figcaption,
 	.wp-block-video figcaption,
 	.wc-block-grid__product-price.price del,
-	.editor-styles-wrapper .block-editor-block-list__block textarea:not(.editor-post-title__input).block-editor-default-block-appender__content
+	.editor-styles-wrapper .wp-block textarea:not(.editor-post-title__input).block-editor-default-block-appender__content
 	{
 		color: ' . Shopkeeper_Opt::getOption( 'body_color', '#545454' ) . ';
 	}
@@ -260,20 +248,14 @@ $custom_gutenberg_styles = '
 	}
 
 	.editor-post-title__block .editor-post-title__input,
-	.edit-post-visual-editor .block-editor-block-list__block blockquote:not(.has-text-color) p,
-	.edit-post-visual-editor h1.block-editor-block-list__block,
-	.edit-post-visual-editor .block-editor-block-list__block h1,
-	.edit-post-visual-editor h2.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h2,
-	.edit-post-visual-editor h3.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h3,
-	.edit-post-visual-editor h4.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h4,
-	.edit-post-visual-editor h5.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h5,
-	.edit-post-visual-editor h6.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h6,
-	.block-editor-block-list__block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li label
+	.edit-post-visual-editor .wp-block blockquote:not(.has-text-color) p,
+	.edit-post-visual-editor .wp-block h1,
+	.edit-post-visual-editor .wp-block h2,
+	.edit-post-visual-editor .wp-block h3,
+	.edit-post-visual-editor .wp-block h4,
+	.edit-post-visual-editor .wp-block h5,
+	.edit-post-visual-editor .wp-block h6,
+	.wp-block[data-type="woocommerce/attribute-filter"] ul.wc-block-checkbox-list li label
 	{
 		color: ' . Shopkeeper_Opt::getOption( 'headings_color', '#000000' ) . ';
 	}
@@ -303,49 +285,24 @@ $custom_gutenberg_styles = '
 
 	@media only screen and (min-width: 1024px)
 	{
-		.editor-styles-wrapper .block-editor-block-list__block p,
-		.editor-styles-wrapper .block-editor-block-list__block ul li ul,
-		.editor-styles-wrapper .block-editor-block-list__block ul li ol,
-		.editor-styles-wrapper .block-editor-block-list__block ul,
-		.editor-styles-wrapper .block-editor-block-list__block ol,
-		.editor-styles-wrapper .block-editor-block-list__block dl
+		.editor-styles-wrapper .wp-block p,
+		.editor-styles-wrapper .wp-block ul li ul,
+		.editor-styles-wrapper .wp-block ul li ol,
+		.editor-styles-wrapper .wp-block ul,
+		.editor-styles-wrapper .wp-block ol,
+		.editor-styles-wrapper .wp-block dl
 		{
 			font-size: ' . Shopkeeper_Opt::getOption( 'body_font_size', 16 ) . 'px;
 		}
 	}
 
-	.edit-post-visual-editor h1.block-editor-block-list__block,
-	.edit-post-visual-editor .block-editor-block-list__block h1
-	{
-		font-size: ' . esc_html( $h1_size_mobile ) . 'px;
-	}
+	.edit-post-visual-editor .wp-block h1 { font-size: ' . esc_html( $h1_size_mobile ) . 'px; }
+	.edit-post-visual-editor .wp-block h2 { font-size: ' . esc_html( $h2_size_mobile ) . 'px; }
+	.edit-post-visual-editor .wp-block h3, .wp-block-latest-posts li > a { font-size: ' . esc_html( $h3_size_mobile ) . 'px; }
+	.edit-post-visual-editor .wp-block h4 { font-size: ' . esc_html( $h4_size_mobile ) . 'px; }
+	.edit-post-visual-editor .wp-block h5 { font-size: ' . esc_html( $h5_size_mobile ) . 'px; }
 
-	.edit-post-visual-editor h2.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h2
-	{
-		font-size: ' . esc_html( $h2_size_mobile ) . 'px;
-	}
-
-	.edit-post-visual-editor h3.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h3,
-	.wp-block-latest-posts li > a
-	{
-		font-size: ' . esc_html( $h3_size_mobile ) . 'px;
-	}
-
-	.edit-post-visual-editor h4.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h4
-	{
-		font-size: ' . esc_html( $h4_size_mobile ) . 'px;
-	}
-
-	.edit-post-visual-editor h5.block-editor-block-list__block,
-    .edit-post-visual-editor .block-editor-block-list__block h5
-	{
-		font-size: ' . esc_html( $h5_size_mobile ) . 'px;
-	}
-
-	.edit-post-visual-editor .block-editor-block-list__block p.has-drop-cap:first-letter,
+	.edit-post-visual-editor .wp-block p.has-drop-cap:first-letter,
 	.editor-post-title__input
 	{
 		font-size: ' . esc_html( $h0_size_mobile ) . 'px !important;
@@ -353,44 +310,13 @@ $custom_gutenberg_styles = '
 
 	@media only screen and (min-width: 768px) {
 
-		.edit-post-visual-editor h1.block-editor-block-list__block,
-		.edit-post-visual-editor .block-editor-block-list__block h1
-		{
-			font-size: ' . esc_html( $h1_size ) . 'px;
-		}
+		.edit-post-visual-editor .wp-block h1 { font-size: ' . esc_html( $h1_size ) . 'px; }
+		.edit-post-visual-editor .wp-block h2 { font-size: ' . esc_html( $h2_size ) . 'px; }
+		.edit-post-visual-editor .wp-block h3, .wp-block-latest-posts li > a { font-size: ' . esc_html( $h3_size ) . 'px; }
+		.edit-post-visual-editor .wp-block h4 { font-size: ' . esc_html( $h4_size ) . 'px; }
+		.edit-post-visual-editor .wp-block h5 { font-size: ' . esc_html( $h5_size ) . 'px; }
 
-		.edit-post-visual-editor h2.block-editor-block-list__block,
-	    .edit-post-visual-editor .block-editor-block-list__block h2
-		{
-			font-size: ' . esc_html( $h2_size ) . 'px;
-		}
-
-		.edit-post-visual-editor h3.block-editor-block-list__block,
-	    .edit-post-visual-editor .block-editor-block-list__block h3,
-		.wp-block-latest-posts li > a
-		{
-			font-size: ' . esc_html( $h3_size ) . 'px;
-		}
-
-		.edit-post-visual-editor h4.block-editor-block-list__block,
-	    .edit-post-visual-editor .block-editor-block-list__block h4
-		{
-			font-size: ' . esc_html( $h4_size ) . 'px;
-		}
-
-		.edit-post-visual-editor h5.block-editor-block-list__block,
-	    .edit-post-visual-editor .block-editor-block-list__block h5
-		{
-			font-size: ' . esc_html( $h5_size ) . 'px;
-		}
-
-		.edit-post-visual-editor .block-editor-block-list__block p.has-drop-cap:first-letter,
-		.editor-post-title__input
-		{
-			font-size: ' . esc_html( $h0_size_mobile ) . 'px !important;
-		}
-
-		.edit-post-visual-editor .block-editor-block-list__block p.has-drop-cap:first-letter,
+		.edit-post-visual-editor .wp-block p.has-drop-cap:first-letter,
 		.editor-post-title__input
 		{
 			font-size: ' . esc_html( $h0_size ) . 'px !important;
@@ -430,9 +356,9 @@ if( SHOPKEEPER_PRODUCT_BLOCKS_IS_ACTIVE ) {
 		.gbt_18_editor_lookbook_sts_product_content ul.gbt_18_lookbook_sts_products li.gbt_18_lookbook_sts_product .gbt_18_lookbook_sts_product_title,
 		.gbt_18_editor_slide_content_left .gbt_18_editor_slide_content_left_inner .gbt_18_editor_slide_title,
 		.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title a,
-		.editor-styles-wrapper .block-editor-block-list__block[data-type="woocommerce/active-filters"] .wc-block-component-title,
-		.editor-styles-wrapper .block-editor-block-list__block[data-type="woocommerce/attribute-filter"] .wc-block-component-title,
-		.editor-styles-wrapper .block-editor-block-list__block[data-type="woocommerce/price-filter"] .wc-block-component-title
+		.editor-styles-wrapper .wp-block[data-type="woocommerce/active-filters"] .wc-block-component-title,
+		.editor-styles-wrapper .wp-block[data-type="woocommerce/attribute-filter"] .wc-block-component-title,
+		.editor-styles-wrapper .wp-block[data-type="woocommerce/price-filter"] .wc-block-component-title
 		{
 			color: ' . Shopkeeper_Opt::getOption( 'headings_color', '#000000' ) . ';
 		}

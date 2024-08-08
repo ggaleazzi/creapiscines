@@ -42,43 +42,6 @@
             {
                 margin-right: 0;
             }
-
-            .shopkeeper_new_product {
-                min-height: 0;
-            	min-width: 0;
-            	padding: 2px 8px 0px 8px;
-            	font-size: 10px;
-            	font-weight: bold;
-            	text-align: center;
-            	line-height: 1.5em;
-            	left: auto;
-            	margin: 0;
-            	border-radius: 0;
-            	position: absolute;
-            	top: 15px;
-            	left: 15px;
-            	right: auto !important;
-            	text-shadow: none;
-            	color: #ffffff;
-            	box-shadow: none;
-            	text-transform:uppercase;
-            	max-width: calc( 100% - 30px );
-            	width: auto;
-            	z-index:8;
-            	animation-fill-mode: both;
-            	animation-duration: 1s;
-            	display: inline-block;
-            	animation-name: flipInY;
-            }
-
-            .onsale + .shopkeeper_new_product,
-            .out_of_stock_badge_loop + .shopkeeper_new_product {
-                top: 40px;
-            }
-
-            .out_of_stock_badge_loop + .onsale + .shopkeeper_new_product {
-                top: 65px;
-            }
         }
 
         @media only screen and (min-width: 769px) {
@@ -168,69 +131,6 @@
                         &.first
                         {
                             clear: none;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-.rtl.woocommerce,
-.rtl.woocommerce-page,
-.rtl .woocommerce
-{
-    ul.products
-    {
-        li.product
-        {
-
-            @media only screen and (min-width: 769px) {
-                margin: 0 0 25px 25px;
-
-                &.last
-                {
-                    margin-left: 0;
-                }
-            }
-        }
-
-        @media only screen and (min-width: 769px) {
-
-            &.columns-5
-            {
-                li.product
-                {
-                    @media only screen and (max-width: 1024px) {
-                        &.last
-                        {
-                            margin-right: 0;
-                            margin-left: 25px;
-                        }
-                        &:nth-child(4n+4)
-                        {
-                            margin-right: 0;
-                            margin-left: 0;
-                        }
-                    }
-                }
-            }
-
-            &.columns-6
-            {
-                li.product
-                {
-                    @media only screen and (max-width: 1024px) {
-                        &.last
-                        {
-                            margin-right: 0;
-                            margin-left: 25px;
-                        }
-                        &:nth-child(4n+4)
-                        {
-                            margin-right: 0;
-                            margin-left: 0;
                         }
                     }
                 }

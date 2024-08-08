@@ -6,7 +6,7 @@ $right_menu_align   = ( '22' === Shopkeeper_Opt::getOption( 'main_header_layout'
 
 ?>
 
-<header id="masthead" class="site-header centered <?php echo esc_attr($header_width); ?>" role="banner">
+<header id="masthead" class="site-header centered <?php esc_attr_e($header_width); ?>" role="banner">
     <div class="row">
         <div class="site-header-wrapper">
 

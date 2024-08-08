@@ -35,7 +35,6 @@ remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_pr
 
 add_action( 'woocommerce_shop_loop_item_add_to_cart', 'woocommerce_template_loop_add_to_cart', 10 );
 add_action( 'woocommerce_shop_loop_item_sale_badge', 'woocommerce_show_product_loop_sale_flash', 10 );
-add_action( 'woocommerce_shop_loop_item_sale_badge', 'shopkeeper_new_product_badge', 10 );
 
 if( '1' == Shopkeeper_Opt::getOption( 'add_to_cart_display', '1' ) ) {
     remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
@@ -91,15 +90,16 @@ if( Shopkeeper_Opt::getOption( 'second_image_product_listing', true ) ) {
 	                }
 	            ?>
 	        </div><!--.product_thumbnail-->
-		</a>
 
-		<?php if( !Shopkeeper_Opt::getOption( 'catalog_mode', false ) ) : ?>
-			<?php if ( !$product->is_in_stock() && !empty( Shopkeeper_Opt::getOption( 'out_of_stock_label', 'Out of stock' ) ) ) : ?>
-				<div class="out_of_stock_badge_loop">
-					<?php printf( __( '%s', 'woocommerce' ), Shopkeeper_Opt::getOption( 'out_of_stock_label', 'Out of stock' )); ?>
-				</div>
-			<?php endif; ?>
-		<?php endif; ?>
+	        <?php if( !Shopkeeper_Opt::getOption( 'catalog_mode', false ) ) : ?>
+	            <?php if ( !$product->is_in_stock() && !empty( Shopkeeper_Opt::getOption( 'out_of_stock_label', 'Out of stock' ) ) ) : ?>
+	                <div class="out_of_stock_badge_loop">
+	                    <?php printf( __( '%s', 'woocommerce' ), Shopkeeper_Opt::getOption( 'out_of_stock_label', 'Out of stock' )); ?>
+	                </div>
+	            <?php endif; ?>
+	        <?php endif; ?>
+
+		</a>
 
 		<?php do_action( 'woocommerce_shop_loop_item_sale_badge' ); ?>
 

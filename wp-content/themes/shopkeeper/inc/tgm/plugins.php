@@ -19,7 +19,7 @@ function getbowtied_theme_register_required_plugins() {
             'external_url'       => '',
             'description'        => 'The page builder plugin coming with the theme.',
             'demo_required'      => true,
-            'version'            => '6.8.0'
+            'version'            => '6.2.0'
         ),
         'woocommerce-colororimage-variation-select' => array(
             'name'               => 'WooSwatches - Woocommerce Color or Image Variation Swatches',
@@ -29,7 +29,7 @@ function getbowtied_theme_register_required_plugins() {
             'external_url'       => '',
             'description'        => 'Convert variable select box into color or image select.',
             'demo_required'      => false,
-            'version'            => '3.3.11'
+            'version'            => '2.8.7'
         ),
         'one-click-demo-import'=> array(
             'name'               => 'One Click Demo Import',

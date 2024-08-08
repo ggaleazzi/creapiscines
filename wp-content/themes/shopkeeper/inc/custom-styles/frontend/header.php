@@ -134,8 +134,7 @@ $custom_styles .= '
 		.transparent_header .single-post-header.with-thumb,
 		.transparent_header .page-title-hidden:not(.boxed-page),
 		.transparent_header .entry-header-page.with-featured-img,
-		.transparent_header .shop_header.with_featured_img,
-		.transparent_header .entry-header.with_featured_img
+		.transparent_header .shop_header.with_featured_img
 		{
 			margin-top: -' . $content_margin . 'px;
 		}

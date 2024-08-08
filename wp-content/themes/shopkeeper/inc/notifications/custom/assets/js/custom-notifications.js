@@ -85,8 +85,13 @@
 		},
 		readNotice: function (element, index, total, selector, dynamic) {
 			$(".page-notifications").css( 'top', $('.top-headers-wrapper').outerHeight() + $('#wpadminbar').outerHeight() );
-			var noticeType = selector.match(/-(error|message|info|notice|success)/);
-			noticeType = !noticeType || !noticeType[1] ? 'success' : noticeType[1];
+			var noticeType = 'success';
+
+			if (selector.indexOf('error') > -1) {
+				noticeType = 'error';
+			} else if (selector.indexOf('info') > -1) {
+				noticeType = 'info';
+			}
 
 			if (index <= total) {
 				gbt_cn.storeMessage(element, noticeType, dynamic);
@@ -94,9 +99,7 @@
 			if (index == total) {
 				gbt_cn.clearPopupMessages();
 				gbt_cn.addMessagesToPopup();
-				setTimeout(function(){
-					gbt_cn.openPopup(element);
-				}, 100);
+				gbt_cn.openPopup(element);
 				setTimeout(function(){
 					gbt_cn.messages = [];
 				}, 1000);
@@ -152,29 +155,39 @@
 			return iconClass;
 		},
 		addMessagesToPopup: function (notice) {
+			var delay_in = 0.5;
+			var delay_out = 0.5 + 0.5 * gbt_cn.messages.length;
+			var notif_delay = "";
+			var notif_text_delay = "";
 			var notification;
 
 			$.each(gbt_cn.messages, function (index, value) {
 				var additional_icon_class = gbt_cn.getAdditionalIconClass(value.type);
 				var dynamicClass = value.dynamic ? 'gbt-cn-dynamic' : 'gbt-cn-static';
 
+				if( gbt_cn_info.slide_out == 1 ) {
+					notif_delay = "animation-delay: " + delay_in + "s, " + ( delay_out + 3 ) + "s";
+					notif_text_delay = ( delay_in + 0.75 ) + "s, " + ( delay_out + 3.15 )  + "s";
+				} else {
+					notif_delay = "animation-delay: " + delay_in + "s";
+					notif_text_delay = ( delay_in + 0.75 ) + "s";
+				}
+
 				if(value.message != "") {
 					if(value.message.indexOf('product_notification_background') >= 0) { // build notification for added to cart product
-						notification = $('#gbt-custom-notification-notice .gbt-custom-notification-content').append("<div class='gbt-custom-notification-notice " + value.type + ' ' + dynamicClass + " '>" + value.message + "</div>");
+						notification = $('#gbt-custom-notification-notice .gbt-custom-notification-content').append("<div class='gbt-custom-notification-notice " + value.type + ' ' + dynamicClass + " ' style='" + notif_delay + "'>" + value.message + "</div>");
+						notification.find('.product_notification_text').css('animation-delay', notif_text_delay);
 					} else { // build default notification
-						$('#gbt-custom-notification-notice .gbt-custom-notification-content').append("<div class='gbt-custom-notification-notice " + value.type + ' ' + dynamicClass + " '><i class='gbt-custom-notification-notice-icon " + additional_icon_class + "'></i><div class='gbt-custom-notification-message'><div>" + value.message + "</div></div></div>");
+						$('#gbt-custom-notification-notice .gbt-custom-notification-content').append("<div class='gbt-custom-notification-notice " + value.type + ' ' + dynamicClass + " ' style='" + notif_delay + "'><i class='gbt-custom-notification-notice-icon " + additional_icon_class + "'></i><div class='gbt-custom-notification-message' style='animation-delay:" + notif_text_delay + "'><div>" + value.message + "</div></div></div>");
 					}
+
+					delay_in  = delay_in + 0.5;
+					delay_out = delay_out - 0.5;
 				}
 			});
 		},
 		openPopup: function () {
 			$('.gbt-custom-notification-notice').addClass('open-notice');
-
-			if( $('.page-notifications').hasClass('slide-out') ) {
-				setTimeout(function(){
-					$('.gbt-custom-notification-notice').removeClass('open-notice').addClass('close-notice');
-				}, 2250);
-			}
 		}
 	};
 
@@ -187,7 +200,9 @@
 
 		// Close notification on click
 		$(document).on( 'click', '.page-notifications.slide-in .gbt-custom-notification-notice', function(){
-			$(this).removeClass('open-notice').addClass('close-notice');
+			$(this).find('.product_notification_text').removeAttr( 'style' );
+			$(this).find('.gbt-custom-notification-message').removeAttr( 'style' );
+			$(this).removeAttr( 'style' ).removeClass('open-notice').addClass('close-notice');
 		});
 
 		//  Simple Product - Build and display notification on ajax add to cart
@@ -197,14 +212,14 @@
 			if( $('body').find('.product_layout_classic').length > 0 ) {
 				var imgSrc = $('.woocommerce-product-gallery .woocommerce-product-gallery__wrapper > .woocommerce-product-gallery__image img').attr('src') || "";
 			} else {
-				var imgSrc = $('.woocommerce-product-gallery__wrapper .product_images .product-image:first-child img').attr('src') || "";
+				var imgSrc = $('.woocommerce-product-gallery__wrapper .product_images .product-image:first-child a img').attr('src') || "";
 			}
 
 			// get product's title
 			var prodTitle = $('.product_title').html() || "";
 
 			gbt_cn_onAddedToCart($(this), 'added', function() {
-				$('#content').prepend('<div class="woocommerce-message"><div class="product_notification_wrapper"><div class="product_notification_background"><img src="'+imgSrc+'" alt="Notification Image" /></div><div class="product_notification_text"><div>' + gbt_cn_info.cartButton + '&quot;' + prodTitle + '&quot; ' + gbt_cn_info.addedToCartMessage +'</div></div></div></div>');
+				$('#content').prepend('<div class="woocommerce-message"><div class="product_notification_wrapper"><div class="product_notification_background" style="background-image:url(' + imgSrc + ')"></div><div class="product_notification_text"><div>' + gbt_cn_info.cartButton + '&quot;' + prodTitle + '&quot; ' + gbt_cn_info.addedToCartMessage +'</div></div></div></div>');
 			});
 		});
 
@@ -214,7 +229,7 @@
 			var prodTitle = $(this).parents('.product').find('.woocommerce-loop-product__title a').html() || "";
 
 			gbt_cn_onAddedToCart($(this), 'added', function() {
-				$('.st-content').prepend('<div class="woocommerce-message"><div class="product_notification_wrapper"><div class="product_notification_background"><img src="'+imgSrc+'" alt="Notification Image" /></div><div class="product_notification_text"><div>' + gbt_cn_info.cartButton + '&quot;' + prodTitle + '&quot; ' + gbt_cn_info.addedToCartMessage +'</div></div></div></div>');
+				$('.st-content').prepend('<div class="woocommerce-message"><div class="product_notification_wrapper"><div class="product_notification_background" style="background-image:url(' + imgSrc + ')"></div><div class="product_notification_text"><div>' + gbt_cn_info.cartButton + '&quot;' + prodTitle + '&quot; ' + gbt_cn_info.addedToCartMessage +'</div></div></div></div>');
 			});
 		});
 
@@ -224,7 +239,7 @@
 			var prodTitle = $(this).parents('.product_infos').find('.product_title').html() || "";
 
 			gbt_cn_onAddedToCart($(this), 'added', function() {
-				$('.st-content').prepend('<div class="woocommerce-message"><div class="product_notification_wrapper"><div class="product_notification_background"><img src="'+imgSrc+'" alt="Notification Image" /></div><div class="product_notification_text"><div>' + gbt_cn_info.cartButton + '&quot;' + prodTitle + '&quot; ' + gbt_cn_info.addedToCartMessage +'</div></div></div></div>');
+				$('.st-content').prepend('<div class="woocommerce-message"><div class="product_notification_wrapper"><div class="product_notification_background" style="background-image:url(' + imgSrc + ')"></div><div class="product_notification_text"><div>' + gbt_cn_info.cartButton + '&quot;' + prodTitle + '&quot; ' + gbt_cn_info.addedToCartMessage +'</div></div></div></div>');
 			});
 		});
 
@@ -234,7 +249,7 @@
 			var prodTitle = $(this).parents('tr').find('.product-name a').html() || "";
 
 			gbt_cn_onAddedToCart($(this), "", function() {
-				$('.st-content').prepend('<div class="woocommerce-message"><div class="product_notification_wrapper"><div class="product_notification_background"><img src="'+imgSrc+'" alt="Notification Image" /></div><div class="product_notification_text"><div>' + gbt_cn_info.cartButton + '&quot;' + prodTitle + '&quot; ' + gbt_cn_info.addedToCartMessage +'</div></div></div></div>');
+				$('.st-content').prepend('<div class="woocommerce-message"><div class="product_notification_wrapper"><div class="product_notification_background" style="background-image:url(' + imgSrc + ')"></div><div class="product_notification_text"><div>' + gbt_cn_info.cartButton + '&quot;' + prodTitle + '&quot; ' + gbt_cn_info.addedToCartMessage +'</div></div></div></div>');
 			});
 		});
 	});

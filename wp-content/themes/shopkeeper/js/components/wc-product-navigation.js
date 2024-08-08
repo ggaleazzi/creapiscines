@@ -8,7 +8,7 @@ jQuery( function($) {
 	var productImages 			= $('.product-images-style-2 .product_images .product-image:not(.mobile), .product-images-style-3 .product_images .product-image:not(.mobile)');
 	var navigationItems 		= $('.product-images-style-2 .product-images-controller li a span.dot, .product-images-style-3 .product-images-controller li a span.dot');
 	var productImagesContainer 	= $('.product-images-wrapper');
-	var headerHeight 			= $('.site-header-sticky').length ? $('.site-header-sticky').outerHeight() : 0;
+	var headerHeight 			= $('.site-header.sticky').outerHeight();
 
 	// set position of the product images controller layout 2
 
@@ -79,11 +79,9 @@ jQuery( function($) {
 					var adminBarHeight = 32;
 				}
 
-				var header_height = $('.site-header-sticky').length ? $('.site-header-sticky').outerHeight() : 0;
-
 				if (target.length) {
 					$('html, body').animate({
-					  scrollTop: target.offset().top - header_height - adminBarHeight
+					  scrollTop: target.offset().top - $('.site-header.sticky').outerHeight() - adminBarHeight
 					}, 500);
 				return false;
 				}

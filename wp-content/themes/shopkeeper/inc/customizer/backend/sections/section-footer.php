@@ -89,7 +89,7 @@ function shopkeeper_customizer_footer_controls( $wp_customize ) {
 			'type'               => 'theme_mod',
 			'capability'         => 'edit_theme_options',
             'sanitize_callback'  => 'shopkeeper_sanitize_html_text',
-			'default'            => esc_html__('Powered by ', 'shopkeeper' ) . '<a href="'.SK_THEME_WEBSITE.'" title="eCommerce WordPress Theme for Woocommerce">' . esc_html__( 'Shopkeeper', 'shopkeeper' ) . '</a>.',
+			'default'            => esc_html__('Powered by ', 'shopkeeper' ) . '<a href="https://shopkeeper.getbowtied.com" title="eCommerce WordPress Theme for Woocommerce">' . esc_html__( 'Shopkeeper', 'shopkeeper' ) . '</a>.',
 		)
 	);
 

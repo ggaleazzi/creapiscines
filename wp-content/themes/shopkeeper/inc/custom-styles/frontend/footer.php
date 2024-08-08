@@ -1,7 +1,7 @@
 <?php
 
 $custom_styles .= '
-	.site-footer
+	#site-footer
 	{
 		background: ' . Shopkeeper_Opt::getOption( 'footer_background_color', '#f4f4f4' ) . ';
 	}';
@@ -10,7 +10,7 @@ if( Shopkeeper_Opt::getOption( 'footer_background_color', '#f4f4f4' ) == "transp
 	$custom_styles .= '
 		@media only screen and (max-width: 641px)
 		{
-			.site-footer
+			#site-footer
 			{
 				padding-top: 0;
 			}
@@ -18,14 +18,14 @@ if( Shopkeeper_Opt::getOption( 'footer_background_color', '#f4f4f4' ) == "transp
 }
 
 $custom_styles .= '
-	.site-footer,
-	.site-footer .copyright_text a
+	#site-footer,
+	#site-footer .copyright_text a
 	{
 		color: ' . Shopkeeper_Opt::getOption( 'footer_texts_color', '#868686' ) . ';
 	}
 
-	.site-footer a,
-	.site-footer .widget-title,
+	#site-footer a,
+	#site-footer .widget-title,
 	.footer-navigation-wrapper ul li:after
 	{
 		color: ' . Shopkeeper_Opt::getOption( 'footer_links_color', '#000' ) . ';
@@ -38,7 +38,7 @@ $custom_styles .= '
 	}';
 
 
-if( !Shopkeeper_Opt::getOption( 'expandable_footer', true ) ) {
+if( Shopkeeper_Opt::getOption( 'expandable_footer', true ) ) {
 	$custom_styles .= '
 		.trigger-footer-widget-area
 		{

@@ -55,7 +55,8 @@
                     <?php   if (function_exists('is_cart') && is_cart()) : ?>
                     <?php else: ?>
                     <div class="clearfix"></div>
-                    <footer class="entry-meta"></footer>
+                    <footer class="entry-meta">
+                    </footer><!-- .entry-meta -->
                     <?php endif; ?>
 
                     <?php

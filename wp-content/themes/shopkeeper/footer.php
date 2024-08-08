@@ -10,7 +10,7 @@
 				$page_footer_option = get_post_meta( $page_id, 'footer_meta_box_check', true );
 			}
 
-			if ( SHOPKEEPER_WOOCOMMERCE_IS_ACTIVE ) {
+			if (class_exists('WooCommerce')) {
 				if (is_shop() && get_post_meta( get_option( 'woocommerce_shop_page_id' ), 'footer_meta_box_check', true )) {
 					$page_footer_option = get_post_meta( get_option( 'woocommerce_shop_page_id' ), 'footer_meta_box_check', true );
 				}
@@ -20,7 +20,7 @@
 
 			<?php if ( $page_footer_option == "on" ) : ?>
 
-				<footer id="site-footer" class="site-footer">
+				<footer id="site-footer">
 
 					<?php if ( is_active_sidebar( 'footer-widget-area' ) ) : ?>
 
@@ -55,33 +55,10 @@
 								</nav><!-- #site-navigation -->
 
 								<div class="copyright_text">
-                                    <?php
-                                    echo do_shortcode(
-                                        wp_kses(
-                                            __( Shopkeeper_Opt::getOption( 'footer_copyright_text' ), 'shopkeeper' ),
-                                            array(
-                                                'a'      => array(
-                                                    'href'   => array(),
-                                                    'title'  => array(),
-													'target' => array(),
-                                                ),
-                                                'br'     => array(),
-                                                'em'     => array(),
-                                                'strong' => array(),
-                                                'img'    => array(
-                                                    'alt'               => array(),
-                                                    'src'               => array(),
-                                                    'title'             => array(),
-                                                    'width'             => array(),
-                                                    'height'            => array(),
-                                                    'referrerpolicy'    => array(),
-                                                    'crossorigin'       => array(),
-                                                ),
-                                            )
-                                        )
-                                    );
-                                    ?>
-                                </div><!-- .copyright_text -->
+									<?php if ( !empty( Shopkeeper_Opt::getOption( 'footer_copyright_text' ) ) ) { ?>
+										<?php printf( __( '%s', 'shopkeeper' ), Shopkeeper_Opt::getOption( 'footer_copyright_text' ) ); ?>
+									<?php } ?>
+								</div><!-- .copyright_text -->
 
 							</div><!--.large-12-->
 						</div><!-- .row -->

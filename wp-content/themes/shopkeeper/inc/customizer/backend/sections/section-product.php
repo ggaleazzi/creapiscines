@@ -250,7 +250,7 @@ function shopkeeper_customizer_product_controls( $wp_customize ) {
 				'label'    => esc_html__( 'AJAX Add to Cart', 'shopkeeper' ),
 				'section'  => 'product',
 				'priority' => 10,
-                'description' => wp_kses_post( __('<div class="ajax_add_to_cart_description"><span class="dashicons dashicons-editor-help"></span>The option is available ONLY for simple products.</div><div class="ajax-error"><span class="dashicons dashicons-warning"></span>Functionality turned off automatically due to incompatibility with one of the following plugins:<ul><li class="woo-bundles">WooCommerce Product Bundles</li><li class="woo-addons">WooCommerce Product Add-Ons</li><li class="m-price-calculator">WooCommerce Measurement Price Calculator</li><li class="fields-factory">WooCommerce Fields Factory</li><li class="gift-card">WooCommerce Gift Card</li><li class="gift-wrapper">WooCommerce Gift Wrapper</li></ul></div>', 'shopkeeper') ),
+                'description' => wp_kses_post( __('<div class="ajax_add_to_cart_description"><span class="dashicons dashicons-editor-help"></span>The option is available ONLY for simple products.</div><div class="ajax-error"><span class="dashicons dashicons-warning"></span>Functionality turned off automatically due to incompatibility with one of the following plugins:<ul><li class="woo-bundles">WooCommerce Product Bundles</li><li class="woo-addons">WooCommerce Product Add-Ons</li><li class="m-price-calculator">WooCommerce Measurement Price Calculator</li><li class="fields-factory">WooCommerce Fields Factory</li><li class="gift-card">WooCommerce Gift Card</li></ul></div>', 'shopkeeper') ),
 			)
 		)
 	);

@@ -96,36 +96,6 @@ function shopkeeper_customizer_header_transparency_controls( $wp_customize ) {
         )
     );
 
-    // Product Categories Transparency
-    $wp_customize->add_setting(
-        'shop_product_header_transparency_scheme',
-        array(
-            'type'              => 'theme_mod',
-            'capability'        => 'edit_theme_options',
-            'sanitize_callback' => 'shopkeeper_sanitize_select',
-            'default'           => 'no_transparency',
-        )
-    );
-
-    $wp_customize->add_control(
-        new WP_Customize_Control(
-            $wp_customize,
-            'shop_product_header_transparency_scheme',
-            array(
-                'type'     => 'select',
-                'label'    => esc_html__( 'Single Product Page Transparency', 'shopkeeper' ),
-                'section'  => 'header_transparency',
-                'priority' => 10,
-                'choices'  => array(
-                    'inherit'            => esc_html__( 'Same as Above', 'shopkeeper' ),
-                    'no_transparency'    => esc_html__( 'No Transparency', 'shopkeeper' ),
-                    'transparency_light' => esc_html__( 'Light Transparency', 'shopkeeper' ),
-                    'transparency_dark'  => esc_html__( 'Dark Transparency', 'shopkeeper' ),
-                ),
-            )
-        )
-    );
-
     // Light Transparency Heading
     $wp_customize->add_setting(
         'main_header_light_transparency_heading',

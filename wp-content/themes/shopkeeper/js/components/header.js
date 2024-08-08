@@ -5,11 +5,8 @@ jQuery( function ($) {
 	// sticky header
 	if( getbowtied_scripts_vars.sticky_header ) {
 
-		var headerHeight = $('.top-headers-wrapper').length ? $('.top-headers-wrapper').outerHeight() : 0;
-		var totalHeaderHeight = $('.site-header').length ? $('.site-header').outerHeight() : 0;
-		if( $('#site-top-bar').length ) {
-			totalHeaderHeight += $('#site-top-bar').outerHeight();
-		}
+		var headerHeight = $('.top-headers-wrapper').outerHeight();
+		var totalHeaderHeight = $('#site-top-bar').outerHeight() + $('.site-header').outerHeight();
 
 		$(window).on( 'scroll', function() {
 			if( getbowtied_scripts_vars.mobile_sticky_header || ( $(window).width() >= 1024 ) ) {
@@ -28,6 +25,20 @@ jQuery( function ($) {
 				}
 			}
 		});
+	}
+
+	// smooth transition
+	if( getbowtied_scripts_vars.smooth_transition ) {
+		if( $('#header-loader-under-bar').length ) {
+			NProgress.configure({
+		        template: '<div class="bar" role="bar"></div>',
+		        parent: '#header-loader',
+		        showSpinner: false,
+		        easing: 'ease',
+		        minimum: 0.3,
+		        speed: 500,
+		    });
+		}
 	}
 
 	// menu dropdown apply scrollbar when longer than the screen

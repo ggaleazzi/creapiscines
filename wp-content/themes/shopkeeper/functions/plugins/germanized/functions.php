@@ -18,7 +18,7 @@ if( SHOPKEEPER_GERMAN_MARKET_IS_ACTIVE ) {
  		add_filter( 'woocommerce_single_product_german_market_info', 	'__return_true' );
  	}
 
-    add_action( 'plugins_loaded', 'shopkeeper_german_market_compatibility');
+    shopkeeper_german_market_compatibility();
 }
 
 if( SHOPKEEPER_WOOCOMMERCE_GERMANIZED_IS_ACTIVE ) {
@@ -54,5 +54,5 @@ if( SHOPKEEPER_WOOCOMMERCE_GERMANIZED_IS_ACTIVE ) {
  	    }
  	}
 
-    add_action( 'plugins_loaded', 'shopkeeper_germanized_compatibility');
+    shopkeeper_germanized_compatibility();
 }

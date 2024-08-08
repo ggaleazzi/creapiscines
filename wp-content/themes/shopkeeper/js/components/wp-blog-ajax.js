@@ -2,7 +2,9 @@ jQuery(function($) {
 
 	"use strict";
 
-	$('#masonry_grid').addClass('fade-in');
+	$(window).on( 'load', function() {
+		$('#masonry_grid').addClass('fade-in');
+	});
 
 	if (!$('body').hasClass('search')) {
 

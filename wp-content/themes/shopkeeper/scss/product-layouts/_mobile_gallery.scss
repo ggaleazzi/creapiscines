@@ -37,14 +37,14 @@
     {
         a.fresco.zoom,
         a:not(.fresco) {
-            //pointer-events: none;
+            pointer-events: none;
             display: block;
         }
 
         &.mobile-gallery
         {
             a.fresco {
-                //pointer-events: none;
+                pointer-events: none;
                 display: block;
             }
         }

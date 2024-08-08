@@ -151,8 +151,7 @@ jQuery( function($){
 			    "left": leftSelected,
 			    "width": widthSelected,
 				"height": halfHeight,
-			});
-			$('.cd-quick-view').velocity({
+			}).velocity({
 				//animate the quick view: animate its width and center it in the viewport
 				//during this animation, only the slider image is visible
 			    'top': finalTop+ 'px',
@@ -168,12 +167,12 @@ jQuery( function($){
 					//show quick view content
 					$('.cd-quick-view').addClass('add-content');
 
-					var swiper_next = '.cd-quick-view .cd-slider-wrapper .swiper-button-next';
-					var swiper_prev = '.cd-quick-view .cd-slider-wrapper .swiper-button-prev';
+					var swiper_next = '.swiper-button-next';
+					var swiper_prev = '.swiper-button-prev';
 
 					if( $('body').hasClass('rtl') ) {
-						swiper_next = '.cd-quick-view .cd-slider-wrapper .swiper-button-prev';
-						swiper_prev = '.cd-quick-view .cd-slider-wrapper .swiper-button-next';
+						swiper_next = '.swiper-button-prev';
+						swiper_prev = '.swiper-button-next';
 					}
 
 					var qvSlider = new Swiper('.cd-quick-view .swiper-container', {
@@ -191,11 +190,11 @@ jQuery( function($){
 						    setTimeout(function(){allowClicks = true;},300);
 						},
 						navigation: {
-						    nextEl: swiper_next,
-						    prevEl: swiper_prev,
+						    nextEl: $(this).find(swiper_next),
+						    prevEl: $(this).find(swiper_prev),
 						},
 						pagination: {
-						    el: '.cd-quick-view .swiper-container .swiper-pagination',
+						    el: $(this).find('.swiper-pagination'),
 						},
 					});
 
@@ -210,8 +209,7 @@ jQuery( function($){
 					});
 
 				});
-			});
-			$('.cd-quick-view').addClass('is-visible');
+			}).addClass('is-visible');
 		} else {
 			//close the quick view reverting the animation
 			$('.cd-quick-view').removeClass('add-content').velocity({

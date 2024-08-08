@@ -253,7 +253,6 @@ select.big-select
 .select2-container--open .select2-dropdown
 {
     left: 15px !important;
-    top: -10px;
 }
 
 .select2-drop.select2-drop-above
@@ -316,10 +315,9 @@ select.big-select
 
 .woocommerce .select2-container .select2-dropdown.orderby-dropdown {
     max-width: 240px;
-
-    @media #{$large-up} {
-        top: 5px;
-    }
+    left: 0!important;
+    margin-top: 0;
+    top: -10px;
 }
 
 .catalog-ordering

@@ -620,8 +620,7 @@ $custom_styles .= '
 
 	#powerTip,
 	.product_content_wrapper .product_infos table.variations .wcva_single_textblock.selectedswatch,
-	.wcvashopswatchlabel.wcvasquare.wcva-selected-filter.wcva_filter_textblock,
-	.woocommerce .wishlist_table td.product-add-to-cart a
+	.wcvashopswatchlabel.wcvasquare.wcva-selected-filter.wcva_filter_textblock
 	{
 		color: ' . Shopkeeper_Opt::getOption( 'main_background', array('background-color' => '#FFFFFF') )['background-color'] . ' !important;
 	}

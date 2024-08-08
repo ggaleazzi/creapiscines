@@ -14,6 +14,7 @@ function shopkeeper_vendor_scripts_high_priority() {
 
     if( Shopkeeper_Opt::getOption( 'smooth_transition_between_pages', false ) ) {
         wp_enqueue_script( 'nprogress', get_template_directory_uri() . '/js/vendor/nprogress.min.js', NULL, shopkeeper_theme_version(), FALSE);
+        wp_enqueue_script( 'shopkeeper-page-in-out', get_template_directory_uri() . '/js/misc/page-in-out'.$suffix.'.js', array('nprogress', 'jquery'), shopkeeper_theme_version(), FALSE);
     }
 }
 add_action( 'wp_enqueue_scripts', 'shopkeeper_vendor_scripts_high_priority', 0 );
@@ -46,10 +47,10 @@ function shopkeeper_vendor_scripts() {
     wp_enqueue_script( 'isotope-js', 		 get_template_directory_uri() . '/js/vendor/isotope.pkgd.min.js', 		 array('jquery'), 'v3.0.6', TRUE );
     wp_enqueue_script( 'fresco', 			 get_template_directory_uri() . '/js/vendor/fresco.min.js', 			 array('jquery'), '2.3.0',  TRUE );
     wp_enqueue_script( 'imagesloaded', 		 get_template_directory_uri() . '/js/vendor/imagesloaded.min.js', 		 array('jquery'), '3.1.4',  TRUE );
-    wp_enqueue_script( 'easyzoom', 			 get_template_directory_uri() . '/js/vendor/easyzoom.min.js', 			 array('jquery'), '2.5.2',  TRUE );
+    wp_enqueue_script( 'easyzoom', 			 get_template_directory_uri() . '/js/vendor/easyzoom.min.js', 			 array('jquery'), '2.4.0',  TRUE );
     wp_enqueue_script( 'touchswipe', 		 get_template_directory_uri() . '/js/vendor/jquery.touchSwipe.min.js',   array('jquery'), '1.6.18', TRUE );
-    wp_enqueue_script( 'swiper', 			 get_template_directory_uri() . '/js/vendor/swiper.min.js', 			 array('jquery'), '6.4.1',  TRUE );
-    wp_enqueue_script( 'select2', 			 get_template_directory_uri() . '/js/vendor/select2.min.js', 			 array('jquery'), '4.1.0-beta.1',  TRUE );
+    wp_enqueue_script( 'swiper', 			 get_template_directory_uri() . '/js/vendor/swiper.min.js', 			 array('jquery'), '5.2.0',  TRUE );
+    wp_enqueue_script( 'select2', 			 get_template_directory_uri() . '/js/vendor/select2.min.js', 			 array('jquery'), '4.0.5',  TRUE );
     wp_enqueue_script( 'stellar', 			 get_template_directory_uri() . '/js/vendor/jquery.stellar.min.js', 	 array('jquery'), '0.6.2',  TRUE );
     wp_enqueue_script( 'velocity', 			 get_template_directory_uri() . '/js/vendor/velocity.min.js', 			 array('jquery'), '1.0.0',  TRUE );
 }

@@ -2,18 +2,6 @@ jQuery( function ($) {
 
 	"use strict";
 
-	// RTL fix for wpbakery full width elements position
-	$(window).on( 'resize', function() {
-		if ($('body').hasClass("rtl")) {
-			var $elements = $('[data-vc-full-width="true"]');
-			$.each($elements, function () {
-				var $el = jQuery(this);
-				var $el_right = parseInt($el.css('right'));
-				$el.css('right', -$el_right);
-			});
-		}
-	});
-
     //product animation (thanks Sam Sehnert)
 
     $.fn.visible = function(partial) {
@@ -165,15 +153,17 @@ jQuery( function ($) {
 	});
 
 	function handleSelect() {
-		if ( typeof $.fn.selectWoo === 'function' ) {
-				$( '.woocommerce-ordering select.orderby' ).selectWoo({
-					minimumResultsForSearch: Infinity,
-					// allowClear: true,
-					// width: 'auto',
+		if ( typeof $.fn.select2 === 'function' ) {
+			$( '.woocommerce-ordering select.orderby' ).select2(
+				{
+					minimumResultsForSearch: -1,
+					allowClear: true,
+					width: 'auto',
 					dropdownCssClass: "orderby-dropdown",
-					// dropdownAutoWidth: true
-				});
-			}
+					dropdownAutoWidth: true,
+				}
+			);
+		}
 	}
 
 	handleSelect();
@@ -213,21 +203,25 @@ jQuery( function ($) {
 		window.location = $(this).val();
 	});
 
-	setTimeout(function() {
-		$(".product_thumbnail.with_second_image").css("background-size", "cover");
-		$(".product_thumbnail.with_second_image").addClass("second_image_loaded");
-	}, 300);
+	$(window).on( 'load', function() {
 
-	if ($(window).outerWidth() > 1024) {
-		$.stellar({
-			horizontalScrolling: false,
-			responsive: true
-		});
-	}
+        setTimeout(function() {
+            $(".product_thumbnail.with_second_image").css("background-size", "cover");
+			$(".product_thumbnail.with_second_image").addClass("second_image_loaded");
+        }, 300);
 
-	setTimeout(function(){
-		$('.parallax, .single-post-header-bkg').addClass('loaded');
-	},150);
+        if ($(window).outerWidth() > 1024) {
+			$.stellar({
+				horizontalScrolling: false,
+                responsive: true
+			});
+		}
+
+		setTimeout(function(){
+			$('.parallax, .single-post-header-bkg').addClass('loaded');
+		},150)
+
+	});
 
 	$(window).on( 'resize', function(){
 
@@ -316,7 +310,7 @@ jQuery( function ($) {
 			progressPath.style.strokeDashoffset = progress;
 		}
 		updateProgress();
-		$(window).on( 'scroll', updateProgress );
+		$(window).scroll(updateProgress);
 		var offset = 50;
 		var duration = 550;
 		$(window).on('scroll', function() {
@@ -365,9 +359,11 @@ jQuery( function ($) {
 		$('form.woocommerce-form-coupon').toggleClass('fade');
 	});
 
-	$(".vc_images_carousel").each(function() {
-		var height = $(this).find(".vc_item.vc_active").height();
-		$(this).css("height", height);
+	$(window).on( 'load', function() {
+		$(".vc_images_carousel").each(function() {
+			var height = $(this).find(".vc_item.vc_active").height();
+			$(this).css("height", height);
+		});
 	});
 
 	$(".vc_images_carousel").on('click', '.vc_right, .vc_left, .vc_carousel-indicators li', function(){

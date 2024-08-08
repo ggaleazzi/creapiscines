@@ -1,34 +1,5 @@
 <?php
 
-function shopkeeper_get_image_by_url( $image = '', $class = '', $alt = '' ) {
-
-    $image_attr = array(
-        'class' => $class,
-        'alt' => $alt,
-        'loading' => false
-    );
-
-    $image_id = attachment_url_to_postid($image);
-
-    if( !empty($image_id) && is_int($image_id) ) {
-        printf(
-            '%2$s',
-            esc_url(home_url('/')),
-            wp_get_attachment_image( $image_id, 'full', false, $image_attr )
-        );
-    } else if( !empty($image) && filter_var($image, FILTER_VALIDATE_URL) ) {
-        //then it must be the theme placeholder.
-        printf(
-            '<img class="%s" src="%s" alt="%s" />',
-            $class,
-            $image,
-            $alt
-        );
-    }
-
-    return;
-}
-
 /*
  * Get header logos
  */
@@ -71,7 +42,7 @@ function shopkeeper_get_logo() {
     <div class="site-logo">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <?php if ( !empty($site_logo) ) { ?>
-                <?php shopkeeper_get_image_by_url( $site_logo, 'site-logo-img', get_bloginfo( 'name' ) ); ?>
+                <img class="site-logo-img" src="<?php echo esc_url($site_logo); ?>" title="<?php bloginfo( 'description' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
             <?php } else { ?>
                 <div class="site-title"><?php bloginfo( 'name' ); ?></div>
             <?php } ?>
@@ -82,7 +53,7 @@ function shopkeeper_get_logo() {
         <div class="sticky-logo">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
                 <?php if ( !empty($sticky_logo) ) { ?>
-                    <?php shopkeeper_get_image_by_url( $sticky_logo, 'sticky-logo-img', get_bloginfo( 'name' ) ); ?>
+                    <img class="sticky-logo-img" src="<?php echo esc_url($sticky_logo); ?>" title="<?php bloginfo( 'description' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
                 <?php } else { ?>
                     <div class="site-title"><?php bloginfo( 'name' ); ?></div>
                 <?php } ?>
@@ -93,7 +64,7 @@ function shopkeeper_get_logo() {
     <div class="mobile-logo">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <?php if ( !empty($mobile_logo) ) { ?>
-                <?php shopkeeper_get_image_by_url( $mobile_logo, 'mobile-logo-img', get_bloginfo( 'name' ) ); ?>
+                <img class="mobile-logo-img" src="<?php echo esc_url($mobile_logo); ?>" title="<?php bloginfo( 'description' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
             <?php } else { ?>
                 <div class="site-title"><?php bloginfo( 'name' ); ?></div>
             <?php } ?>
@@ -139,30 +110,6 @@ function shopkeeper_get_transparency_options() {
                 $transparency_scheme = Shopkeeper_Opt::getOption( 'shop_category_header_transparency_scheme', 'no_transparency' );
             }
         }
-
-        if ( is_product() && is_woocommerce() ) {
-            if ( 'inherit' === Shopkeeper_Opt::getOption( 'shop_product_header_transparency_scheme', 'no_transparency' ) ) {
-                // do nothing, inherit
-            }
-            else if( 'no_transparency' === Shopkeeper_Opt::getOption( 'shop_product_header_transparency_scheme', 'no_transparency' ) ) {
-                $transparency_class = '';
-                $transparency_scheme = '';
-            }
-            else {
-                $transparency_class = 'transparent_header';
-                $transparency_scheme = Shopkeeper_Opt::getOption( 'shop_product_header_transparency_scheme', 'no_transparency' );
-            }
-
-            if( (get_post_meta($page_id, 'product_header_transparency', true)) && (get_post_meta($page_id, 'product_header_transparency', true) != "inherit") ) {
-                $transparency_class  = 'transparent_header';
-                $transparency_scheme = get_post_meta( $page_id, 'product_header_transparency', true );
-            }
-
-            if( (get_post_meta($page_id, 'product_header_transparency', true)) && (get_post_meta($page_id, 'product_header_transparency', true) == "no_transparency") ) {
-                $transparency_class = '';
-                $transparency_scheme = '';
-            }
-        }
     }
 
     return array( 'transparency_class' => $transparency_class, 'transparency_scheme' => $transparency_scheme );
@@ -178,8 +125,8 @@ function shopkeeper_get_header_tool_icons() {
             <li class="wishlist-button">
                 <a href="<?php echo esc_url(YITH_WCWL()->get_wishlist_url()); ?>" class="tools_button">
                     <span class="tools_button_icon">
-                        <?php if( !empty( Shopkeeper_Opt::getOption( 'main_header_wishlist_icon', '' ) ) ) { ?>
-                            <?php shopkeeper_get_image_by_url( Shopkeeper_Opt::getOption( 'main_header_wishlist_icon', '' ), '', 'Wishlist Custom Icon' ); ?>
+                        <?php if( '' != Shopkeeper_Opt::getOption( 'main_header_wishlist_icon', '' ) ) { ?>
+                            <img src="<?php echo esc_url( Shopkeeper_Opt::getOption( 'main_header_wishlist_icon', '' ) ); ?>" alt="wishlist-icon">
                         <?php } else { ?>
                             <i class="spk-icon spk-icon-heart"></i>
                         <?php } ?>
@@ -194,8 +141,8 @@ function shopkeeper_get_header_tool_icons() {
                 <li class="shopping-bag-button">
                     <a href="<?php echo esc_url( wc_get_cart_url() ); ?>" class="tools_button">
                         <span class="tools_button_icon">
-                            <?php if( !empty( Shopkeeper_Opt::getOption( 'main_header_shopping_bag_icon', '' ) ) ) { ?>
-                                <?php shopkeeper_get_image_by_url( Shopkeeper_Opt::getOption( 'main_header_shopping_bag_icon', '' ), '', 'Shopping Bag Custom Icon' ); ?>
+                            <?php if( '' != Shopkeeper_Opt::getOption( 'main_header_shopping_bag_icon', '' ) ) { ?>
+                                <img src="<?php echo esc_url(Shopkeeper_Opt::getOption( 'main_header_shopping_bag_icon', '' )); ?>" alt="shopping-bag-icon">
                             <?php } else { ?>
                                 <i class="spk-icon spk-icon-cart-shopkeeper"></i>
                             <?php } ?>
@@ -222,8 +169,8 @@ function shopkeeper_get_header_tool_icons() {
                 <li class="my_account_icon">
                     <a class="tools_button" href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>">
                         <span class="tools_button_icon">
-                            <?php if( !empty( Shopkeeper_Opt::getOption( 'custom_my_account_icon', '' ) ) ) { ?>
-                                <?php shopkeeper_get_image_by_url( Shopkeeper_Opt::getOption( 'custom_my_account_icon', '' ), '', 'Account Custom Icon' ); ?>
+                            <?php if( '' != Shopkeeper_Opt::getOption( 'custom_my_account_icon', '' ) ) { ?>
+                                <img src="<?php echo esc_url(Shopkeeper_Opt::getOption( 'custom_my_account_icon', '' )); ?>" alt="account-icon">
                             <?php } else { ?>
                                 <i class="spk-icon spk-icon-user-account"></i>
                             <?php } ?>
@@ -237,8 +184,8 @@ function shopkeeper_get_header_tool_icons() {
             <li class="offcanvas-menu-button search-button">
                 <a class="tools_button" data-toggle="offCanvasTop1">
                     <span class="tools_button_icon">
-                        <?php if ( !empty( Shopkeeper_Opt::getOption( 'main_header_search_bar_icon', '' ) ) ) { ?>
-                            <?php shopkeeper_get_image_by_url( Shopkeeper_Opt::getOption( 'main_header_search_bar_icon', '' ), '', 'Search Custom Icon' ); ?>
+                        <?php if ( '' != Shopkeeper_Opt::getOption( 'main_header_search_bar_icon', '' ) ) { ?>
+                            <img src="<?php echo esc_url( Shopkeeper_Opt::getOption( 'main_header_search_bar_icon', '' ) ); ?>" alt="search-icon">
                         <?php } else { ?>
                             <i class="spk-icon spk-icon-search"></i>
                         <?php } ?>
@@ -248,11 +195,11 @@ function shopkeeper_get_header_tool_icons() {
         <?php } ?>
 
         <?php $icon_display_class = ( !wp_is_mobile() && !Shopkeeper_Opt::getOption( 'main_header_off_canvas', false ) ) ? 'hide-for-large' : ''; ?>
-        <li class="offcanvas-menu-button <?php echo esc_attr($icon_display_class); ?>">
+        <li class="offcanvas-menu-button <?php esc_attr_e($icon_display_class); ?>">
             <a class="tools_button" data-toggle="offCanvasRight1">
                 <span class="tools_button_icon">
-                    <?php if( !empty( Shopkeeper_Opt::getOption( 'main_header_off_canvas_icon', '' ) ) ) { ?>
-                        <?php shopkeeper_get_image_by_url( Shopkeeper_Opt::getOption( 'main_header_off_canvas_icon', '' ), '', 'Offcanvas Menu Custom Icon' ); ?>
+                    <?php if( '' != Shopkeeper_Opt::getOption( 'main_header_off_canvas_icon', '' ) ) { ?>
+                        <img src="<?php echo esc_url(Shopkeeper_Opt::getOption( 'main_header_off_canvas_icon', '' )); ?>" alt="offcanvas-icon">
                     <?php } else { ?>
                         <i class="spk-icon spk-icon-menu"></i>
                     <?php } ?>
@@ -274,7 +221,7 @@ function shopkeeper_get_menu( $menu_classes = 'main-navigation', $location = 'ma
 
     if( has_nav_menu( $location ) ) {
         ?>
-        <nav class="<?php echo esc_html($menu_classes); ?>" role="navigation" aria-label="Main Menu">
+        <nav class="<?php esc_html_e($menu_classes); ?>" role="navigation">
             <?php
                 $args = array(
                     'theme_location'  => $location,
@@ -341,8 +288,8 @@ function shopkeeper_after_header_components() { ?>
             }
 
             if ( is_user_logged_in() ) {
-                echo '<nav class="mobile-navigation ' . $display_class . '" role="navigation" aria-label="Mobile Menu">';
-                echo '<ul><li class="menu-item"><a href="' . get_home_url() . '/?' . get_option('woocommerce_logout_endpoint') . '=true" class="logout_link">' . esc_html__('Logout', 'woocommerce') . '</a></li></ul>';
+                echo '<nav class="mobile-navigation ' . $display_class . '" role="navigation">';
+                echo '<ul><li class="menu-item"><a href="' . get_site_url() . '/?' . get_option('woocommerce_logout_endpoint') . '=true" class="logout_link">' . esc_html('Logout', 'woocommerce') . '</a></li></ul>';
                 echo '</nav>';
             }
 

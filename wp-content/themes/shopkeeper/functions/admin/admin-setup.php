@@ -37,9 +37,9 @@ add_action( 'after_switch_theme', 'shopkeeper_woocommerce_image_dimensions', 1 )
  * Admin notices
  */
 function shopkeeper_theme_notifications() {
+	?>
 
-	if ( !get_option('dismissed-hookmeup-notice', FALSE ) && !class_exists('HookMeUp') ) {
-		?>
+	<?php if ( !get_option('dismissed-hookmeup-notice', FALSE ) && !class_exists('HookMeUp') ) : ?>
 		<div class="notice-warning settings-error notice is-dismissible hookmeup_notice">
 			<p>
 				<strong>
@@ -47,10 +47,7 @@ function shopkeeper_theme_notifications() {
 				</strong>
 			</p>
 		</div>
-		<?php
-	}
-
-	return;
+	<?php endif;
 }
 add_action( 'admin_notices', 'shopkeeper_theme_notifications' );
 

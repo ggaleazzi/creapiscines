@@ -371,19 +371,7 @@
 	@media #{$xlarge-down} {
 		padding: 17px 35px 0 0;
 	}
-}
 
-.rtl.woocommerce .products ul h2,
-.rtl.woocommerce ul.products h2,
-.rtl.woocommerce ul.products h3,
-.rtl.woocommerce ul.products li.product h2,
-.rtl.woocommerce-page .products ul h2,
-.rtl.woocommerce-page ul.products h2,
-.rtl.woocommerce ul.products li.product .woocommerce-loop-product__title
-{
-	@media #{$xlarge-down} {
-		padding: 17px 0 0 35px;
-	}
 }
 
 .woocommerce ul.products li.product a img,

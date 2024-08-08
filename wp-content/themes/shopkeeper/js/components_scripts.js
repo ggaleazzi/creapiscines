@@ -1,7 +1,6 @@
 //@prepros-prepend components/gutenberg.js
 //@prepros-prepend components/scripts.js
 //@prepros-prepend components/header.js
-//@prepros-prepend components/smooth-transition.js
 //@prepros-prepend components/wc-product-gallery.js
 //@prepros-prepend components/wc-quickview.js
 //@prepros-prepend components/wc-minicart.js

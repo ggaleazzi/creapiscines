@@ -72,6 +72,7 @@ include_once( get_template_directory() . '/inc/woocommerce/product-layout.php' )
 
 
 function shopkeeper_register_elementor_locations( $elementor_theme_manager ) {
-	$elementor_theme_manager->register_all_core_location();
+	$elementor_theme_manager->register_location( 'header' );
+	$elementor_theme_manager->register_location( 'footer' );
 }
 add_action( 'elementor/theme/register_locations', 'shopkeeper_register_elementor_locations' );
