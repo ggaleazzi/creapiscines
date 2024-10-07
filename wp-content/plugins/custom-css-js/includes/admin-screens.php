@@ -930,6 +930,8 @@ End of comment */ ',
 	 * Get an array with all the information for building the code's options
 	 */
 	function get_options_meta() {
+		global $wp_version;
+
 		$options = array(
 			'linking'      => array(
 				'title'   => __( 'Linking type', 'custom-css-js' ),
@@ -969,6 +971,10 @@ End of comment */ ',
 					'frontend' => array(
 						'title'    => __( 'In Frontend', 'custom-css-js' ),
 						'dashicon' => 'tagcloud',
+					),
+					'block' => array(
+						'title'    => __( 'In Block editor', 'custom-css-js' ),
+						'dashicon' => 'layout',
 					),
 					'admin'    => array(
 						'title'    => __( 'In Admin', 'custom-css-js' ),
@@ -1024,6 +1030,11 @@ End of comment */ ',
 				'disabled' => true,
 			),
 		);
+
+		if ( ! version_compare( $wp_version, '5.0' ) || class_exists( 'Classic_Editor' ) ) {
+			// Remove the "In Block editor" option only for WP < 5 or if the "Classic Editor" plugin installed
+			unset( $options['side']['values']['block'] );
+		}
 
 		if ( is_multisite() && is_super_admin() && is_main_site() ) {
 			$options['multisite'] = array(
@@ -1188,7 +1199,7 @@ End of comment */ ',
 		}
 
 		$options['side'] = [];
-		foreach ( ['frontend', 'admin', 'login'] as $_side ) {
+		foreach ( ['frontend', 'block', 'admin', 'login'] as $_side ) {
 			if ( isset( $_POST[ 'custom_code_side-' . $_side ] ) && $_POST[ 'custom_code_side-' . $_side ] == '1' ) {
 				$options['side'][] = $_side;
 			}

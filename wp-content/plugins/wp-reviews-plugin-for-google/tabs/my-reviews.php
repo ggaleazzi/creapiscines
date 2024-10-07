@@ -59,35 +59,39 @@ update_option($pluginManagerInstance->get_option_name('reply-generated'), 1, fal
 exit;
 }
 
-if (isset($_POST['review_download_timestamp'])) {
+if (isset($_POST['download_data'])) {
 check_admin_referer('ti-download-reviews');
-$pageDetails = isset($_POST['page_details']) ? json_decode(stripcslashes($_POST['page_details']), true) : null;
-if (isset($pageDetails['reviews']) && is_array($pageDetails['reviews']) && $pageDetails['reviews']) {
-$pluginManagerInstance->save_reviews($pageDetails['reviews']);
+$data = json_decode(stripcslashes($_POST['download_data']), true);
+if (isset($data['is_new_reviews']) && $data['is_new_reviews']) {
+if (isset($data['reviews']) && is_array($data['reviews']) && $data['reviews']) {
+$pluginManagerInstance->save_reviews($data['reviews']);
 if (!$pluginManagerInstance->getNotificationParam('review-download-finished', 'hidden')) {
 $pluginManagerInstance->setNotificationParam('review-download-finished', 'active', true);
 }
 $pluginManagerInstance->sendNotificationEmail('review-download-finished');
 }
-$oldPageDetails = $pluginManagerInstance->getPageDetails();
-if (isset($pageDetails['name'])) {
-$oldPageDetails['name'] = $pageDetails['name'];
-if (isset($oldPageDetails['address'])) {
-$oldPageDetails['address'] = $pageDetails['address'];
+$pageDetails = $pluginManagerInstance->getPageDetails();
+if (isset($data['name'])) {
+$pageDetails['name'] = $data['name'];
+if (isset($pageDetails['address'])) {
+$pageDetails['address'] = $data['address'];
 }
-if (isset($oldPageDetails['avatar_url'])) {
-$oldPageDetails['avatar_url'] = $pageDetails['avatar_url'];
+if (isset($pageDetails['avatar_url'])) {
+$pageDetails['avatar_url'] = $data['avatar_url'];
 }
-$oldPageDetails['rating_number'] = $pageDetails['rating_number'];
-$oldPageDetails['rating_score'] = $pageDetails['rating_score'];
-update_option($pluginManagerInstance->get_option_name('page-details'), $oldPageDetails, false);
+$pageDetails['rating_number'] = $data['rating_number'];
+$pageDetails['rating_score'] = $data['rating_score'];
+update_option($pluginManagerInstance->get_option_name('page-details'), $pageDetails, false);
 $GLOBALS['wp_object_cache']->delete($pluginManagerInstance->get_option_name('page-details'), 'options');
 }
-update_option($pluginManagerInstance->get_option_name('download-timestamp'), (int)$_POST['review_download_timestamp'], false);
 if (!$pluginManagerInstance->getNotificationParam('review-download-available', 'hidden')) {
 $pluginManagerInstance->setNotificationParam('review-download-available', 'do-check', true);
 $pluginManagerInstance->setNotificationParam('review-download-available', 'active', false);
 }
+} else {
+update_option($pluginManagerInstance->get_option_name('review-download-is-failed'), 1, false);
+}
+update_option($pluginManagerInstance->get_option_name('download-timestamp'), time() + (int)$data['next_update_available'], false);
 exit;
 }
 $reviews = [];
@@ -134,13 +138,21 @@ jQuery(".ti-review-content").TI_shorten({
 });
 jQuery(".ti-review-content").TI_format();
 ');
-$downloadTimestamp = get_option($pluginManagerInstance->get_option_name('download-timestamp'), time() - 1);
+$downloadTimestamp = get_option($pluginManagerInstance->get_option_name('download-timestamp'), time());
 $pageDetails = $pluginManagerInstance->getPageDetails();
+if ($reviewDownloadFailed = get_option($pluginManagerInstance->get_option_name('review-download-is-failed'))) {
+delete_option($pluginManagerInstance->get_option_name('review-download-is-failed'));
+}
 ?>
 <div class="ti-header-title"><?php echo __('My Reviews', 'trustindex-plugin'); ?></div>
 <div class="ti-box">
 <?php if (!$isReviewDownloadInProgress): ?>
-<?php if ($downloadTimestamp < time()): ?>
+<?php if ($reviewDownloadFailed): ?>
+<div class="ti-notice ti-notice-error">
+<p><?php echo __('The manual review download not available yet.', 'trustindex-plugin'); ?></p>
+</div>
+<?php endif; ?>
+<?php if ($downloadTimestamp <= time()): ?>
 <div class="ti-notice ti-d-none ti-notice-info" id="ti-connect-info">
 <p><?php echo __("A popup window should be appear! Please, go to there and continue the steps! (If there is no popup window, you can check the the browser's popup blocker)", 'trustindex-plugin'); ?></p>
 </div>
@@ -159,7 +171,7 @@ $pageDetails = $pluginManagerInstance->getPageDetails();
 <input type="hidden" id="ti-noreg-page-id" value="<?php echo esc_attr($pageDetails['id']); ?>" />
 <input type="hidden" id="ti-noreg-webhook-url" value="<?php echo $pluginManagerInstance->getWebhookUrl(); ?>" />
 <input type="hidden" id="ti-noreg-email" value="<?php echo get_option('admin_email'); ?>" />
-<input type="hidden" id="ti-noreg-version" value="11.8.6" />
+<input type="hidden" id="ti-noreg-version" value="<?php echo esc_attr($pluginManagerInstance->getVersion()); ?>" />
 
 <?php
 $reviewDownloadToken = get_option($pluginManagerInstance->get_option_name('review-download-token'));

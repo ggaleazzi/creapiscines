@@ -1,14 +1,14 @@
 <?php
 defined('ABSPATH') or die('No script kiddies please!');
-if (!isset($shortCodeText)) {
-$shortCodeText = $pluginManagerInstance->get_shortcode_name().' no-registration='.$pluginManagerInstance->getShortName();
+if (!isset($trustindexShortCodeText)) {
+$trustindexShortCodeText = $pluginManagerInstance->get_shortcode_name().' no-registration='.$pluginManagerInstance->getShortName();
 }
-$shortCodeId = "ti-shortcode-id-".uniqid();
+$trustindexShortCodeId = "ti-shortcode-id-".uniqid();
 ?>
 <div class="ti-form-group" style="margin-bottom: 2px">
 <label>Shortcode</label>
-<code class="ti-shortcode" id="<?php echo esc_attr($shortCodeId); ?>">[<?php echo esc_html($shortCodeText); ?>]</code>
-<a href="#<?php echo esc_attr($shortCodeId); ?>" class="ti-btn ti-tooltip ti-toggle-tooltip btn-copy2clipboard">
+<code class="ti-shortcode" id="<?php echo esc_attr($trustindexShortCodeId); ?>">[<?php echo esc_html($trustindexShortCodeText); ?>]</code>
+<a href="#<?php echo esc_attr($trustindexShortCodeId); ?>" class="ti-btn ti-tooltip ti-toggle-tooltip btn-copy2clipboard">
 <?php echo esc_html(__('Copy to clipboard', 'trustindex-plugin')); ?>
 <span class="ti-tooltip-message">
 <span style="color: #00ff00; margin-right: 2px">✓</span>

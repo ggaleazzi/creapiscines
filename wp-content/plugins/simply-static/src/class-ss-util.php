@@ -466,10 +466,20 @@ class Util {
 			'jpeg',
 			'png',
 			'svg',
+			'mp4',
+			'webm',
+			'ogg',
+			'ogv',
+			'mp3',
+			'wav',
 			'json',
 			'js',
 			'css',
 			'xml',
+			'csv',
+			'pdf',
+			'txt',
+			'cur'
 		] );
 
 		$path_info = self::url_path_info( $url );
@@ -533,9 +543,13 @@ class Util {
 	 * @param string $task_name Name of the task
 	 * @param string $message Message to display about the status of the job
 	 *
-	 * @return void
+	 * @return array
 	 */
 	public static function add_archive_status_message( $messages, $task_name, $message ) {
+		if ( ! is_array( $messages ) ) {
+			$messages = array();
+		}
+
 		// if the state exists, set the datetime and message
 		if ( ! array_key_exists( $task_name, $messages ) ) {
 			$messages[ $task_name ] = array(
@@ -598,5 +612,88 @@ class Util {
 	 */
 	public static function normalize_slashes( string $path ): string {
 		return strpos( $path, '\\' ) !== false ? str_replace( '\\', '/', $path ) : $path;
+	}
+
+	/**
+	 * Returns the global $wp_filesystem with credentials set.
+	 * Returns null in case of any errors.
+	 *
+	 * @return \WP_Filesystem_Base|null
+	 */
+	public static function get_file_system() {
+		global $wp_filesystem;
+
+		$success = true;
+
+		// Initialize the file system if it has not been done yet.
+		if ( ! $wp_filesystem ) {
+			require_once ABSPATH . '/wp-admin/includes/file.php';
+
+			$constants = array(
+				'hostname'    => 'FTP_HOST',
+				'username'    => 'FTP_USER',
+				'password'    => 'FTP_PASS',
+				'public_key'  => 'FTP_PUBKEY',
+				'private_key' => 'FTP_PRIKEY',
+			);
+
+			$credentials = array();
+
+			// We provide credentials based on wp-config.php constants.
+			// Reference https://developer.wordpress.org/apis/wp-config-php/#wordpress-upgrade-constants
+			foreach ( $constants as $key => $constant ) {
+				if ( defined( $constant ) ) {
+					$credentials[ $key ] = constant( $constant );
+				}
+			}
+
+			$success = WP_Filesystem( $credentials );
+		}
+
+		if ( ! $success || $wp_filesystem->errors->has_errors() ) {
+			return null;
+		}
+
+		return $wp_filesystem;
+	}
+
+	/**
+	 * Clear all transients used in Simply Static.
+	 *
+	 * @return void
+	 */
+	public static function clear_transients() {
+		// Diagnostics.
+		delete_transient( 'simply_static_checks' );
+		delete_transient( 'simply_static_failed_tests' );
+
+		// Tasks.
+		$tasks = [
+			'fetch_urls',
+			'search',
+			'minify',
+			'optimize_directories',
+			'shortpixel',
+			'shortpixel_download',
+			'aws_empty',
+			'create_zip_archive',
+			'transfer_files_locally',
+			'github_commit',
+			'bunny_deploy',
+			'tiiny_deploy',
+			'aws_deploy',
+			'sftp_deploy',
+			'simply_cdn'
+		];
+
+		foreach( $tasks as $task ) {
+			delete_transient( 'simply_static_' . $task . '_total_pages' );
+		}
+
+		// Misc.
+		delete_transient( 'ssp_sftp_deploy_start_time' );
+		delete_transient( 'ssp_search_index_start_time' );
+		delete_transient( 'ssp_github_blobs' );
+		delete_transient( 'ssp_search_results' );
 	}
 }

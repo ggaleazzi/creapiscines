@@ -24,50 +24,31 @@ jQuery(document).ready(function($) {
 				version: $('#ti-noreg-version').val()
 			});
 
-			// show popup info
-			$('#ti-connect-info').removeClass('ti-d-none');
-
 			// open window
 			let tiWindow = window.open('https://admin.trustindex.io/source/wordpressPageRequest?' + params.toString(), 'trustindex', 'width=850,height=850,menubar=0' + popupCenter(850, 850));
 
-			// popup close interval
-			let noChangeBtnLoading = false;
+			// wait for process complete
+			window.addEventListener('message', function(event) {
+				if (event.origin.startsWith('https://admin.trustindex.io/'.replace(/\/$/,'')) && event.data.success) {
+					tiWindow.close();
+
+					callback($('#ti-noreg-connect-token').val(), event.data.request_id, (event.data.manual_download | 0), event.data.place || null);
+				}
+			});
+
+			// show popup info
+			$('#ti-connect-info').removeClass('ti-d-none');
 			let timer = setInterval(function() {
 				if (tiWindow.closed) {
 					$('#ti-connect-info').addClass('ti-d-none');
 
-					if (btn && !noChangeBtnLoading) {
-						btn.removeClass('btn-loading');
+					if (!dontRemoveLoading) {
+						button.removeClass('ti-btn-loading');
 					}
 
 					clearInterval(timer);
 				}
 			}, 1000);
-
-			// wait for process complete
-			jQuery(window).one('message', function(event) {
-				if (tiWindow == event.originalEvent.source && event.originalEvent.origin.startsWith('https://admin.trustindex.io/'.replace(/\/$/,''))) {
-					tiWindow.close();
-
-					let data = event.originalEvent.data || {};
-
-					if (data.success) {
-						noChangeBtnLoading = true;
-						callback($('#ti-noreg-connect-token').val(), data.request_id, typeof data.manual_download != 'undefined' && data.manual_download ? 1 : 0, data.place || null);
-					}
-					else {
-						$('#ti-connect-info').addClass();
-
-						if (btn) {
-							btn.removeClass('btn-loading');
-						}
-
-						// reset connect form, with invalid input message
-						TrustindexConnect.form.find('.ti-selected-source').hide();
-						TrustindexConnect.button.removeClass('btn-disabled');
-					}
-				}
-			});
 		}
 	};
 
@@ -144,8 +125,7 @@ jQuery(document).ready(function($) {
 					type: 'POST',
 					data: {
 						_wpnonce: btn.data('nonce'),
-						page_details: JSON.stringify(place),
-						review_download_timestamp: place.timestamp
+						download_data: JSON.stringify(place)
 					}
 				}).always(() => location.reload());
 			}

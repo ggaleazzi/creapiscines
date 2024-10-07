@@ -1,0 +1,14 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ a[data-clicks]::after {
+   content: attr(data-clicks);
+   font-size: smaller;
+   display: inline-block;
+   background-color: #cccccc;
+   border-radius: 10px;
+   padding: 0 0.2em;
+   margin: 0 0.2em;
+ }

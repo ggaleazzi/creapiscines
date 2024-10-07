@@ -29,6 +29,14 @@ $demoList = [
 6 => 'light-background',
 18 => 'light-background',
 8 => 'light-background',
+97 => 'light-minimal',
+98 => 'light-minimal',
+99 => 'light-minimal',
+100 => 'light-minimal',
+101 => 'ligth-border',
+102 => 'ligth-border',
+103 => 'ligth-border',
+104 => 'ligth-border',
 27 => 'ligth-border',
 26 => 'ligth-border',
 29 => 'drop-shadow',
@@ -46,7 +54,7 @@ foreach ($demoList as $layout => $style): ?>
 <?php
 $template = $pluginManager::$widget_templates['templates'][ $layout ];
 $className = 'ti-full-width';
-if (in_array($template['type'], [ 'badge', 'button', 'floating', 'popup', 'sidebar' ])) {
+if (in_array($template['type'], [ 'badge', 'button', 'floating', 'popup', 'sidebar', 'top-rated-badge' ])) {
 $className = 'ti-half-width';
 }
 ?>

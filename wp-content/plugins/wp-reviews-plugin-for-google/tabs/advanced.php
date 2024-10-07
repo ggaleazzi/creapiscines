@@ -40,7 +40,7 @@ exit;
 }
 $yesIcon = '<span class="dashicons dashicons-yes-alt"></span>';
 $noIcon = '<span class="dashicons dashicons-dismiss"></span>';
-$pluginUpdated = ($pluginManagerInstance->get_plugin_current_version() <= "11.8.6");
+$pluginUpdated = ($pluginManagerInstance->get_plugin_current_version() <= "12.2");
 $cssInline = get_option($pluginManagerInstance->get_option_name('load-css-inline'), 0);
 $css = get_option($pluginManagerInstance->get_option_name('css-content'));
 $tiSuccess = "";
@@ -330,7 +330,7 @@ $tiPackage = is_array($tiWidgets) && $tiWidgets && isset($tiWidgets[0]['package'
 <a href=".ti-w-<?php echo esc_attr($wcIndex .'-'. $wiNum); ?>" class="btn-toggle" data-ti-id="<?php echo esc_attr($w['id']); ?>"><?php echo esc_html($w['name']); ?></a>
 <div style="display: none; padding: 15px 30px" class="ti-w-<?php echo esc_attr($wcIndex .'-'. $wiNum); ?>">
 <?php
-$shortCodeText = $pluginManagerInstance->get_shortcode_name().' data-widget-id="'.$w['id'].'"';
+$trustindexShortCodeText = $pluginManagerInstance->get_shortcode_name().' data-widget-id="'.$w['id'].'"';
 include(plugin_dir_path(__FILE__) . '../include/shortcode-paste-box.php');
 ?>
 </div>

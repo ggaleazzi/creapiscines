@@ -4,10 +4,6 @@ if (typeof TrustindexJsLoaded === 'undefined') {
 
 TrustindexJsLoaded.common = true;
 
-String.prototype.ucfirst = function() {
-	return this.charAt(0).toUpperCase() + this.slice(1)
-}
-
 function popupCenter(w, h)
 {
 	let dleft = window.screenLeft !== undefined ? window.screenLeft : window.screenX;
@@ -72,205 +68,13 @@ jQuery(document).ready(function() {
 		return false;
 	});
 
-	// custom select - init
-	jQuery('.ti-select').each(function() {
-		let el = jQuery(this);
-		let selected = el.find('ul li.ti-selected');
-
-		if (selected.length === 0) {
-			selected = el.find('ul li:first');
-		}
-
-		el.data('value', selected.data('value')).find('font').html(selected.html());
-	});
-
-	// custom select - toggle click
-	jQuery(document).on('click', '.ti-select', function() {
-		let el = jQuery(this);
-		el.toggleClass('ti-active');
-
-		if (el.hasClass('ti-active')) {
-			jQuery(window).unbind().on('click', function(event) {
-				if (!jQuery(event.target).is(el) && jQuery(event.target).closest('.ti-select').length === 0) {
-					el.removeClass('ti-active');
-					jQuery(window).unbind();
-				}
-			});
-		}
-	});
-
-	// custom select - select item
-	jQuery(document).on('click', '.ti-select li', function() {
-		let el = jQuery(this);
-
-		el.parent().parent().data('value', el.data('value')).trigger('change').find('font').html(el.html());
-
-		el.parent().find('li').removeClass('ti-selected');
-		el.addClass('ti-selected');
-	});
-
-	var isNoReviewsWithFilter = false;
-
-	// get reviews to memory
-	var reviewsElement = jQuery('.ti-widget-editor-preview .ti-widget').clone();
-
-	// set reviews' rating and empty to attributes
-	reviewsElement.find('.ti-review-item').each(function() {
-		let el = jQuery(this);
-		let rating = el.find('.ti-stars .ti-star.f, .stars .ti-star.f').length;
-
-		// facebook recommendations
-		if (el.find('.ti-recommendation-icon.positive').length) {
-			rating = 5;
-		}
-		else if (el.find('.ti-recommendation-icon.negative').length) {
-			rating = 1;
-		}
-
-		if (el.find('.ti-polarity-icon.positive').length) {
-			rating = 5;
-		}
-		else if (el.find('.ti-polarity-icon.neutral').length) {
-			rating = 3;
-		}
-		else if (el.find('.ti-polarity-icon.negative').length) {
-			rating = 1;
-		}
-
-		// ten scale
-		if (el.find('.ti-rating-box').length) {
-			rating = Math.round(parseFloat(el.find('.ti-rating-box').text()) / 2);
-		}
-
-		let selector = '.ti-review-content';
-		if (el.find('.ti-review-content .ti-inner').length) {
-			selector = '.ti-review-content .ti-inner';
-		}
-		else if (el.find('.ti-review-text').length) {
-			selector = '.ti-review-text';
-		}
-
-		el.attr('data-rating', rating);
-
-		if (typeof el.attr('data-empty') === 'undefined') {
-			el.attr('data-empty', el.find(selector).text().trim() == "" ? 1 : 0);
-		}
-	});
-
-	// check badge type
-	var isBadgeWidget = function() {
-		let layoutId = jQuery('.ti-widget-editor-preview .ti-widget').data('layout-id');
-
-		return [ 11, 12, 20, 22, 24, 25, 26, 27, 28, 29, 35, 55, 56, 57, 58, 59, 60, 61, 62 ].indexOf(layoutId) != -1;
-	};
-
-	// apply filter when change or init
-	var applyFilter = function(init) {
-		let styleId = parseInt(jQuery('.ti-widget').data('layout-id'));
-
-		// get stars
-		let stars = (jQuery('#ti-filter-star').data('value') + "").split(',').map(function(i) { return parseInt(i); });
-
-		// only ratings
-		let showOnlyRatings = jQuery('#ti-filter-only-ratings').prop('checked');
-
-		// filter removed
-		if (!jQuery('#ti-filter-star').length) {
-			stars = [ 1, 2, 3, 4, 5 ];
-			showOnlyRatings = false;
-		}
-
-		// remove current review elements
-		jQuery('.ti-widget .ti-reviews-container-wrapper .ti-review-item').remove();
-
-		// remove all event listeners on the widget
-		let widget = document.querySelector('.ti-widget');
-		widget.replaceWith(widget.cloneNode(true));
-
-		// iterate through stored reviews
-		let results = 0;
-		reviewsElement.find('.ti-review-item').each(function() {
-			let el = jQuery(this);
-
-			// check rating
-			if (stars.indexOf(el.data('rating')) !== -1) {
-				// check only ratings
-				if (showOnlyRatings && el.data('empty')) {
-					return;
-				}
-
-				// return after 5 results (vertical widgets)
-				if ([ '8', '9', '10', '18', '33' ].indexOf(styleId) !== -1 && results > 4) {
-					return;
-				}
-
-				// clone and append element
-				let clone = el.clone();
-				jQuery('.ti-widget-editor-preview .ti-widget .ti-reviews-container-wrapper').append(clone);
-				clone.hide();
-				clone.fadeIn();
-
-				// increase count
-				results++;
-			}
-		});
-
-		// clear pager interval
-		if (typeof Trustindex !== 'undefined' && Trustindex.intervalPointer) {
-			clearInterval(Trustindex.intervalPointer);
-		}
-
-		// show empty text
-		if (results === 0 && !isBadgeWidget()) {
-			jQuery('.ti-widget-editor-preview .ti-widget').hide().next().fadeIn();
-			isNoReviewsWithFilter = true;
-		}
-		else {
-			jQuery('.ti-widget-editor-preview .ti-widget').fadeIn().next().hide();
-			isNoReviewsWithFilter = false;
-
-			if (typeof Trustindex !== 'undefined') {
-				Trustindex.pager_inited = true;
-				Trustindex.init_pager(document.querySelectorAll('.ti-widget'));
-				Trustindex.resize_widgets();
-			}
-		}
-
-		// ajax save
-		if (init !== true) {
-			jQuery.post('', {
-				command: 'save-filter',
-				_wpnonce: jQuery('#ti-filter-star').data('nonce'),
-				filter: JSON.stringify({
-					'stars': stars,
-					'only-ratings': showOnlyRatings
-				})
-			});
-		}
-	}
-
-	// hooks
-	jQuery('#ti-filter-star').on('change', applyFilter);
-	jQuery('#ti-filter-only-ratings').on('change', function(event) {
-		event.preventDefault();
-
-		applyFilter();
-
-		return false;
-	});
-
-	// init
-	if (reviewsElement.length) {
-		applyFilter(true);
-	}
-
 	// background post save - style and set change
-	jQuery('#ti-widget-selects select, #ti-widget-options input[type=checkbox]:not(.no-form-update)').on('change', function() {
+	jQuery('#ti-widget-selects select, #ti-widget-options input[type=checkbox]').on('change', function() {
 		let form = jQuery(this).closest('form');
 		let data = form.serializeArray();
 
 		// include unchecked checkboxes
-		form.find('input[type=checkbox]:not(.no-form-update)').each(function() {
+		form.find('input[type=checkbox]').each(function() {
 			let checkbox = jQuery(this);
 
 			if (!checkbox.prop('checked') && checkbox.attr('name')) {
@@ -283,7 +87,6 @@ jQuery(document).ready(function() {
 
 		// show loading
 		jQuery('#ti-loading').addClass('ti-active');
-
 		jQuery('li.ti-preview-box').addClass('disabled');
 
 		jQuery.ajax({
@@ -474,7 +277,7 @@ jQuery(document).ready(function() {
 		// generate reply with AI if not edit
 		if (replyBox.attr('data-state') === 'reply' || replyBox.attr('data-state') === 'copy-reply') {
 			let data = JSON.parse(replyBox.next().html());
-			generateAiReply(data.review.text, function(reply) {
+			generateAiReply(data.review.text || "", function(reply) {
 				btn.removeClass('ti-btn-loading');
 
 				// popup closed
@@ -491,7 +294,7 @@ jQuery(document).ready(function() {
 				let textarea = replyBox.find('.state-'+ replyBox.attr('data-state') +' textarea');
 				textarea.val(reply).focus().expand();
 
-				if (!data.review.text.trim()) {
+				if (!data.review.text || data.review.text.trim() === "") {
 					replyBox.find('.ti-alert.ti-alert-empty-review').removeClass('d-none');
 				}
 

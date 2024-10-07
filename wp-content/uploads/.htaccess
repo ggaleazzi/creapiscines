@@ -2,6 +2,6 @@
 
 #Begin Really Simple Security
 <Files *.php>
-deny from all
+Require all denied
 </Files>
 #End Really Simple Security

@@ -2,9 +2,9 @@
 Contributors: patrickposner
 Tags: static site generator, performance, security, jamstack
 Requires at least: 6.3
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 3.1.7.1
+Stable tag: 3.1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,7 +51,7 @@ I highly recommend not to use another tool for local development if you are not 
 
 The pro version of Simply Static enhances the plugin with various features.
 
-[youtube https://www.youtube.com/watch?v=PTuw1ChYCdI]
+[youtube https://youtu.be/Vml537IIwVc]
 
 = GitHub Integration =
 
@@ -89,9 +89,15 @@ Use Single Exports to quickly publish new pages and posts to your static site. T
 
 = Forms =
 
-Simply Static Pro supports Contact Form 7 and Gravity Forms to use on your static website.
+Create and use forms created with your favorite form plugin on your static website with Simply Static Pro. Supported plugins are:
 
-You can decide if you want to use an external service like Zapier and IFTTT or if your original WordPress website should handle the submission and send you an e-mail with all the details.
+* Contact Form 7
+* Gravity Forms
+* WP Forms
+* FluentForms
+* WS Forms
+
+You can decide if you want to use an external service like Zapier and IFTTT to offload the submission (webhook) or embed the form from your WordPress website via iFrame.
 
 
 = Search =
@@ -160,9 +166,17 @@ and much more.
 
 You can get the pro version [here](https://simplystatic.com/pro/).
 
+= Simply Static Course =
+
+We created an entire video course about Static WordPress with Simply Static - check out the first video:
+
+[youtube https://youtu.be/Ei_w-Jcq4uQ]
+
+You can watch the entire course entirely for free on YouTube here: [Simply Static Course](https://www.youtube.com/playlist?list=PLcpe8_rNg8U5g1gCOa0Ge6T17f50nSvmg)
+
 = Tutorials =
 
-We publish new tutorials on how to work with Simply Static and other tools on our blog.
+We also publish new tutorials on our blog every other week on how to work with Simply Static and other static site tools.
 
 You can check the latest tutorials [here](https://simplystatic.com/tutorials/)
 
@@ -232,6 +246,69 @@ Simply Static creates a static copy of your WordPress site that is intended to b
 3. Diagnostics
 
 == Changelog ==
+
+= 3.1.9 =
+
+* simplified process_pages class abstraction
+* fixed stripping quotes on HTML extraction
+* added security.md file to repo for updates via CLI
+* use TEXT instead of JSON in our DB table for SQLite (Playground) support
+* added default value for per_page parameter
+* removed deprecated SimplyCDN integration
+* fixed path resolving for /feed/ URLs
+* restricted redirects includes to full or update exports
+* set a recognizable User Agent for wp_remote_get requests
+* avoid checking against NULL for content_type (PHP 8.3 support)
+
+= 3.1.8.1 =
+
+* turn off notifications on MU network settings
+* improved MU subsite checkups
+
+= 3.1.8 =
+
+* several admin UI improvements
+* added tutorial videos for all major features
+* added a new DB column to store JSON data (for future features)
+* improved and fixed transient handling and expiration
+* added support for redirects with Redirection, Yoast and RankMath
+* auto-replace URLs in schema.org JSON-LD data from Yoast and RankMath
+* fixed typos in admin UI
+* removed SSL check from diagnostics (no longer needed)
+* added test deploy function
+* remove deprecated basic_auth_digest function
+* extended match_tags list for SVGs and other tags
+* more failsafe parsing with innerhtmlKeep instead of innerText (crawler)
+
+= 3.1.7.4 =
+
+* fixed PHP notice related to server_cron setting
+* fixed basic auth validation in admin area
+
+= 3.1.7.3 =
+
+* added new integration settings page
+* added admin bar as integration + toggle to enable/disable it
+* improved performance for diagnostics check (caching)
+* removed unused http_request_args filter
+* MU network page UI fixes
+* added quick links to plugins page
+* added option to whitelist plugins in diagnostics
+* restructed "Misc" settings and renamed to "Debug"
+* added option to use server-side cron job
+* adapted Jetpack integration to new integration class
+
+= 3.1.7.2 =
+
+* added Jetpack integration
+* removed DO integration admin UI code
+* added progress bar to admin bar
+* Diagnostics sub menu page + notification center
+* removed can_wp_make_requests_to_itself() check
+* fixed PHP notices for PHP 8.3 compatibility
+* simplified log file output for certain deployment options
+* composer dependencies updated
+
 
 = 3.1.7.1 =
 

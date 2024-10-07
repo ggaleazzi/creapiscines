@@ -15,6 +15,10 @@ defined('ABSPATH') or die('No script kiddies please!');
 <?php echo __('Use the widgets matching your page the best to build trust.', 'trustindex-plugin'); ?>
 </li>
 <li>
+<strong><?php echo __('Display reviews with photos', 'trustindex-plugin'); ?></strong><br />
+<?php echo __('Boost engagement by displaying customer photos in an interactive popup slider, bringing real experiences to life.', 'trustindex-plugin'); ?>
+</li>
+<li>
 <strong><?php echo sprintf(__("%d review platforms", 'trustindex-plugin'), 133); ?></strong><br />
 <?php echo sprintf(__("Add more reviews to your widget from %s, etc. to enjoy more trust, and to keep customers on your site.", 'trustindex-plugin'), 'Google, Facebook, Yelp, Amazon, Tripadvisor, Booking.com, Airbnb, Hotels.com, Capterra, Foursquare, Opentable'); ?><br />
 <img src="<?php echo $pluginManagerInstance->get_plugin_file_url('static/img/platforms.png'); ?>" alt="" style="margin-top: 5px" />
@@ -39,7 +43,7 @@ defined('ABSPATH') or die('No script kiddies please!');
 <?php echo $pluginManagerInstance->getProFeatureButton($tiCampaign2); ?>
 <div class="ti-special-offer">
 <img src="<?php echo $pluginManagerInstance->get_plugin_file_url('static/img/special_30.jpg'); ?>">
-<p><?php echo str_replace('%%', '%', __('Now we offer you a 30%% discount off your subscription! Create your free account and benefit from the onboarding discount now!', 'trustindex-plugin')); ?></p>
+<p><?php echo str_replace('%%', '%', __('Now we offer you a 30%% discount off for your first subscription! Create your free account and benefit from the onboarding discount now!', 'trustindex-plugin')); ?></p>
 <div class="clear"></div>
 </div>
 </div>

@@ -1,0 +1,250 @@
+.ttc-head{
+    box-sizing: border-box;
+    margin-left: -20px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    display: flex;
+    padding: 0px 20px 0px 2%;
+    background: #FFB525;
+}
+.ttc-head-wrap{
+    margin-left: 20px;
+    padding: 36px 0px 36px 0;
+    background-image: url(../img/tracktheclick.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center left;
+}
+.ttc-head a{
+    display: block;
+    margin-left: 62px;
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+    transform: all 2s ease;
+    cursor: pointer;
+}
+.ttc-head a:hover{
+    opacity: .7
+}
+
+.ttc-filter label{
+    display: block;
+    color: #949494;
+    font-size: 12px;
+}
+
+.ttc-wrap {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 4%);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.04);
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 4%);
+    margin: 20px 2% 36px;
+}
+.ttc-wrap-filters{
+    background: transparent;
+    box-shadow: none;
+    margin: 0 2%;
+    padding: 0;
+}
+
+.ttc-wrap-table{
+    margin: 0 2%;
+    padding: 0 0 14px 0;
+    overflow: hidden;
+}
+
+
+.ttc-filter{
+    margin-left: 8px;
+}
+.ttc-filter-bar{
+    border-right: 1px solid #bebebe;
+    padding-right: 8px;
+}
+.ttc-filter input[type=text]{
+    min-width: 190px;
+    background-image: url(../img/calendar.svg);
+    background-repeat: no-repeat;
+    background-position: center right 5px;
+    background-size: 20px;
+}
+
+.ttc-filter select{
+    min-width: 100px;
+}
+.ttc-filter input[type=text], 
+.ttc-filter select{
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+    color: #2c3338;
+}
+
+
+.ttc-container {
+  padding: 20px 20px 0px 0px;
+}
+
+.ttc-chart-container {
+  height: 200px;
+  clear: right;
+}
+table.ttc-table{
+    width: 100%;
+}
+.ttc-table {
+    border: 1px solid black;
+    border: none;
+    border-collapse: collapse;
+    padding: 3px 10px;
+}
+th.ttc-table {
+    text-align: left;
+    background: #F9FAFB;
+    padding: 15px 10px;
+}
+tr.ttc-table:hover {
+  background-color:#FFF0D2;
+}
+
+
+.ttc-table tr{
+    border-bottom: 1px solid #E3E9F1;
+}
+
+.ttc-table tr th:first-of-type,
+.ttc-table tr td:first-of-type{ 
+    padding-left: 30px;
+}
+
+
+.ttc-table tr th:last-of-type,
+.ttc-table tr td:last-of-type{ 
+    padding-right: 30px;
+    text-align: center;
+}
+.ttc-table tr td:last-of-type{ 
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.ttc-table tr:last-of-type td{ 
+    font-weight: 400;
+    font-size: 12px;
+    opacity: .7;
+}
+
+
+
+
+.ttc-table tr:last-of-type{
+    border-bottom: none;
+}
+
+.ttc-table tr:last-of-type{
+    border-bottom: none;
+}
+
+.truncate-link {
+   max-width: 30em;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   -ms-text-overflow: ellipsis;
+   -o-text-overflow: ellipsis;
+   white-space: nowrap;
+}
+.ttc-table td a{
+    color: #393939;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 120%;
+    display: block;
+    padding: 4px 0;
+}
+.ttc-table td.truncate-link a{
+    color: #37a2eb;
+    text-decoration: underline;
+}
+
+.ttc-border {
+    border: 1px solid #ccc !important;
+}
+.ttc-bar {
+    width: 100%;
+    overflow: hidden;
+}
+.ttc-bar .ttc-button {
+    white-space: normal;
+}
+.ttc-bar .ttc-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.ttc-light-grey, .ttc-hover-light-grey:hover, .ttc-light-gray, .ttc-hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #e0e0e0 !important;
+}
+.ttc-dark-grey, .ttc-hover-dark-grey:hover, .ttc-dark-gray, .ttc-hover-dark-gray:hover {
+    color: #fff !important;
+    background-color: #616161 !important;
+}
+.ttc-border-bottom {
+    border-bottom: 1px solid #ccc !important;
+}
+
+.ttc-btn, .ttc-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.ttc-btn, .ttc-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.ttc-filters-row{
+    display:flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 782px) {
+    .ttc-filters-row{
+        display:block;
+    }
+    .ttc-filter {
+        margin-left: 0;
+    }
+    .ttc-filter input[type=text], .ttc-filter select {
+        width: 100%;
+        max-width: 100%;
+    }
+    .ttc-filter-bar {
+        border-right: none;
+        padding-right: 0;
+    }
+    
+}
+

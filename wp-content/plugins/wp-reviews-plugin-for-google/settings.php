@@ -7,6 +7,9 @@ $newBadgeTabs = [];
 if (get_option($pluginManagerInstance->get_option_name('widget-setted-up'), 0) && !get_option($pluginManagerInstance->get_option_name('reply-generated'), 0)) {
 $newBadgeTabs []= 'my-reviews';
 }
+if (get_option($pluginManagerInstance->get_option_name('widget-setted-up'), 0) && get_option($pluginManagerInstance->get_option_name('reply-generated'), 0) && !get_option($pluginManagerInstance->get_option_name('instagram-promo-opened'), 0)) {
+$newBadgeTabs []= 'instagram-feed-widget';
+}
 $noContainerElementTabs = [ 'free-widget-configurator', 'instagram-feed-widget' ];
 $logoCampaignId = 'wp-google-l';
 $logoFile = 'static/img/trustindex.svg';

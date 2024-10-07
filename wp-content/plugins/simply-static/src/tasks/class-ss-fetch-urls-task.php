@@ -169,7 +169,6 @@ class Fetch_Urls_Task extends Task {
 		if ( $save_file ) {
 			Util::debug_log( "We're saving this URL; keeping the static file" );
 			$sha1 = sha1_file( $file );
-			Util::debug_log( "SHA1 BINARY: " . sha1_file( $file, true ) );
 
 			// if the content is identical, move on to the next file
 			if ( $static_page->is_content_identical( $sha1 ) ) {
@@ -367,17 +366,18 @@ class Fetch_Urls_Task extends Task {
 	/**
 	 * Add a redirect for the feed.
 	 *
-	 * @param $archive_dir
-	 *
 	 * @return void
 	 */
 	public function add_feed_redirect() {
-		$feed_dir             = $this->archive_dir . '/feed';
-		$feed_index_html_file = trailingslashit( $feed_dir ) . 'index.html';
+		$feed_dir = untrailingslashit( $this->archive_dir ) . '/feed/';
 
-		// Create index.html file
-		file_put_contents( $feed_index_html_file,
-	'<!DOCTYPE html>
+		// Directory exists?
+		if ( is_dir( $feed_dir ) ) {
+			$feed_index_html_file = $feed_dir . 'index.html';
+
+			// Create index.html file
+			file_put_contents( $feed_index_html_file,
+				'<!DOCTYPE html>
 			<html>
 				<head>
 					<title>Redirecting...</title>
@@ -390,6 +390,7 @@ class Fetch_Urls_Task extends Task {
 					<p>You are being redirected to <a href="index.xml">index.xml</a></p>
 				</body>
 			</html>'
-		);
+			);
+		}
 	}
 }

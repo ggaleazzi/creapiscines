@@ -13,7 +13,7 @@ CREATE TABLE ". $this->get_tablename('reviews') ." (
  `date` DATE,
  `reviewId` TEXT,
  `reply` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
- PRIMARY KEY (`id`)
+ PRIMARY KEY  (`id`)
 )
 "
 ];
